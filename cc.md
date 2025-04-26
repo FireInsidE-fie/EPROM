@@ -1,0 +1,1 @@
+Invokes the current OS' usual C compiler. Usually, this is [[gcc]] on linux and [[clang]] on macOS.
