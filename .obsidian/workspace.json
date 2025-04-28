@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bash.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bash"
-            }
-          },
-          {
-            "id": "c4f2377ffda1270a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "IPC.md",
                 "mode": "source",
                 "source": false
@@ -34,93 +20,8 @@
               "icon": "lucide-file",
               "title": "IPC"
             }
-          },
-          {
-            "id": "8ce6ac9ccd16833c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux"
-            }
-          },
-          {
-            "id": "71f74df43110103f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux"
-            }
-          },
-          {
-            "id": "f1d4ba8b99f3d511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Window manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Window manager"
-            }
-          },
-          {
-            "id": "27d3ac099987e47d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Window manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Window manager"
-            }
-          },
-          {
-            "id": "766c9c9a988bb964",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cc.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cc"
-            }
-          },
-          {
-            "id": "c69c4b0119e53238",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unix.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unix"
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cc.md",
+                "file": "IPC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cc"
+              "title": "Outline of IPC"
             }
           },
           {
@@ -262,22 +163,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "661a51997357187f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c332674a0de0fa98",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -294,17 +179,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "766c9c9a988bb964",
+  "active": "90a4fb3bb22a3851",
   "lastOpenFiles": [
-    "Unix.md",
-    "cc.md",
     "Linux.md",
+    "Unix.md",
     "Window manager.md",
-    "Tiling Manager.md",
-    "Hyprland.md",
     "IPC.md",
-    "heredoc.md",
+    "Untitled.md",
+    "The Psychology of Computer Programming.md",
+    "Untitled",
+    "Tiling Manager.md",
     "bash.md",
+    "file descriptor.md",
+    "cc.md",
+    "Hyprland.md",
+    "heredoc.md",
     "().md",
     "Pipes.md",
     "clang.md",
