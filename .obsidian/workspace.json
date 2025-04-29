@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "systemd.md",
-                "mode": "source",
+                "file": "GNU readline().md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "systemd"
+              "title": "GNU readline()"
             }
           }
         ]
@@ -209,14 +209,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90a4fb3bb22a3851",
+  "active": "0cd530d0aea8a8cf",
   "lastOpenFiles": [
     "GNU readline().md",
+    "systemd.md",
     "C.md",
     "bash.md",
     "git.md",
     "heredoc.md",
-    "systemd.md",
     "Linux.md",
     "cc.md",
     "The Psychology of Computer Programming.md",
