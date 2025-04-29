@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"9974d06147badf8b","x":-160,"y":-380,"width":250,"height":60,"type":"text","text":"# Minishell\nA tiny bash-like shell, coded in [[C]]."}
+	],
+	"edges":[]
+}

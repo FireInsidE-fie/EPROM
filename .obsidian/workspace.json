@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24624721f3175a81",
@@ -190,6 +189,13 @@
   },
   "active": "31fa71df95598717",
   "lastOpenFiles": [
+    "Code projects/Minishell.canvas",
+    "Code projects/Minishell.md",
+    "Code projects/Philosophers.canvas",
+    "Tiling Manager.md",
+    "Threads.md",
+    "Code projects",
+    "GNU readline().md",
     "Sorting algorithms.md",
     "Algorithm.md",
     "recursion.md",
@@ -197,10 +203,8 @@
     "Tail recursion.md",
     "heredoc.md",
     "valgrind.md",
-    "GNU readline().md",
     "bash.md",
     "Window manager.md",
-    "Tiling Manager.md",
     "The Psychology of Computer Programming.md",
     "Linux.md",
     "C.md",
