@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "60d2ce3796ac38a4",
+        "id": "7d9603f7aeaa0f3f",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd530d0aea8a8cf",
+            "id": "fe623b7cec3c545f",
             "type": "leaf",
-            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "recursion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "recursion"
+            }
+          },
+          {
+            "id": "31fa71df95598717",
+            "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Book",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bash"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +124,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bash"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,17 +152,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Psychology of Computer Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Psychology of Computer Programming"
+              "title": "Outline"
             }
           },
           {
-            "id": "de03ae041a9dd557",
+            "id": "dfd645a214613ceb",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -178,30 +188,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0cd530d0aea8a8cf",
+  "active": "31fa71df95598717",
   "lastOpenFiles": [
+    "Sorting algorithms.md",
+    "Algorithm.md",
+    "recursion.md",
+    "systemd.md",
+    "Tail recursion.md",
+    "heredoc.md",
+    "valgrind.md",
     "GNU readline().md",
-    "clang.md",
-    "gcc.md",
-    "cc.md",
+    "bash.md",
     "Window manager.md",
     "Tiling Manager.md",
-    "systemd.md",
     "The Psychology of Computer Programming.md",
-    "Operating system.md",
-    "Pipes.md",
     "Linux.md",
-    "IPC.md",
-    "heredoc.md",
-    "git.md",
-    "GNU Project.md",
-    "file descriptor.md",
     "C.md",
-    "bash.md",
-    "Unix.md",
-    "Untitled",
-    "Hyprland.md",
-    "().md",
-    "LLVM.md"
+    "IPC.md",
+    "Pipes.md",
+    "clang.md",
+    "LLVM.md",
+    "cc.md",
+    "git.md",
+    "gcc.md"
   ]
 }
