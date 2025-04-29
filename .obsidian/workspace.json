@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90a4fb3bb22a3851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNU readline().md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GNU readline()"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1f6a24a07d1d59c1",
-        "type": "tabs",
-        "children": [
-          {
             "id": "0cd530d0aea8a8cf",
             "type": "leaf",
             "pinned": true,
@@ -81,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "systemd",
+                "query": "tag:#Book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +72,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,26 +181,27 @@
   "active": "0cd530d0aea8a8cf",
   "lastOpenFiles": [
     "GNU readline().md",
-    "systemd.md",
-    "C.md",
-    "bash.md",
-    "git.md",
-    "heredoc.md",
-    "Linux.md",
+    "clang.md",
+    "gcc.md",
     "cc.md",
+    "Window manager.md",
+    "Tiling Manager.md",
+    "systemd.md",
     "The Psychology of Computer Programming.md",
     "Operating system.md",
-    "Tiling Manager.md",
     "Pipes.md",
+    "Linux.md",
     "IPC.md",
-    "Unix.md",
-    "Window manager.md",
-    "Untitled",
+    "heredoc.md",
+    "git.md",
+    "GNU Project.md",
     "file descriptor.md",
+    "C.md",
+    "bash.md",
+    "Unix.md",
+    "Untitled",
     "Hyprland.md",
     "().md",
-    "clang.md",
-    "LLVM.md",
-    "gcc.md"
+    "LLVM.md"
   ]
 }

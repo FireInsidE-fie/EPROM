@@ -1,6 +1,7 @@
 ---
 tags:
   - C
+  - cheatsheet
 ---
 A [[C]] software library that provides in-line edition and history capabilities for interactive programs with a command-line interface for example, like [[Bash]]. Part of the [[GNU Project]].
 
@@ -13,6 +14,7 @@ The `ctrl` key is stylized as a `^`.
 - `^a` : Moves caret to start of line
 - `^c` : Sends [[SIGINT]] to the current running process.
 - `^d` : Sends an EOF character which makes the `readline()` function return NULL. In [[bash]], for example, closes the shell.
+  Also technically removes the next character if not at the end of the line.
 - `^e` : Moves caret to end of line.
 - `^l` : Clears the screen contents (equivalent to [[clear]]).
 - `^n` : Moves down the history, towards the more recent commands. Like pressing `↓`.
