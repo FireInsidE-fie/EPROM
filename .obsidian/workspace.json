@@ -29,9 +29,9 @@
               "state": {
                 "file": "Code projects/Philosophers.canvas",
                 "viewState": {
-                  "x": 414.5,
-                  "y": 257.0187391304348,
-                  "zoom": -0.671873139311107
+                  "x": 480,
+                  "y": 425.5,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "25654a1e7baf8f57",
+            "id": "694f69584023dfea",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -48,8 +48,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,16 +207,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d27419bbd8bb9460",
+  "active": "9ff6d4da2bb40d85",
   "lastOpenFiles": [
     "Code projects/Philosophers.canvas",
+    "Pipes.md",
+    "Untitled.md",
     "Threads.md",
     "Mutex.md",
-    "Untitled.md",
     "recursion.md",
     "Tiling Manager.md",
     "Linux.md",
-    "Pipes.md",
     "heredoc.md",
     "bash.md",
     "IPC.md",
