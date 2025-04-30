@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"f2dde77e220c5259","type":"file","file":"Threads.md","x":-322,"y":-140,"width":400,"height":400},
-		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-322,"y":-580,"width":405,"height":137}
+		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-322,"y":-580,"width":405,"height":180}
 	],
 	"edges":[]
 }

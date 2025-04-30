@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d9603f7aeaa0f3f",
+        "id": "60d2ce3796ac38a4",
         "type": "tabs",
         "children": [
           {
-            "id": "fe623b7cec3c545f",
+            "id": "9ff6d4da2bb40d85",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,19 +20,26 @@
               "icon": "lucide-file",
               "title": "recursion"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c6fd2c53092f858a",
+        "type": "tabs",
+        "children": [
           {
-            "id": "31fa71df95598717",
+            "id": "0cd530d0aea8a8cf",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "24624721f3175a81",
@@ -105,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for bash"
             }
           },
           {
@@ -123,11 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from bash"
             }
           },
           {
@@ -151,16 +161,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "The Psychology of Computer Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of The Psychology of Computer Programming"
             }
           },
           {
-            "id": "dfd645a214613ceb",
+            "id": "de03ae041a9dd557",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -174,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,33 +198,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31fa71df95598717",
+  "active": "0cd530d0aea8a8cf",
   "lastOpenFiles": [
-    "Code projects/Minishell.canvas",
-    "Code projects/Minishell.md",
-    "Code projects/Philosophers.canvas",
-    "Tiling Manager.md",
-    "Threads.md",
-    "Code projects",
-    "GNU readline().md",
-    "Sorting algorithms.md",
-    "Algorithm.md",
     "recursion.md",
-    "systemd.md",
-    "Tail recursion.md",
-    "heredoc.md",
-    "valgrind.md",
-    "bash.md",
-    "Window manager.md",
-    "The Psychology of Computer Programming.md",
+    "Tiling Manager.md",
     "Linux.md",
-    "C.md",
-    "IPC.md",
     "Pipes.md",
+    "Code projects/Philosophers.canvas",
+    "heredoc.md",
+    "bash.md",
+    "IPC.md",
+    "Code projects/Minishell.canvas",
+    "valgrind.md",
+    "Tail recursion.md",
+    "Sorting algorithms.md",
+    "Code projects",
+    "Algorithm.md",
+    "GNU readline().md",
     "clang.md",
-    "LLVM.md",
+    "gcc.md",
     "cc.md",
+    "Window manager.md",
+    "systemd.md",
+    "The Psychology of Computer Programming.md",
+    "Operating system.md",
     "git.md",
-    "gcc.md"
+    "GNU Project.md",
+    "file descriptor.md",
+    "C.md",
+    "Unix.md",
+    "Untitled",
+    "Hyprland.md"
   ]
 }

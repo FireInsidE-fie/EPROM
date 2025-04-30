@@ -1,6 +1,7 @@
 ---
 tags:
   - Unix
+  - programming_concept
 ---
 # Primer
 InterProcess Communication, or IPC, is the art of transmitting data from a process to another one, using tools such as [[pipes]], [[FIFOs]] and many other mechanics.
