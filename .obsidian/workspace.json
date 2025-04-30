@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "03c450082d896f44",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
             "id": "d27419bbd8bb9460",
             "type": "leaf",
             "state": {
@@ -48,7 +62,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,12 +222,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ff6d4da2bb40d85",
+  "active": "03c450082d896f44",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Threads.md",
     "Code projects/Philosophers.canvas",
     "Pipes.md",
     "Untitled.md",
-    "Threads.md",
     "Mutex.md",
     "recursion.md",
     "Tiling Manager.md",
