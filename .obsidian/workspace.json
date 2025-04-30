@@ -13,33 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "recursion.md",
+                "file": "Threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "recursion"
+              "title": "Threads"
             }
-          }
-        ]
-      },
-      {
-        "id": "c6fd2c53092f858a",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "0cd530d0aea8a8cf",
+            "id": "d27419bbd8bb9460",
             "type": "leaf",
-            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Code projects/Philosophers.canvas",
+                "viewState": {
+                  "x": 414.5,
+                  "y": 257.0187391304348,
+                  "zoom": -0.671873139311107
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Philosophers"
+            }
+          },
+          {
+            "id": "25654a1e7baf8f57",
+            "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24624721f3175a81",
@@ -195,16 +204,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "0cd530d0aea8a8cf",
+  "active": "d27419bbd8bb9460",
   "lastOpenFiles": [
+    "Code projects/Philosophers.canvas",
+    "Threads.md",
+    "Mutex.md",
+    "Untitled.md",
     "recursion.md",
     "Tiling Manager.md",
     "Linux.md",
     "Pipes.md",
-    "Code projects/Philosophers.canvas",
     "heredoc.md",
     "bash.md",
     "IPC.md",
@@ -225,9 +238,6 @@
     "git.md",
     "GNU Project.md",
     "file descriptor.md",
-    "C.md",
-    "Unix.md",
-    "Untitled",
-    "Hyprland.md"
+    "Untitled"
   ]
 }
