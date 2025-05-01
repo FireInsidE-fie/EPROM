@@ -11,8 +11,14 @@ You then let the thread run while the parent thread (the `main`) still works in 
 You can then wait for the thread to complete, by *joining* it.
 A thread can `exit()` or also end its own life by returning from the "main" function you gave it.
 A thread can also sleep for a period of time, not hindering other threads of a [[process]].
-Threads have shared memory, allowing easy but dangerous (see below) communication between different threads.
-# Thread safety and race conditions
+## Thread memory
+Threads have shared memory (also with the main thread), allowing easy but dangerous (see below) communication between different threads. That also means that there's no need to free a variable in all threads, like with [[Child Process]]es.
+If you put a `static` variable in the function that a thread will run, all the threads will be able to see and modify the same value, which could easily lead to race conditions.
+All local variables will stay independent to the threads though (they all have separate [[Call Stack]]s).
+You can use the `_Thread_local` type to say that a static variable shouldn't be shared between threads.
+## Detaching threads
+Using `thrd_detach()`, you can tell a thread to keep on executing on its own, without needing to `wait()` for it. But that also means you lose the option to get its return value once it exits.
+## Thread safety and race conditions
 Since threads share their memory spaces, you can easily end up in something known as a "race condition", or "data race". In a nutshell, this is when two or more threads are trying to access and/or modify the same value at the same time. This can very easily cause said value to become completely corrupted with part of the first thread's modification and part of the second's.
 Thing is, **this isn't limited to only conventional variables you might set in your code.** This is pretty much to take into account for any resource that might be shared between threads. Ring any bells? That's right! Enter the standard input and output. What if two threads try to write something to stdout at the same time? You'll end up with two outputs mixed together, resulting in a garbled output. Not something we want. That's why we have concepts such as [[Mutex]]es.
 

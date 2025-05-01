@@ -1,8 +1,8 @@
 {
 	"nodes":[
 		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-322,"y":-580,"width":405,"height":180},
-		{"id":"579087c3669e4271","type":"text","text":"## The plan\nThe main function is going to call an init_philo function that's going to go through and initialize not only the philosophers but also their [[Threads]]. I need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.","x":-335,"y":-340,"width":431,"height":531},
-		{"id":"29f169a28d3450dc","type":"file","file":"Threads.md","x":220,"y":-9,"width":520,"height":869},
+		{"id":"579087c3669e4271","type":"text","text":"## The plan\nThe main function is going to call an init_philo function that's going to go through and initialize not only the philosophers but also their [[Thread]]. I need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.","x":-335,"y":-340,"width":431,"height":531},
+		{"id":"29f169a28d3450dc","type":"file","file":"Thread.md","x":220,"y":-9,"width":520,"height":869},
 		{"id":"46afe4650b8eb30d","type":"file","file":"Mutex.md","x":860,"y":-340,"width":400,"height":400}
 	],
 	"edges":[
