@@ -11,17 +11,28 @@
             "id": "68068e575d50463f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "707ec9a661fb4578",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "aFile": "Mutex.md",
-                "bFile": "Mutex.md",
-                "aRef": ""
+                "file": "base64.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Mutex"
+              "icon": "lucide-file",
+              "title": "base64"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "base64.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of base64"
             }
           },
           {
@@ -177,8 +189,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68068e575d50463f",
+  "active": "707ec9a661fb4578",
   "lastOpenFiles": [
+    "base64.md",
     "Thread.md",
     "Mutex.md",
     "vim.md",
@@ -206,7 +219,6 @@
     "clang.md",
     "LLVM.md",
     "cc.md",
-    "git.md",
-    "gcc.md"
+    "git.md"
   ]
 }
