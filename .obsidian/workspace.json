@@ -29,17 +29,14 @@
             "id": "d27419bbd8bb9460",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "split-diff-view",
               "state": {
-                "file": "Code projects/Philosophers.canvas",
-                "viewState": {
-                  "x": 761.439252566384,
-                  "y": 302.4686961372916,
-                  "zoom": -0.7499999999999996
-                }
+                "aFile": ".obsidian/graph.json",
+                "bFile": ".obsidian/graph.json",
+                "aRef": ""
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Philosophers"
+              "icon": "diff",
+              "title": "Diff: graph.json"
             }
           }
         ]
@@ -163,13 +160,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thread.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Thread"
+              "title": "Outline"
             }
           },
           {
@@ -198,12 +194,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "d27419bbd8bb9460",
   "lastOpenFiles": [
+    "Algorithm.md",
     "Code projects/Philosophers.canvas",
+    "Untitled.md",
+    "Excalidraw/Drawing 2025-05-01 22.32.34.excalidraw.md",
+    "Excalidraw",
+    "IPC.md",
     "Bitwise operations.md",
     "Thread.md",
     "lazygit.md",
@@ -222,15 +224,11 @@
     "Linux.md",
     "heredoc.md",
     "bash.md",
-    "IPC.md",
     "Code projects/Minishell.canvas",
     "Tail recursion.md",
     "Sorting algorithms.md",
     "Code projects",
-    "Algorithm.md",
     "GNU readline().md",
-    "clang.md",
-    "gcc.md",
     "Untitled"
   ]
 }
