@@ -1,12 +1,14 @@
 {
 	"nodes":[
-		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-322,"y":-580,"width":405,"height":180},
-		{"id":"579087c3669e4271","type":"text","text":"## The plan\nThe main function is going to call an init_philo function that's going to go through and initialize not only the philosophers but also their [[Thread]]. I need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.","x":-335,"y":-340,"width":431,"height":531},
-		{"id":"29f169a28d3450dc","type":"file","file":"Thread.md","x":220,"y":-9,"width":520,"height":869},
-		{"id":"46afe4650b8eb30d","type":"file","file":"Mutex.md","x":860,"y":-340,"width":400,"height":400}
+		{"id":"46afe4650b8eb30d","type":"file","file":"Mutex.md","x":860,"y":-340,"width":740,"height":860},
+		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-807,"y":-620,"width":405,"height":180},
+		{"id":"579087c3669e4271","type":"text","text":"## The plan\nThe main function is going to call an init_philo function that's going to go through and initialize not only the philosophers but also their [[Thread]]. I need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.","x":-820,"y":-380,"width":431,"height":531},
+		{"id":"29f169a28d3450dc","type":"file","file":"Thread.md","x":-280,"y":-740,"width":940,"height":1460},
+		{"id":"44588b9f50733023","x":780,"y":-620,"width":414,"height":114,"color":"3","type":"text","text":"Difference between pthread functions and standard functions found in the beej guide? I'm puzzled"}
 	],
 	"edges":[
 		{"id":"272be065ca56296b","fromNode":"579087c3669e4271","fromSide":"right","toNode":"29f169a28d3450dc","toSide":"left"},
-		{"id":"25325fec51d40d7f","fromNode":"29f169a28d3450dc","fromSide":"right","toNode":"46afe4650b8eb30d","toSide":"left"}
+		{"id":"25325fec51d40d7f","fromNode":"29f169a28d3450dc","fromSide":"right","toNode":"46afe4650b8eb30d","toSide":"left"},
+		{"id":"635bcfa1c6d0ca77","fromNode":"29f169a28d3450dc","fromSide":"right","toNode":"44588b9f50733023","toSide":"left"}
 	]
 }

@@ -4,7 +4,7 @@ tags:
   - programming_concept
   - C
 ---
-**Threading is the concept of splitting the load of a particular [[Process]] across multiple [[CPU]] cores.** You can have more threads than cores on most [[Operating system]]s, it's usually the OS itself that will balance the threads between the cores.
+**Threading is the concept of splitting the load of a particular [[Process]] across multiple [[Processor]] cores.** You can have more threads than cores on most [[Operating system]]s, it's usually the OS itself that will balance the threads between the cores.
 # How it works
 In [[C]] programming, for example, you create a new thread using the `pthreads` library (make sure to link it with your executable using `-lpthreads`~) by specifying the function that that thread will run. Kind of like your program starts at `main`, the thread will start a function YOU specify. Within limits, of course.
 You then let the thread run while the parent thread (the `main`) still works in parallel.
@@ -12,9 +12,9 @@ You can then wait for the thread to complete, by *joining* it.
 A thread can `exit()` or end its own life by returning from the "main" function you gave it.
 A thread can also sleep for a period of time, not hindering other threads of a [[process]].
 ## Thread memory
-Threads have shared memory (also with the main thread), allowing easy but dangerous (see below) communication between different threads. That also means that there's no need to free a variable in all threads, like with [[Child Process]]es.
+Threads have shared heap and data memory sections (also with the main thread), allowing easy but dangerous (see below) communication between different threads. That also means that there's no need to free a heap variable in all threads, like with [[Child Process]]es.
+The [[Stack]] is the only one that's not shared.
 If you put a `static` variable in the function that a thread will run, all the threads will be able to see and modify the same value, which could easily lead to race conditions.
-All local variables will stay independent to the threads though (they all have separate [[Call Stack]]s).
 You can use the `_Thread_local` type to say that a static variable shouldn't be shared between threads.
 ## Detaching threads
 Using `thrd_detach()`, you can tell a thread to keep on executing on its own, without needing to `wait()` for it. But that also means you lose the option to get its return value once it exits.
@@ -80,3 +80,4 @@ int main(void)
 ```
 # Resources
 Chapter 39 of Beej's guide to C programming
+`man pthreads` on a [[Linux]] system.
