@@ -33,9 +33,9 @@
               "state": {
                 "file": "Code projects/Philosophers.canvas",
                 "viewState": {
-                  "x": 481.9193544258279,
-                  "y": -30.39914875107769,
-                  "zoom": -0.3500000000000001
+                  "x": 761.439252566384,
+                  "y": 302.4686961372916,
+                  "zoom": -0.7499999999999996
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code projects/Philosophers.canvas",
+                "file": "Thread.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Philosophers"
+              "title": "Outline of Thread"
             }
           },
           {
@@ -201,10 +201,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "de03ae041a9dd557",
+  "active": "d27419bbd8bb9460",
   "lastOpenFiles": [
-    "Bitwise operations.md",
     "Code projects/Philosophers.canvas",
+    "Bitwise operations.md",
     "Thread.md",
     "lazygit.md",
     "base64.md",
