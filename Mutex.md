@@ -69,6 +69,17 @@ int main(void)
 	mtx_destroy(&serial_mtx); //<-- DESTROY MUTEX
 }
 ```
+# Mutex types
+Some of these mutex types are the result of [[Bitwise operations]].
+
+| Type                       | Description                            |
+| -------------------------- | -------------------------------------- |
+| `mtx_plain`                | Regular mutex                          |
+| `mtx_timed`                | Mutex that supports timeouts           |
+| `mtx_plain\|mtx_recursive` | Recursive mutex                        |
+| `mtx_timed\|mtx_recursive` | Recursive mutex that supports timeouts |
+*Recursive* means that the holder of a lock can call `mtx_lock()` multiple times on it. Useful when you've got nested permissions that could require multiple levels of locking, or you just have a function that needs to lock it multiple times.
+Just be careful to also unlock it the same amount of times.
 # Resources
 Chapter 39.7 of Beej's guide to C programming
 [Wikipedia Article](https://en.wikipedia.org/wiki/Lock_(computer_science))

@@ -9,7 +9,7 @@ tags:
 In [[C]] programming, for example, you create a new thread using the `pthreads` library (make sure to link it with your executable using `-lpthreads`~) by specifying the function that that thread will run. Kind of like your program starts at `main`, the thread will start a function YOU specify. Within limits, of course.
 You then let the thread run while the parent thread (the `main`) still works in parallel.
 You can then wait for the thread to complete, by *joining* it.
-A thread can `exit()` or also end its own life by returning from the "main" function you gave it.
+A thread can `exit()` or end its own life by returning from the "main" function you gave it.
 A thread can also sleep for a period of time, not hindering other threads of a [[process]].
 ## Thread memory
 Threads have shared memory (also with the main thread), allowing easy but dangerous (see below) communication between different threads. That also means that there's no need to free a variable in all threads, like with [[Child Process]]es.
@@ -30,8 +30,8 @@ Threads are identified with variables of type `thrd_t`, basically the ID of the 
 You **create threads** with `thrd_create()` and join them with `thrd_join()`. Pretty straightforward, except the first one takes in a pointer to the function the new thread is supposed to execute once it starts.
 It can also take in arguments to pass to the function that's gonna be run in the form of a `void *`. **Careful, that data has to have a lifetime long enough to be sustained throughout the thread's runtime.**
 You store the **return value** of a thread by passing a pointer to `thrd_join()`.
-> Example code taken from Beej's guide to C programming.
 ## Code
+> Example code taken from Beej's guide to C programming.
 ```C
 #include <stdio.h>
 #include <threads.h>
