@@ -3,10 +3,11 @@ tags:
   - Unix
   - programming_concept
   - C
+  - POSIX
 ---
 **Threading is the concept of splitting the load of a particular [[Process]] across multiple [[Processor]] cores.** You can have more threads than cores on most [[Operating system]]s, it's usually the OS itself that will balance the threads between the cores.
 # How it works
-In [[C]] programming, for example, you create a new thread using the `pthreads` library (make sure to link it with your executable using `-lpthreads`~) by specifying the function that that thread will run. Kind of like your program starts at `main`, the thread will start a function YOU specify. Within limits, of course.
+In [[C]] programming, for example, you create a new thread using the `pthreads` library (POSIX threads) (make sure to link it with your executable using `-lpthreads`~) by specifying the function that that thread will run. Kind of like your program starts at `main`, the thread will start a function YOU specify. Within limits, of course.
 You then let the thread run while the parent thread (the `main`) still works in parallel.
 You can then wait for the thread to complete, by *joining* it.
 A thread can `exit()` or end its own life by returning from the "main" function you gave it.
