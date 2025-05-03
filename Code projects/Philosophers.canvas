@@ -2,9 +2,8 @@
 	"nodes":[
 		{"id":"46afe4650b8eb30d","type":"file","file":"Mutex.md","x":860,"y":-340,"width":740,"height":860},
 		{"id":"e1828499070028e6","type":"text","text":"---\n\n---\n# Philosophers\nA simulation of philosophers eating, sleeping, thinking and, potentially, dying.","x":-807,"y":-620,"width":405,"height":180},
-		{"id":"579087c3669e4271","type":"text","text":"## The plan\nI need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.\nPotentially a mutex for reading and one for writing? I'm not sure why we'd need both though.","x":-820,"y":-380,"width":431,"height":531,"color":"4"},
-		{"id":"29f169a28d3450dc","type":"file","file":"Thread.md","x":-280,"y":-740,"width":940,"height":1460},
-		{"id":"fb663b41c6bebcfc","type":"text","text":"# How to create mutexes for all the philosophers?\nThe most obvious option would be to init them from the main function and pass the t_philo struct to the thread as it's created. But that would imply allocating the structs on the heap, and I'm kinda bothered by that. It wouldn't be thaaaaaat annoying, but I still wish I could just not do that.\nWhat else?\n\n## I actually don't really need ","x":-157,"y":791,"width":517,"height":369,"color":"6"}
+		{"id":"579087c3669e4271","type":"text","text":"## The plan\nI need one thread per philosopher and one more to do the monitoring of them all and check for deaths/completion of the simulation. I also apparently need a mutex for philosophers themselves, to write information to their structs.\nPotentially a mutex for reading and one for writing? I'm not sure why we'd need both though.\n\nStart the program by initializing ALL mutexes\nsimulation (table)\nphilosophers\nforks\n\neverything is to be stored in the table for easy access by everyone, basically","x":-820,"y":-380,"width":431,"height":531,"color":"4"},
+		{"id":"29f169a28d3450dc","type":"file","file":"Thread.md","x":-280,"y":-740,"width":940,"height":1460}
 	],
 	"edges":[
 		{"id":"272be065ca56296b","fromNode":"579087c3669e4271","fromSide":"right","toNode":"29f169a28d3450dc","toSide":"left"},

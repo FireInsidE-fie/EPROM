@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d9603f7aeaa0f3f",
+        "id": "67de8b18d7b1dde3",
         "type": "tabs",
         "children": [
           {
-            "id": "68068e575d50463f",
+            "id": "2383333cb9d0a701",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,23 +18,31 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b8e16fae8b34aee7",
+        "type": "tabs",
+        "children": [
           {
-            "id": "ffe85c6afb8b7f84",
+            "id": "0f0fe56ed209b579",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "vim.md",
-                "mode": "source",
-                "source": false
+                "file": "Code projects/Philosophers.canvas",
+                "viewState": {
+                  "x": 412.91751182102286,
+                  "y": -60.91329116023148,
+                  "zoom": -0.75
+                }
               },
-              "icon": "lucide-file",
-              "title": "vim"
+              "icon": "lucide-layout-dashboard",
+              "title": "Philosophers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24624721f3175a81",
@@ -108,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for bash"
             }
           },
           {
@@ -126,11 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from bash"
             }
           },
           {
@@ -163,7 +172,7 @@
             }
           },
           {
-            "id": "dfd645a214613ceb",
+            "id": "de03ae041a9dd557",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -177,49 +186,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "ffe85c6afb8b7f84",
+  "active": "0f0fe56ed209b579",
   "lastOpenFiles": [
-    "vim.md",
-    "Thread.md",
-    "Code projects/Philosophers.canvas",
-    "nvim.md",
-    "Bitwise operations.md",
-    "GNU readline().md",
     "Backtracking.md",
-    "recursion.md",
+    "Code projects/Philosophers.canvas",
+    "Algorithm.md",
+    "Untitled.md",
+    "Excalidraw/Drawing 2025-05-01 22.32.34.excalidraw.md",
+    "Excalidraw",
+    "IPC.md",
+    "Bitwise operations.md",
+    "Thread.md",
     "lazygit.md",
     "base64.md",
-    "Mutex.md",
-    "Code projects/Minishell.canvas",
-    "Code projects/Minishell.md",
-    "Tiling Manager.md",
-    "Code projects",
-    "Sorting algorithms.md",
-    "Algorithm.md",
-    "systemd.md",
-    "Tail recursion.md",
-    "heredoc.md",
+    "vim.md",
+    "git.md",
+    "Threads.md",
     "valgrind.md",
-    "bash.md",
-    "Window manager.md",
-    "The Psychology of Computer Programming.md",
-    "Linux.md",
     "C.md",
-    "IPC.md",
-    "Pipes.md"
+    "nvim.md",
+    "conflict-files-obsidian-git.md",
+    "Pipes.md",
+    "Mutex.md",
+    "recursion.md",
+    "Tiling Manager.md",
+    "Linux.md",
+    "heredoc.md",
+    "bash.md",
+    "Code projects/Minishell.canvas",
+    "Tail recursion.md",
+    "Sorting algorithms.md",
+    "Code projects",
+    "GNU readline().md",
+    "Untitled"
   ]
 }
