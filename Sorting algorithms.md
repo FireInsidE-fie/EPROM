@@ -1,6 +1,7 @@
 ---
 tags:
   - programming_concept
+  - cheatsheet
 ---
 
 # Examples of sorting algorithms

@@ -26,16 +26,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f0fe56ed209b579",
+            "id": "0571208f2efe8dd8",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Code projects/Philosophers.canvas",
                 "viewState": {
-                  "x": 412.91751182102286,
-                  "y": -60.91329116023148,
-                  "zoom": -0.75
+                  "x": 390,
+                  "y": -10,
+                  "zoom": -0.7821050997674813
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -200,12 +200,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f0fe56ed209b579",
+  "active": "0571208f2efe8dd8",
   "lastOpenFiles": [
-    "Backtracking.md",
+    "Sorting algorithms.md",
     "Code projects/Philosophers.canvas",
+    "Data structures.md",
+    "Tail recursion.md",
+    "Backtracking.md",
+    "Recursion.md",
+    "Linux filesystem structure.md",
     "Algorithm.md",
-    "Untitled.md",
     "Excalidraw/Drawing 2025-05-01 22.32.34.excalidraw.md",
     "Excalidraw",
     "IPC.md",
@@ -222,16 +226,11 @@
     "conflict-files-obsidian-git.md",
     "Pipes.md",
     "Mutex.md",
-    "recursion.md",
     "Tiling Manager.md",
     "Linux.md",
     "heredoc.md",
-    "bash.md",
     "Code projects/Minishell.canvas",
-    "Tail recursion.md",
-    "Sorting algorithms.md",
     "Code projects",
-    "GNU readline().md",
     "Untitled"
   ]
 }
