@@ -29,17 +29,14 @@
             "id": "0571208f2efe8dd8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "split-diff-view",
               "state": {
-                "file": "Code projects/Philosophers.canvas",
-                "viewState": {
-                  "x": 390,
-                  "y": -10,
-                  "zoom": -0.7821050997674813
-                }
+                "aFile": "Code projects/Philosophers.canvas",
+                "bFile": "Code projects/Philosophers.canvas",
+                "aRef": ""
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Philosophers"
+              "icon": "diff",
+              "title": "Diff: Philosophers.canvas"
             }
           }
         ]
@@ -163,12 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Thread.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Thread"
             }
           },
           {
@@ -202,8 +200,9 @@
   },
   "active": "0571208f2efe8dd8",
   "lastOpenFiles": [
-    "Sorting algorithms.md",
+    "Thread.md",
     "Code projects/Philosophers.canvas",
+    "Sorting algorithms.md",
     "Data structures.md",
     "Tail recursion.md",
     "Backtracking.md",
@@ -214,7 +213,6 @@
     "Excalidraw",
     "IPC.md",
     "Bitwise operations.md",
-    "Thread.md",
     "lazygit.md",
     "base64.md",
     "vim.md",
