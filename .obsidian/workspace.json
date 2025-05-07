@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "ffe85c6afb8b7f84",
+            "id": "afe97df9f79bb0ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -191,14 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfd645a214613ceb",
+  "active": "afe97df9f79bb0ab",
   "lastOpenFiles": [
-    "Stream pointer.md",
+    "Thread.md",
     "vim.md",
+    "Stream pointer.md",
     "Recursion.md",
     "Linux filesystem structure.md",
     "Data structures.md",
-    "Thread.md",
     "Code projects/Philosophers.canvas",
     "nvim.md",
     "Bitwise operations.md",
