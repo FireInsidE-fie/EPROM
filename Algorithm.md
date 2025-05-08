@@ -6,5 +6,5 @@ A very broad term referring to a set of instructions leading to a result. Usuall
 There are loooots of types of algorithms, and you can invent one for pretty much anything. What interests us here, though, are algorithms used in programming specifically.
 
 # Types of algorithms
-- [[Sorting algorithms]]
+- [[Sorting Algorithms]]
 - ...

@@ -3,7 +3,7 @@ tags:
   - cheatsheet
   - program
 ---
-The perfect text editor.
+**The** perfect text editor.
 An in-terminal text editor to edit text files, code and do a lot of stuff.
 [[nvim]]
 The cheasheet motions, commands and actions found below are to be executed in normal mode.

@@ -3,7 +3,7 @@ tags:
   - Unix
   - Linux
 ---
-A system and service manager for [[Linux]] [[Operating system]]s. It's usually run as the first [[Process]] as an init system that brings up and maintains user-space [[Service]]s.
+A system and service manager for [[Linux]] [[Operating System]]s. It's usually run as the first [[Process]] as an init system that brings up and maintains user-space [[Service]]s.
 Each logged in user has their own instance.
 
 # How it works

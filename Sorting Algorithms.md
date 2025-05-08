@@ -5,8 +5,8 @@ tags:
 ---
 
 # Examples of sorting algorithms
-- [[Bubble sort]]
-- [[Merge sort]]
-- [[Radix sort]]
-- [[Bogo sort]]
+- [[Bubble Sort]]
+- [[Merge Sort]]
+- [[Radix Sort]]
+- [[Bogo Sort]]
 - ...

@@ -5,13 +5,13 @@ tags:
   - C
   - POSIX
 ---
-**Threading is the concept of splitting the load of a particular [[Process]] across multiple [[Processor]] cores.** You can have more threads than cores on most [[Operating system]]s, it's usually the OS itself that will balance the threads between the cores.
+**Threading is the concept of splitting the load of a particular [[Process]] across multiple [[Processor]] cores.** You can have more threads than cores on most [[Operating System]]s, it's usually the OS itself that will balance the threads between the cores.
 # How it works
 In [[C]] programming, for example, you create a new thread using the `pthreads` library (POSIX threads) (make sure to link it with your executable using `-lpthreads`~) by specifying the function that that thread will run. Kind of like your program starts at `main`, the thread will start a function YOU specify. Within limits, of course.
 You then let the thread run while the parent thread (the `main`) still works in parallel.
 You can then wait for the thread to complete, by *joining* it.
 A thread can `exit()` or end its own life by returning from the "main" function you gave it.
-A thread can also sleep for a period of time, not hindering other threads of a [[process]].
+A thread can also sleep for a period of time, not hindering other threads of a [[Process]].
 ## Thread memory
 Threads have shared heap and data memory sections (also with the main thread), allowing easy but dangerous (see below) communication between different threads. That also means that there's no need to free a heap variable in all threads, like with [[Child Process]]es.
 The [[Stack]] is the only one that's not shared.
@@ -27,7 +27,7 @@ Thing is, **this isn't limited to only conventional variables you might set in y
 > Careful with some functions in the standard library that may keep a variable somewhere to keep states! If a standard libc function keeps a state between calls, it's probably not thread safe and needs protection set around that function.
 
 # C Program example
-Threads are identified with variables of type `thrd_t`, basically the ID of the thread (though it is an [[Opaque variable]]).
+Threads are identified with variables of type `thrd_t`, basically the ID of the thread (though it is an [[Opaque Variable]]).
 You **create threads** with `thrd_create()` and join them with `thrd_join()`. Pretty straightforward, except the first one takes in a pointer to the function the new thread is supposed to execute once it starts.
 It can also take in arguments to pass to the function that's gonna be run in the form of a `void *`. **Careful, that data has to have a lifetime long enough to be sustained throughout the thread's runtime.**
 You store the **return value** of a thread by passing a pointer to `thrd_join()`.

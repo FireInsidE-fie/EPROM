@@ -21,7 +21,7 @@ The `ctrl` key is stylized as a `^`.
 - `^p` : Moves up the history, towards the older commands. Like pressing `↓`.
 - `^t` : Transposes (or swaps) the two previous characters.
 - `^u` : Cuts the contents before the caret.
-- `^v` : Allows to write literal [[Control sequence]]s to the line (pressing `^v^h` writes literally "^H" to the prompt, an actual backspace character).
+- `^v` : Allows to write literal [[Control Sequence]]s to the line (pressing `^v^h` writes literally "^H" to the prompt, an actual backspace character).
 - `^w` : Cuts the word before the caret.
 - `^y` : Yank, or paste from the clipboard at caret.
 - `Alt+b` : Brings back the caret by one word.

@@ -3,5 +3,5 @@ Tags:
 - Unix
 ---
 [[Unix]]
-[[Window manager]]
-[[Login manager]]
+[[Window Manager]]
+[[Login Manager]]
