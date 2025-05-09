@@ -18,28 +18,26 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          }
-        ]
-      },
-      {
-        "id": "fac4ae2b5b8d3fa1",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ccea944470d387fe",
+            "id": "99bdceec53f772f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Shell.md",
-                "mode": "source",
-                "source": false
+                "file": "Code projects/Philosophers.canvas",
+                "viewState": {
+                  "x": 1872.222076923076,
+                  "y": -302.000923076923,
+                  "zoom": -0.770964542162281
+                }
               },
-              "icon": "lucide-file",
-              "title": "Shell"
+              "icon": "lucide-layout-dashboard",
+              "title": "Philosophers"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,35 +194,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68068e575d50463f",
+  "active": "99bdceec53f772f0",
   "lastOpenFiles": [
-    "Shell.md",
-    "bash.md",
-    "GNU readline().md",
-    "Bourne shell.md",
-    "Window Manager.md",
-    "Linux.md",
-    "Tail Recursion.md",
-    "Sorting Algorithms.md",
-    "Stream Pointer.md",
-    "Linux Filesystem.md",
-    "Bitwise operations.md",
-    "Pipes.md",
-    "heredoc.md",
-    "Thread.md",
-    "systemd.md",
-    "Untitled.md",
-    "ls.md",
-    "mv.md",
-    "cat.md",
-    "rm.md",
-    "rmdir.md",
-    "nano.md",
-    "gedit.md",
     "touch.md",
+    "rmdir.md",
+    "rm.md",
     "pwd.md",
+    "nano.md",
+    "mv.md",
+    "ls.md",
     "cd.md",
+    "cat.md",
+    "Window Manager.md",
+    "Tail Recursion.md",
+    "Stream Pointer.md",
+    "Sorting Algorithms.md",
+    "Shell.md",
+    "Linux Filesystem.md",
+    "C.md",
+    "vim.md",
+    "Thread.md",
+    "Stream pointer.md",
+    "Recursion.md",
+    "Linux filesystem structure.md",
+    "Data structures.md",
     "Code projects/Philosophers.canvas",
+    "nvim.md",
+    "Bitwise operations.md",
+    "GNU readline().md",
+    "Backtracking.md",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]
