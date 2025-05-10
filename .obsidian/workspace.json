@@ -20,20 +20,15 @@
             }
           },
           {
-            "id": "99bdceec53f772f0",
+            "id": "e335be0b782ce04b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Code projects/Philosophers.canvas",
-                "viewState": {
-                  "x": 1872.222076923076,
-                  "y": -302.000923076923,
-                  "zoom": -0.770964542162281
-                }
+                "file": "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Philosophers"
+              "icon": "lucide-file-text",
+              "title": "2013 Stroustrup - The C++ Programming Language 4th Edition"
             }
           }
         ],
@@ -94,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24624721f3175a81",
@@ -194,8 +188,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99bdceec53f772f0",
+  "active": "e335be0b782ce04b",
   "lastOpenFiles": [
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Books/The C++ Programming Language.md",
+    "vim.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf.crdownload",
+    "Books",
+    "Shell.md",
+    "Code projects/Philosophers.canvas",
     "touch.md",
     "rmdir.md",
     "rm.md",
@@ -209,20 +210,15 @@
     "Tail Recursion.md",
     "Stream Pointer.md",
     "Sorting Algorithms.md",
-    "Shell.md",
     "Linux Filesystem.md",
     "C.md",
-    "vim.md",
     "Thread.md",
     "Stream pointer.md",
     "Recursion.md",
     "Linux filesystem structure.md",
     "Data structures.md",
-    "Code projects/Philosophers.canvas",
     "nvim.md",
     "Bitwise operations.md",
-    "GNU readline().md",
-    "Backtracking.md",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]
