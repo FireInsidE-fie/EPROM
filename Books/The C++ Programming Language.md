@@ -12,4 +12,4 @@ Author: Bjarne Stroustrup
 Differences between C and C++ and all the standards over the years.
 
 ## Currently reading
-Page 9 (PDF pages)
+Page 10 (PDF pages)
