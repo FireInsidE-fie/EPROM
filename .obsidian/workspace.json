@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,11 +217,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e137b1872bb5e7cf",
+  "active": "0eca578036fc39fc",
   "lastOpenFiles": [
+    "Books/The C++ Programming Language.md",
+    "Orthodox Canonical Form.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
     "Sorting Algorithms.md",
-    "Books/The C++ Programming Language.md",
     "Code projects/Philosophers.canvas",
     "Books",
     "touch.md",

@@ -8,5 +8,8 @@ Author: Bjarne Stroustrup
 
 # Bookmarks
 
+# Chapter 44 - Compatibility
+Differences between C and C++ and all the standards over the years.
+
 ## Currently reading
 Page 9 (PDF pages)
