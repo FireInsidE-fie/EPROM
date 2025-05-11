@@ -20,21 +20,7 @@
             }
           },
           {
-            "id": "99bdceec53f772f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sorting Algorithms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sorting Algorithms"
-            }
-          },
-          {
-            "id": "e137b1872bb5e7cf",
+            "id": "a5b8938290314f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +34,7 @@
             }
           },
           {
-            "id": "0eca578036fc39fc",
+            "id": "e8d413fc03516e54",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -60,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24624721f3175a81",
@@ -203,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,17 +202,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e137b1872bb5e7cf",
+  "active": "a5b8938290314f7c",
   "lastOpenFiles": [
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
-    "Current Working Directory.md",
-    "git.md",
-    "C.md",
     "Books/The C++ Programming Language.md",
-    "Sorting Algorithms.md",
+    "Stream Pointer.md",
     "Orthodox Canonical Form.md",
-    "Code projects/Philosophers.canvas",
+    "Current Working Directory.md",
+    "The Psychology of Computer Programming.md",
+    "vim.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf.crdownload",
     "Books",
+    "Shell.md",
+    "Code projects/Philosophers.canvas",
     "touch.md",
     "rmdir.md",
     "rm.md",
@@ -239,10 +226,9 @@
     "cat.md",
     "Window Manager.md",
     "Tail Recursion.md",
-    "Stream Pointer.md",
-    "Shell.md",
+    "Sorting Algorithms.md",
     "Linux Filesystem.md",
-    "vim.md",
+    "C.md",
     "Thread.md",
     "Stream pointer.md",
     "Recursion.md",
