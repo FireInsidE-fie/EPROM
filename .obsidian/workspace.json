@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,11 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0eca578036fc39fc",
+  "active": "e137b1872bb5e7cf",
   "lastOpenFiles": [
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
     "Current Working Directory.md",
     "git.md",
-    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
     "C.md",
     "Books/The C++ Programming Language.md",
     "Sorting Algorithms.md",
@@ -247,7 +247,6 @@
     "Stream pointer.md",
     "Recursion.md",
     "Linux filesystem structure.md",
-    "Data structures.md",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]
