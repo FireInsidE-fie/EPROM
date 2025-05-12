@@ -23,30 +23,51 @@
             "id": "a5b8938290314f7c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Books/The C++ Programming Language.md",
-                "mode": "source",
-                "source": false
+                "aFile": "learncpp.com.md",
+                "bFile": "learncpp.com.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "The C++ Programming Language"
+              "icon": "diff",
+              "title": "Diff: learncpp.com"
             }
           },
           {
-            "id": "3ad3fa1965df7234",
+            "id": "89016b78a2d20165",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compiler.md",
+                "file": "learncpp.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compiler"
+              "title": "learncpp.com"
             }
           },
+          {
+            "id": "23d985447198c49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ray Tracing in One Weekend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ray Tracing in One Weekend"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7938fb6b59dac359",
+        "type": "tabs",
+        "children": [
           {
             "id": "b19144dd5c31b677",
             "type": "leaf",
@@ -58,9 +79,36 @@
               "icon": "lucide-file-text",
               "title": "2013 Stroustrup - The C++ Programming Language 4th Edition"
             }
+          },
+          {
+            "id": "a7a525fcdd044973",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.learncpp.com/",
+                "title": "Learn C++ – Skill up with our free tutorials",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Learn C++ – Skill up with our free tutorials"
+            }
+          },
+          {
+            "id": "4cf877eab9176718",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html",
+                "title": "Ray Tracing in One Weekend",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Ray Tracing in One Weekend"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +182,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/The C++ Programming Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +191,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The C++ Programming Language"
+              "title": "Backlinks"
             }
           },
           {
@@ -181,13 +228,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/The C++ Programming Language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The C++ Programming Language"
+              "title": "Outline"
             }
           },
           {
@@ -201,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -221,10 +267,12 @@
   },
   "active": "a5b8938290314f7c",
   "lastOpenFiles": [
+    "Books/The C++ Programming Language.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Ray Tracing in One Weekend.md",
+    "learncpp.com.md",
     "Compiler.md",
     "Object File.md",
-    "Books/The C++ Programming Language.md",
     "cc.md",
     "clang.md",
     "Stream Pointer.md",
@@ -248,8 +296,6 @@
     "Window Manager.md",
     "Tail Recursion.md",
     "Sorting Algorithms.md",
-    "Linux Filesystem.md",
-    "C.md",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]
