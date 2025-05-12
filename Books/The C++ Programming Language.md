@@ -9,7 +9,7 @@ Author: Bjarne Stroustrup
 # Bookmarks
 ## Chapter 1 - Notes to the reader
 ### Section 1.3.3 - Suggestions for C Programmers
-Some nice advice coming from a C background. Do NOT think that C++ is just C with ++features. It's a different language completely, treat it as such.
+Some nice advice coming from a [[C]] background. Do NOT think that C++ is just C with ++features. It's a different language completely, treat it as such.
 ### Section 1.4 - History of C++
 
 > [!NOTE] Reading to be done!
@@ -21,6 +21,6 @@ Some good general advice as you start learning the language (and even just every
 Differences between C and C++ and all the standards over the years.
 Page 1272 has a cool diagram displaying the evolution of C and C++ in parallel over the years.
 ## Currently reading
-Page 21 (PDF pages)
+Page 44 (PDF pages)
 # Personal thoughts
 still very much reading it, but this look like the "The C++ book" TM. Just like rust has its book, though this one is definitely more reference than book (or is it?)
