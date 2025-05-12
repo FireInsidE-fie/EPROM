@@ -165,12 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Books/The C++ Programming Language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of The C++ Programming Language"
             }
           },
           {
@@ -202,7 +203,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5b8938290314f7c",
+  "active": "dfd645a214613ceb",
   "lastOpenFiles": [
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
     "Books/The C++ Programming Language.md",
