@@ -20,20 +20,6 @@
             }
           },
           {
-            "id": "a5b8938290314f7c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "learncpp.com.md",
-                "bFile": "learncpp.com.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: learncpp.com"
-            }
-          },
-          {
             "id": "89016b78a2d20165",
             "type": "leaf",
             "state": {
@@ -86,12 +72,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/",
-                "title": "Learn C++ – Skill up with our free tutorials",
+                "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-programming-languages/",
+                "title": "0.2 — Introduction to programs and programming languages – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Learn C++ – Skill up with our free tutorials"
+              "title": "0.2 — Introduction to programs and programming languages – Learn C++"
             }
           },
           {
@@ -108,7 +94,8 @@
               "title": "Ray Tracing in One Weekend"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -265,12 +252,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5b8938290314f7c",
+  "active": "a7a525fcdd044973",
   "lastOpenFiles": [
-    "Books/The C++ Programming Language.md",
-    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
-    "Ray Tracing in One Weekend.md",
     "learncpp.com.md",
+    "Ray Tracing in One Weekend.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Books/The C++ Programming Language.md",
     "Compiler.md",
     "Object File.md",
     "cc.md",
