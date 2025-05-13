@@ -1,8 +1,9 @@
 ---
 tags: []
 ---
-A program which reads compiled languages source files and translates them into machine code to be executed.
+A program which reads compiled languages source files and translates them into another programming language (often directly machine code to be executed).
 Usually starts by preprocessing, followed by compilation and then linking of [[Object File]]s.
+Some compilers can also be configured to translate source code into [[Assembly]] for study (which would then be run through an [[Assembler]] to be turned into machine code).
 
 > [!ERROR] Portability
 > The resulting executable programs coming from a compiler are very rarely portable from platform to platform!
