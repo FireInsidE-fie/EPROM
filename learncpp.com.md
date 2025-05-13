@@ -6,7 +6,7 @@ tags:
 [[C++]] tutorials and learning materials.
 
 # Progress
-0.5
+0.6
 
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
