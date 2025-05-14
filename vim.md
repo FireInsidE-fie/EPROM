@@ -6,7 +6,6 @@ tags:
 **The** perfect text editor.
 An in-terminal text editor to edit text files, code and do a lot of stuff.
 [[nvim]]
-The cheasheet motions, commands and actions found below are to be executed in normal mode.
 # Vim modes
 ## Normal mode
 
@@ -15,6 +14,7 @@ The cheasheet motions, commands and actions found below are to be executed in no
 ## Visual mode
 
 # Cheatsheet
+The cheasheet motions, commands and actions found below are to be executed in normal mode.
 ## Vim motions
 - `hjkl` : **Move one character** left, down, up and right respectively.
 - `w`: Go to the **beginning of the word**.
@@ -22,6 +22,10 @@ The cheasheet motions, commands and actions found below are to be executed in no
 - `b` : Go to the **beginning of the last word**.
 - `0` : Go to the **beginning of the line**.
 - `$` : Go to the **end of the line**.
+- `^b` : **Go Back** - Scroll up one page.
+- `^f` : **Go Forward** - Scroll down one page.
+- `^d` : Scroll **Down half a page**.
+- `^u` : Scroll **Up half a page**.
 ## Vim actions
 - `i` : Enter **insert mode** before the caret.
 - `a` : **Append** : Enter insert mode after the caret.
