@@ -4,9 +4,10 @@ tags:
   - cpp
 ---
 [[C++]] tutorials and learning materials.
-
+# The tutorial
+https://www.learncpp.com/
 # Progress
-1.5 - `std::cin`
+1.6
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -52,6 +53,15 @@ You can also use comments to explain why a certain approach was used and not ano
 Apparently in [[C++]], initialization of variables is a whole thing. It's not just about saying `x = 4` anymore, you can do crazy stuff with braces, parentheseses and more.
 ### 1.5
 Keep in mind `std::cout` is buffered, which means some output might only appear past a certain point.
+`std::cin` is also buffer, which is how C++ extracts variables from the input in cases like `std::cin >> x`.
+If there's still valid input in the `cin` buffer, it will extract that value instead of prompting the user for input.
+For example, if you want to extract two values, even if there are `std::cin >> x` and `std::cin >> y` on separate lines, if your input contains `4 5`, you'll only have to press enter once for both variables to be filled with 4 and 5 respectively.
+> `std::cin` is buffered because it allows us to separate the entering of input from the extract of input. We can enter input once and then perform multiple extraction requests on it.
+> Here’s a simplified view of how operator `>>` works for input.
+> 1. If `std::cin` is not in a good state (e.g. the prior extraction failed and `std::cin` has not yet been cleared), no extraction is attempted, and the extraction process aborts immediately.
+> 2. Leading whitespace characters (spaces, tabs, and newlines at the front of the buffer) are discarded from the input buffer. This will discard an unextracted newline character remaining from a prior line of input.
+> 3. If the input buffer is now empty, operator `>>` will wait for the user to enter more data. Any leading whitespace is discarded from the entered data.
+> 4. operator `>>` then extracts as many consecutive characters as it can, until it encounters either a newline character (representing the end of the line of input) or a character that is not valid for the variable being extracted to.
 
-# The tutorial
-https://www.learncpp.com/
+> [!ERROR] Failed extractions
+> If an extraction fails, the input buffer will be pretty much unusable until it is completely cleared (flushed).
