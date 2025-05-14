@@ -40,8 +40,10 @@ The cheasheet motions, commands and actions found below are to be executed in no
 - `P` : **Puts before** the caret.
 - `d<motion>` : **Delete** the text covered by the motion.
 - `dd` : **Delete** the **entire line**.
+- `D` : **Delete** from the caret to **the end of the line**.
 - `c<motion>` : **Change** the text covered by the motion : delete and enter insert mode.
 - `cc` : **Change** the **entire line**.
+- `C` : **Change** from the caret to **the end of the line**.
 - `u` : **Undo** last change.
 - `^r` : **Redo** next change.
 - `/<query>` : **Search** query in current file.
