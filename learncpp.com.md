@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-1.9
+2.1
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -68,3 +68,15 @@ For example, if you want to extract two values, even if there are `std::cin >> x
 ### 1.8
 Adopt the style of the project you're currently working in, if it's not yours. Better to work with consistency than with whatever you happen to prefer.
 Learn to use your IDE's formatting features so you keep a consistent formatting throughout your project(s). [[clang-format]] is pretty good.
+### 1.9
+A function is said to have a **side effect** when it does more than just return a value. It could for example modify its arguments, or some other static variable elsewhere.
+They aren't a bad thing as the name would suggest, just a way to use and design functions.
+### 1.11
+Theory crafting a program before getting to start coding it is a good thing, but remember that **you need to write a program once to know how you should have written it in the first place**.
+In other words, you will very probably not be able to produce a perfect result first try.
+The best way to find how you should write something is to just write it : you'll find the problems with your approach easier that way, rather than staying in front of the white board waiting for the light to illuminate your thoughts.
+**Perfection in programming is an iterative process.**
+
+## 2 - Functions
+### 2.2
+Use `EXIT_SUCCESS` and `EXIT_FAILURE` instead of your own return statuses for the `main()` function. (they're defined in `<stdlib>` btw)

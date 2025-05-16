@@ -39,12 +39,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-literals-and-operators/",
-                "title": "1.9 — Introduction to literals and operators – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/function-return-values-value-returning-functions/",
+                "title": "2.2 — Function return values (value-returning functions) – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "1.9 — Introduction to literals and operators – Learn C++"
+              "title": "2.2 — Function return values (value-returning functions) – Learn C++"
             }
           },
           {
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learncpp.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for learncpp.com"
+              "title": "Backlinks"
             }
           },
           {
@@ -154,12 +153,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learncpp.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from learncpp.com"
+              "title": "Outgoing links"
             }
           },
           {
@@ -183,13 +181,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learncpp.com.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of learncpp.com"
+              "title": "Outline"
             }
           },
           {
@@ -221,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "637536c1f611f822",
+  "active": "dfd645a214613ceb",
   "lastOpenFiles": [
     "learncpp.com.md",
     "clang-format.md",
