@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-1.6
+1.9
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -65,3 +65,6 @@ For example, if you want to extract two values, even if there are `std::cin >> x
 
 > [!ERROR] Failed extractions
 > If an extraction fails, the input buffer will be pretty much unusable until it is completely cleared (flushed).
+### 1.8
+Adopt the style of the project you're currently working in, if it's not yours. Better to work with consistency than with whatever you happen to prefer.
+Learn to use your IDE's formatting features so you keep a consistent formatting throughout your project(s). [[clang-format]] is pretty good.
