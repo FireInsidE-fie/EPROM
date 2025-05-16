@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-2.2
+2.9
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -80,3 +80,8 @@ The best way to find how you should write something is to just write it : you'll
 ## 2 - Functions
 ### 2.2
 Use `EXIT_SUCCESS` and `EXIT_FAILURE` instead of your own return statuses for the `main()` function. (they're defined in `<stdlib>` btw)
+### 2.5
+Locality of behavior : **try to define your variables as close to the place they're used as possible**.
+Difference between objects and identifiers : identifiers hold the scope (and name) of an object. An identifier tagged onto an object makes a variable.
+### 2.6
+Remember that **functions should always do one specific task only**.
