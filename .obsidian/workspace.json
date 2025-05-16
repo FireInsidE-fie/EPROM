@@ -100,12 +100,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/naming-collisions-and-an-introduction-to-namespaces/",
-                "title": "2.9 — Naming collisions and an introduction to namespaces – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/header-guards/",
+                "title": "2.12 — Header guards – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "2.9 — Naming collisions and an introduction to namespaces – Learn C++"
+              "title": "2.12 — Header guards – Learn C++"
             }
           }
         ],
@@ -268,12 +268,12 @@
   "active": "014b23dd883af61e",
   "lastOpenFiles": [
     "learncpp.com.md",
+    "gcc.md",
     "Books/The C++ Programming Language.md",
     "Ray Tracing in One Weekend.md",
     "clang-format.md",
     "vimium.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
-    "gcc.md",
     "GNU readline().md",
     "vim.md",
     "LLVM.md",

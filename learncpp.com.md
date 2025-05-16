@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-2.9
+2.12
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -85,3 +85,12 @@ Locality of behavior : **try to define your variables as close to the place they
 Difference between objects and identifiers : identifiers hold the scope (and name) of an object. An identifier tagged onto an object makes a variable.
 ### 2.6
 Remember that **functions should always do one specific task only**.
+### 2.9
+Do not use `using` directives, since they're here only for including namespaces' entire symbols, it negates the entire point of namespaces. Just don't use them.
+### 2.10
+It's the pre-processor's job to clean the code for the compilation stage (removing the comments, processing include directives, etc...)
+### 2.11
+Source files that have a paired header should include said header.
+c++ standard headers are usually in the `<xxx>` format like `<iostream>`, and c standard headers are usually `<xxx.h>` like `<stdio.h>`.
+Of course, user defined headers are still formatted like "xxx.h", just like in C.
+Some standard headers include other standard headers. **Don't forget to include all headers you need explicitely.**

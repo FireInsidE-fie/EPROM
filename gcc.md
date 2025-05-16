@@ -8,6 +8,8 @@ The GNU Compiler Collection, the linux specific c compiler. It's pretty good, ju
 
 # Options
 - `-std=<standard>` : Sets the standard for the code to be compiled. By default, for C, this is `gnu18`. For C++, this is `gnu++17`.
+- `-o <name>` : Specify the name of the output executable.
+- `-I<directory>` : Specify directory(ies) in which to look for the `#include`d files. 
 ## Warnings
 - `-Wall` : Prints all warnings for things that could be easily fixed or prevented.
 - `-Wextra` : Prints even more warnings that aren't printed with `-Wall`.
