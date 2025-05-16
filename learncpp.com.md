@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-2.1
+2.2
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1

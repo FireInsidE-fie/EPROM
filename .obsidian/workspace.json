@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "learncpp.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for learncpp.com"
             }
           },
           {
@@ -153,11 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "learncpp.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from learncpp.com"
             }
           },
           {
@@ -181,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "learncpp.com.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of learncpp.com"
             }
           },
           {
@@ -218,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfd645a214613ceb",
+  "active": "637536c1f611f822",
   "lastOpenFiles": [
     "learncpp.com.md",
     "clang-format.md",
