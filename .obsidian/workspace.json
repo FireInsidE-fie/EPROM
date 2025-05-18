@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7938fb6b59dac359",
@@ -81,31 +81,31 @@
             }
           },
           {
-            "id": "4cf877eab9176718",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html#overview",
-                "title": "Ray Tracing in One Weekend",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Ray Tracing in One Weekend"
-            }
-          },
-          {
             "id": "014b23dd883af61e",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/chapter-4-summary-and-quiz/",
-                "title": "4.x — Chapter 4 summary and quiz – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/numeral-systems-decimal-binary-hexadecimal-and-octal/",
+                "title": "5.3 — Numeral systems (decimal, binary, hexadecimal, and octal) – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "4.x — Chapter 4 summary and quiz – Learn C++"
+              "title": "5.3 — Numeral systems (decimal, binary, hexadecimal, and octal) – Learn C++"
+            }
+          },
+          {
+            "id": "4cf877eab9176718",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html#outputanimage/theppmimageformat",
+                "title": "Ray Tracing in One Weekend",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Ray Tracing in One Weekend"
             }
           }
         ],
@@ -265,14 +265,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "014b23dd883af61e",
+  "active": "23d985447198c49c",
   "lastOpenFiles": [
+    "Ray Tracing in One Weekend.md",
     "learncpp.com.md",
     "Untitled.md",
     "Escape Sequences.md",
     "Pasted image 20250518191101.png",
     "Books/The C++ Programming Language.md",
-    "Ray Tracing in One Weekend.md",
     "gcc.md",
     "clang-format.md",
     "vimium.md",

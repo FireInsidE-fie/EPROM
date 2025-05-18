@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-4.11
+5.3
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -170,3 +170,8 @@ Because of all of this, beware of using floating numbers for critical data like 
 ### 4.12
 Casting in c++ is done via `static_cast`, with the syntax `static_cast<new_type>(expression)`.
 Things in angled brackets `<>` are very often types.
+## 5 - Constants and Strings
+### 5.1
+If a variable can be made const, do it. It helps the compiler optimize.
+### 5.2
+The f character found after float literals like `2.0f` are actually part of a plethora of literal values suffixes. There's one for almost every type out there, but the float one is pretty much the only one you'll use.
