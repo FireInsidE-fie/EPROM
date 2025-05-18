@@ -100,12 +100,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/header-guards/",
-                "title": "2.12 — Header guards – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-if-statements/",
+                "title": "4.10 — Introduction to if statements – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "2.12 — Header guards – Learn C++"
+              "title": "4.10 — Introduction to if statements – Learn C++"
             }
           }
         ],
@@ -268,9 +268,9 @@
   "active": "014b23dd883af61e",
   "lastOpenFiles": [
     "learncpp.com.md",
-    "gcc.md",
     "Books/The C++ Programming Language.md",
     "Ray Tracing in One Weekend.md",
+    "gcc.md",
     "clang-format.md",
     "vimium.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",

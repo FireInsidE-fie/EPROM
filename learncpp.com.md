@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-2.12
+4.10
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -93,4 +93,77 @@ It's the pre-processor's job to clean the code for the compilation stage (removi
 Source files that have a paired header should include said header.
 c++ standard headers are usually in the `<xxx>` format like `<iostream>`, and c standard headers are usually `<xxx.h>` like `<stdio.h>`.
 Of course, user defined headers are still formatted like "xxx.h", just like in C.
-Some standard headers include other standard headers. **Don't forget to include all headers you need explicitely.**
+Some standard headers include other standard headers. **Don't forget to include all headers you need explicitly.**
+### [2.13](https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/)
+Some great advice on how to design programs and prepare game plans for them before starting to code.
+**Break hard problems into small, easier problems.** This advice is also useful when making todo lists.
+Don't optimize at the micro level, like a few statements at a time. Optimization is better for maintainability than performance, and a well structured program is better optimized **by design**.
+> A complex system that works is invariably found to have evolved from a simple system that worked
+—John Gall, Systemantics: How Systems Really Work and How They Fail p. 71
+
+***THE DESIGN STAGE IS VERY IMPORTANT***
+## 3 - Debugging
+### 3.4
+When printf debugging in C++, use `cerr` instead of `cout`. Since `cout` is buffered, it might not output what you want in time (or at all if the program crashes).
+### 3.5
+There's also `clog` for extended logging capabilities. By default, it writes to stderr but you might find better uses of it with a dedicated logger library.
+> Plog is implemented as a set of header files, so it’s easy to include anywhere you need it, and it’s lightweight and easy to use.
+### 3.6
+```cpp
+std::cout << std::unitbuf; // enable automatic flushing for std::cout (for debugging)
+```
+### 3.7
+"set next statement" is a debugger command a bit akin to a goto call, basically makes the execution point jump to another line in the program. You could even go backwards with this little beauty.
+### 3.8
+Some debuggers allow you to set a breakpoint on a watched variable, which means the execution will be stopped everytime the variable changes.
+### 3.9
+The Call Stack is the trace of all functions that have been called up until a specific point in execution.
+### 3.10
+**Defensive programming** is the practice of trying to predict all user misinputs or misuses and mitigating the errors that would be produced (for example inputting alphabetical characters where numbers are expected).
+Some good static analysis tools: 
+- [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) (you have that in CLion btw)
+- [cpplint](https://github.com/cpplint/cpplint)
+- [cppcheck](https://cppcheck.sourceforge.io/) (already integrated into Code::Blocks)
+- [SonarLint](https://www.sonarsource.com/open-source-editions/)
+## 4 - Fundamental data types
+### 4.1
+**Integral types** are fundamental types that are stored in memory as integers, but don't necessarily display as integers when you print them out (booleans).
+### 4.2
+**Incomplete types** are types that the compiler cannot figure out a size in bytes just yet.
+`void` is the best example.
+> [!WARNING] Functions that don't take any arguments
+> Unlike in C, the used of `function(void)` to specify that a function doesn't take any arguments is deprecated in C++.
+### 4.3
+The `sizeof` operator is an operator, not a function, despite what the syntax would lead you to believe.
+It cannot be used for dynamically allocated memory.
+### 4.4
+When dividing two integers, the result will also be an integer. In effect, the decimal part is simply dropped. NO rounding.
+### 4.5
+You don't need this much optimization to use unsigned integers instead of signed ones. Just use signed integers with everything you do, mkay? When you need more optimization (in cases with thousands of variables, for example), you'll see it and be able to use fixed-width integers.
+### 4.6
+TLDR : fixed width integers are nice. Use them.
+Also use `<cstddef>` for including `size_t`, it's the smallest header that contains it.
+>- Prefer int when the size of the integer doesn’t matter (e.g. the number will always fit within the range of a 2-byte signed integer). For example, if you’re asking the user to enter their age, or counting from 1 to 10, it doesn’t matter whether int is 16-bits or 32-bits (the numbers will fit either way). This will cover the vast majority of the cases you’re likely to run across.
+>- Prefer std::int_t when storing a quantity that needs a guaranteed range.
+>- Prefer std::uint_t when doing bit manipulation or well-defined wrap-around behavior is required (e.g. for cryptography or random number generation).
+>Avoid the following when possible:
+>- short and long integers (prefer a fixed-width integer type instead).
+>- The fast and least integral types (prefer a fixed-width integer type instead).
+>- Unsigned types for holding quantities (prefer a signed integer type instead).
+>- The 8-bit fixed-width integer types (prefer a 16-bit fixed-width integer type instead).
+>- Any compiler-specific fixed-width integers (for example, Visual Studio defines \_\_int8, \_\_int16, etc…)
+### [4.7](https://www.learncpp.com/cpp-tutorial/introduction-to-scientific-notation/)
+A good scientific notation round up.
+Significant digits are the digits that are needed to not lose any information about a number. That includes both digits before and after the decimal point.
+### 4.8
+`double` is double the precision of the `float`. Basically double the digits after the decimal point (I think).
+When assigning with a literal, `x = 3.0` will assume x is a `double`, while `x = 3.0f` assumes a `float` type.
+> The precision of a floating point type defines how many significant digits it can represent without information loss.
+
+`std::setprecisions()` allows you to set the precision at which `std::cout` will output floating point variables and literals.
+When trying to store a number with 10 significant digits in a type with only 7 digit precision, you end up losing on 3 digits of precision. This applies to not only fractional numbers, but also numbers that are too big for a float could lose some of their precision too (123456789.0f becoming 123456792, for example).
+> **Favor double over float unless space is at a premium, as the lack of precision in a float will often lead to inaccuracies.**
+
+Due to the way floating numbers are stored in binary format, even simple numbers such as 0.1 will be stored in a way that loses precision.
+In the end, 0.1 is actually something like 0.10000000000000001.
+Because of all of this, beware of using floating numbers for critical data like finances or currency stuff, as repeated operations will increase the rounding error that occurs.
