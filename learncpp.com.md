@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-4.10
+4.11
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -167,3 +167,6 @@ When trying to store a number with 10 significant digits in a type with only 7 d
 Due to the way floating numbers are stored in binary format, even simple numbers such as 0.1 will be stored in a way that loses precision.
 In the end, 0.1 is actually something like 0.10000000000000001.
 Because of all of this, beware of using floating numbers for critical data like finances or currency stuff, as repeated operations will increase the rounding error that occurs.
+### 4.12
+Casting in c++ is done via `static_cast`, with the syntax `static_cast<new_type>(expression)`.
+Things in angled brackets `<>` are very often types.
