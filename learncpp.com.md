@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-5.3
+5.6
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -175,3 +175,16 @@ Things in angled brackets `<>` are very often types.
 If a variable can be made const, do it. It helps the compiler optimize.
 ### 5.2
 The f character found after float literals like `2.0f` are actually part of a plethora of literal values suffixes. There's one for almost every type out there, but the float one is pretty much the only one you'll use.
+### [5.3](https://www.learncpp.com/cpp-tutorial/numeral-systems-decimal-binary-hexadecimal-and-octal/)
+Primer on numerical systems like binary, hexadecimal and octal.
+Use a `0` prefix on number literals to make them octal literals.
+Use a `0x` prefix on number literals to make them hexadecimal literals.
+### 5.4
+**Profilers** are programs that analyse a program and tells which parts of it takes the longest time to run, or which are impacting performance the most.
+> Compile-time evaluation allows the compiler to do work at compile-time that would otherwise be done at runtime. Because such expressions no longer need to be evaluated at runtime, the resulting executables are faster and smaller (at the cost of slightly slower compilation times).
+### 5.5
+The `constexpr` type modifier asks for an expression to be evaluated at compile-time.
+Constant expressions (not the keyword, we mean literals, variables etc that do not change) must be evaluatable at compile-time.
+> The compiler is only _required_ to evaluate constant expressions at compile-time in contexts that _require_ a constant expression. It may or may not do so in other cases.
+
+Floats and doubles aren't compile-time constant expressions, because they aren't integrals.
