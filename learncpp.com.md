@@ -188,3 +188,6 @@ Constant expressions (not the keyword, we mean literals, variables etc that do n
 > The compiler is only _required_ to evaluate constant expressions at compile-time in contexts that _require_ a constant expression. It may or may not do so in other cases.
 
 Floats and doubles aren't compile-time constant expressions, because they aren't integrals.
+### 5.6
+`const` variables are values that cannot be changed after initialization.
+`constexpr` variables are values that can be used in constant expressions.
