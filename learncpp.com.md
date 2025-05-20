@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-5.9 - Improperly using std::string_view
+5.9 - Revalidating an invalid `std::string_view`
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -210,3 +210,7 @@ A view is a read-only representation of an object. It's fine for multiple views 
 You can create functions that take a `string_view` as a parameter, for example, and pass it `string`s without any issue. The implicit conversion will create a view of that `string` variable.
 > [!WARNING]
 > A view is dependent on the object being viewed. If the object being viewed is modified or destroyed while the view is still being used, unexpected or undefined behavior will result.
+> Do not initialize a `std::string_view` with a `std::string` literal, as this will leave the `std::string_view` dangling.
+
+> [!ERROR] Modifying the underlying string
+> If you modify the string a `string_view` watches, that also breaks the view.
