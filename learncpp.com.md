@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-5.6
+5.9 - Improperly using std::string_view
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -191,3 +191,22 @@ Floats and doubles aren't compile-time constant expressions, because they aren't
 ### 5.6
 `const` variables are values that cannot be changed after initialization.
 `constexpr` variables are values that can be used in constant expressions.
+### 5.7
+Use `std::string` instead of `char *` when working with strings in C++.
+When trying to get a full string as input from `cin`, use `std::getline` (it will keep reading input until a new line is found, which means whitespace is ignored, unlike with `cin`)
+Get the length of an `std::string` with the `.length()` member function
+Since `std::string` is basically a glorified `char *`, don't pass it by value, pass it by reference (it's expensive to copy a whole string)
+You could also use `std::string_view` arguments in functions to prevent passing in the `std::string` directly.
+Same thing with returning `std::string` from a function. You can, but try to alloc it and return a pointer to it instead.
+### 5.8
+`std::string_view` is basically a read-only variable representing a string value.
+It's easier to move around and pass by value, so use that whenever you need a read-only string.
+Since those are "views", I guess you could kinda see it like a string pointer. It "watches" a string, and if you assign it a new string, instead of modifying the watched string, it just switches the string it's currently watching.
+`std::string_view` has full support for `constexpr`.
+### 5.9
+> In programming, when we call an object an owner, we generally mean that it is the sole owner (unless otherwise specified). Sole ownership (also called single ownership) ensures it is clear who has responsibility for that data.
+
+A view is a read-only representation of an object. It's fine for multiple views of an object to exist. And it's way less expensive to copy. (probably a pointer to the memory being viewed under the hood?)
+You can create functions that take a `string_view` as a parameter, for example, and pass it `string`s without any issue. The implicit conversion will create a view of that `string` variable.
+> [!WARNING]
+> A view is dependent on the object being viewed. If the object being viewed is modified or destroyed while the view is still being used, unexpected or undefined behavior will result.

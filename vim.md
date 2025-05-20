@@ -48,10 +48,9 @@ The cheasheet motions, commands and actions found below are to be executed in no
 - `^r` : **Redo** next change.
 - `/<query>` : **Search** query in current file.
 ## Vim commands
+- `:h` : Shows the **help menu**.
 - `:w` : **Write**, or **save** the current file.
 - `:q` : **Close** the current file. Closes vim if this is the only file currently opened.
 - `:q!` : **Force close**. Will close without prompting to save files.
-
-
 # Resources
-
+[LearnXinYminutes.com](https://learnxinyminutes.com/vim/)
