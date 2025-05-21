@@ -7,7 +7,7 @@ tags:
 # The tutorial
 https://www.learncpp.com/
 # Progress
-6.8
+6.x - quiz
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -213,7 +213,8 @@ You can create functions that take a `string_view` as a parameter, for example, 
 > Do not initialize a `std::string_view` with a `std::string` literal, as this will leave the `std::string_view` dangling.
 
 > [!ERROR] Modifying the underlying string
-> If you modify the string a `string_view` watches, that also breaks the view.
+> If you modify the string a `string_view` watches, that also breaks the view (since the memory is reallocated somewhere else, the pointer becomes invalid).
+> You'll need to reassign it to the `string_view`, or assign it a new string instead.
 
 `std::string_view` can view sub-strings, including removing both a suffix and a prefix if wanted.
 This allows you to manipulate sub-strings without making copies of the initial string.
@@ -268,3 +269,18 @@ Try to get a relative epsilon (like a tiny percentage of error margin).
 
 > [!INFO] Research to be done!
 > There's a whole optional section about how you could about comparing calculated floats.
+## Section O
+
+> [!INFO] Research to be done!
+> Everything bit manipulation and bitwise is there. Look into it when it's relevant.
+## 7
+### 7.2
+You can create namespaces using this syntax :
+namespace NamespaceIdentifier
+```cpp
+namespace NamespaceIdentifier {
+    // content of namespace here
+}
+```
+Use `::` without a namespace before it to access the global namespace.
+Useful to access the global namespace from inside another one.
