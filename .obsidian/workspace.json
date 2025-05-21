@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68068e575d50463f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "8119c9fa3fc86c0c",
             "type": "leaf",
             "state": {
@@ -61,8 +49,7 @@
               "title": "Ray Tracing in One Weekend"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7938fb6b59dac359",
@@ -81,31 +68,17 @@
             }
           },
           {
-            "id": "014b23dd883af61e",
+            "id": "3214227a2bf904cb",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/",
-                "title": "5.9 — std::string_view (part 2) – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/logical-operators/",
+                "title": "6.8 — Logical operators – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "5.9 — std::string_view (part 2) – Learn C++"
-            }
-          },
-          {
-            "id": "ec757bf954ff5b83",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Optimizing_compiler#Specific_techniques",
-                "title": "Optimizing compiler - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Optimizing compiler - Wikipedia"
+              "title": "6.8 — Logical operators – Learn C++"
             }
           }
         ],
@@ -121,6 +94,7 @@
       {
         "id": "a10290a45f0b7cfa",
         "type": "tabs",
+        "dimension": 63.26979472140762,
         "children": [
           {
             "id": "407d7f91a45acf99",
@@ -162,7 +136,67 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "14331782c3621e85",
+        "type": "tabs",
+        "dimension": 36.73020527859238,
+        "children": [
+          {
+            "id": "68068e575d50463f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "ba104d8a4cddc4ec",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "learncpp.com.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph of learncpp.com"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -255,14 +289,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "floating": {
@@ -295,19 +329,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 2396,
+        "x": 1779,
         "y": 32,
-        "width": 1044,
+        "width": 781,
         "height": 1408,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "014b23dd883af61e",
+  "active": "8119c9fa3fc86c0c",
   "lastOpenFiles": [
     "learncpp.com.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Compiler.md",
     "Books/The C++ Programming Language.md",
     "Ray Tracing in One Weekend.md",
     "Orthodox Canonical Form.md",
@@ -321,7 +356,6 @@
     "vim.md",
     "LLVM.md",
     "clang.md",
-    "Compiler.md",
     "Object File.md",
     "cc.md",
     "Stream Pointer.md",
