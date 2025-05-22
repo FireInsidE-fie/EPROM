@@ -6,7 +6,7 @@ Website: https://www.learncpp.com/
 ---
 [[C++]] tutorials and learning materials.
 # Progress
-7.3
+7.8
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -88,6 +88,7 @@ Remember that **functions should always do one specific task only**.
 Do not use `using` directives, since they're here only for including namespaces' entire symbols, it negates the entire point of namespaces. Just don't use them.
 ### 2.10
 It's the pre-processor's job to clean the code for the compilation stage (removing the comments, processing include directives, etc...)
+A **translation unit** is a source file after it has been pre-processed.
 ### 2.11
 Source files that have a paired header should include said header.
 c++ standard headers are usually in the `<xxx>` format like `<iostream>`, and c standard headers are usually `<xxx.h>` like `<stdio.h>`.
@@ -285,3 +286,19 @@ Use `::` without a namespace before it to access the global namespace.
 Useful to access the global namespace from inside another one.
 Both forward declarations and definition of functions have to be inside of the namespace block.
 That also means you can declare the same namescape across multiple header and source files, and everything inside those blocks will be under the same namescape.
+### 7.3
+An object having linkage means that if it is re-declared in a different scope it will refer to the same object.
+### 7.4
+Define global variables in a namespace instead of in the global namespace.
+Also keep using prefixes for globals like `g_`.
+Global variables are like static variables, initialized to 0 by default at the very start of the program.
+In general, **just don't use globals**.
+### 7.6
+An identifier having **internal linkage** means it's only accessible from a single translation unit (or source file).
+An identifier having **external linkage** means it is accessible from other files as well.
+A good example of this is functions: adding a `static` in front of a declaration prevents it from being accessible in other files.
+It's the same for global variables.
+`const` and `constexpr` have internal linkage by default.
+### 7.7
+To make an external linkage identifier or function accessible to another file, you'll need to forward declare it (either in the file or in a header you'll include).
+Import global variables from other files with the `extern` keyword with forward declarations.
