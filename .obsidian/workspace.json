@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learncpp.com.md",
+                "file": "Window Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "learncpp.com"
+              "title": "Window Manager"
             }
           },
           {
-            "id": "ed7686771d186bc4",
+            "id": "b76b74e108f7335b",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/user-defined-namespaces-and-the-scope-resolution-operator/",
-                "title": "7.2 — User-defined namespaces and the scope resolution operator – Learn C++",
-                "mode": "webview"
+                "file": "Books/The C++ Programming Language.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "7.2 — User-defined namespaces and the scope resolution operator – Learn C++"
+              "icon": "lucide-file",
+              "title": "The C++ Programming Language"
             }
           },
           {
@@ -51,6 +51,26 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e14b0786cf4b3d94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed7686771d186bc4",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.learncpp.com/cpp-tutorial/local-variables/",
+                "title": "7.3 — Local variables – Learn C++",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "7.3 — Local variables – Learn C++"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,45 +140,6 @@
               "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "be6a76b1718c8b13",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "learncpp.com.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": true,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph of learncpp.com"
             }
           }
         ]
@@ -264,17 +245,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed7686771d186bc4",
+  "active": "b76b74e108f7335b",
   "lastOpenFiles": [
-    "learncpp.com.md",
+    "Window Manager.md",
+    "Tiling Manager.md",
+    "systemd.md",
+    "Stream Pointer.md",
+    "Free Software Foundation.md",
+    "Books/The C++ Programming Language.md",
     "vim.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Books/The Psychology of Computer Programming.md",
+    "learncpp.com.md",
+    "Nand to Tetris.md",
     "Escape Sequences.md",
     "clang-format.md",
     "vimium.md",
     "Ray Tracing in One Weekend.md",
-    "Books/The Psychology of Computer Programming.md",
-    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
-    "Books/The C++ Programming Language.md",
     "LLVM.md",
     "Compiler.md",
     "The Psychology of Computer Programming.md",
@@ -289,12 +276,6 @@
     "rmdir.md",
     "rm.md",
     "pwd.md",
-    "nano.md",
-    "mv.md",
-    "ls.md",
-    "cd.md",
-    "cat.md",
-    "Window Manager.md",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]

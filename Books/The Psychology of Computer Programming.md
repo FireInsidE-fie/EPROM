@@ -1,7 +1,7 @@
 ---
 Author: Gerald M. Weinberg
 tags:
-  - Book
+  - book
 ---
 # Bookmarks
 

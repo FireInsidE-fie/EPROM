@@ -3,6 +3,5 @@ tags:
   - Linux
   - programming_concept
 ---
-
-> [!NOTE] Research to be done!
-> How do stream pointers differ from [[File Descriptor]]s?
+Stream pointers are a higher level abstraction for [[File Descriptor]]s.
+They offer (between others): Buffering, file position management, formatted inputs with functions like `scanf` and enhanced portability.

@@ -2,12 +2,11 @@
 tags:
   - Tutorial
   - cpp
+Website: https://www.learncpp.com/
 ---
 [[C++]] tutorials and learning materials.
-# The tutorial
-https://www.learncpp.com/
 # Progress
-6.x - quiz
+7.3
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -273,7 +272,7 @@ Try to get a relative epsilon (like a tiny percentage of error margin).
 
 > [!INFO] Research to be done!
 > Everything bit manipulation and bitwise is there. Look into it when it's relevant.
-## 7
+## 7 - Namespaces
 ### 7.2
 You can create namespaces using this syntax :
 namespace NamespaceIdentifier
@@ -284,3 +283,5 @@ namespace NamespaceIdentifier {
 ```
 Use `::` without a namespace before it to access the global namespace.
 Useful to access the global namespace from inside another one.
+Both forward declarations and definition of functions have to be inside of the namespace block.
+That also means you can declare the same namescape across multiple header and source files, and everything inside those blocks will be under the same namescape.
