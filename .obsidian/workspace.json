@@ -50,6 +50,34 @@
             }
           },
           {
+            "id": "ca66cac5445d4399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Router.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Router"
+            }
+          },
+          {
+            "id": "f9c269526494d545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Routing Table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Routing Table"
+            }
+          },
+          {
             "id": "23d985447198c49c",
             "type": "leaf",
             "state": {
@@ -64,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "7938fb6b59dac359",
@@ -97,35 +125,21 @@
             }
           },
           {
-            "id": "c8f52e0d8c1ba855",
+            "id": "b9d24c8ac83f884b",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://42-cursus.gitbook.io/guide/4-rank-04/netpractice/theory",
-                "title": "Theory | Guide",
+                "url": "https://github.com/caroldaniel/42sp-cursus-netpractice",
+                "title": "GitHub - caroldaniel/42sp-cursus-netpractice: A guide to networking concepts.",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Theory | Guide"
-            }
-          },
-          {
-            "id": "0ad65b6edd3ff31c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing",
-                "title": "Classless Inter-Domain Routing - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Classless Inter-Domain Routing - Wikipedia"
+              "title": "GitHub - caroldaniel/42sp-cursus-netpractice: A guide to networking concepts."
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -380,11 +394,12 @@
       }
     ]
   },
-  "active": "0ad65b6edd3ff31c",
+  "active": "f9c269526494d545",
   "lastOpenFiles": [
+    "Routing Table.md",
+    "Router.md",
     "IP address.md",
     "Switch.md",
-    "Untitled.md",
     "Books/The C++ Programming Language.md",
     "Transmission Control Protocol.md",
     "learncpp.com.md",
@@ -411,7 +426,6 @@
     "The Psychology of Computer Programming.md",
     "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf.crdownload",
     "Books",
-    "Shell.md",
     "Code projects/Philosophers.canvas",
     "Code projects/Minishell.canvas",
     "Code projects"
