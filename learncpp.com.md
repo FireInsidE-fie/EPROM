@@ -6,7 +6,7 @@ Website: https://www.learncpp.com/
 ---
 [[C++]] tutorials and learning materials.
 # Progress
-7.9
+7.x quizz
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -303,3 +303,15 @@ It's the same for global variables.
 To make an external linkage identifier or function accessible to another file, you'll need to forward declare it (either in the file or in a header you'll include).
 Import global variables from other files with the `extern` keyword with forward declarations.
 Make global variables accessible from other files with the same keyword.
+### 7.9
+`inline` functions are useful for when a function body is so small that the overhead of calling it as a function becomes greater than the runtime of the function body itself.
+That means that for tiny functions like one that would calculate a minimum between two values, you can use the `inline` keyword to replace every call of that function with its body directly in the code.
+Try to not use `inline` functions with functions that have more than a few statements, this helps make the executable not *too* large.
+**Compilers are pretty good at doing that optimization themselves, make it a habit to not use the keyword.**
+If you need to use `inline`, you'll know it.
+### 7.10
+Before C++17, if you need global constants, put them in a namespace in a header file as `constexpr` variables.
+Otherwise, use `inline` variables (not functions) inside a header. This allows multiple files to have references to the same (`const` or `constexpr`) variable.
+### 7.13
+If you reaaaaaally wanna use `using` statement (spoiler, you don't), please declare them in block scope to make their duration not global.
+Please.
