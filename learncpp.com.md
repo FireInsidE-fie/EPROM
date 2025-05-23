@@ -6,7 +6,7 @@ Website: https://www.learncpp.com/
 ---
 [[C++]] tutorials and learning materials.
 # Progress
-7.8
+7.9
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -302,3 +302,4 @@ It's the same for global variables.
 ### 7.7
 To make an external linkage identifier or function accessible to another file, you'll need to forward declare it (either in the file or in a header you'll include).
 Import global variables from other files with the `extern` keyword with forward declarations.
+Make global variables accessible from other files with the same keyword.
