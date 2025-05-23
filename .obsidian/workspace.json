@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "637536c1f611f822",
+            "id": "8119c9fa3fc86c0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,68 @@
             }
           },
           {
-            "id": "ed7686771d186bc4",
+            "id": "dc0056326b57a74c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transmission Control Protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transmission Control Protocol"
+            }
+          },
+          {
+            "id": "1468950a38ca6371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IP address.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IP address"
+            }
+          },
+          {
+            "id": "23d985447198c49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ray Tracing in One Weekend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ray Tracing in One Weekend"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "7938fb6b59dac359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b19144dd5c31b677",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2013 Stroustrup - The C++ Programming Language 4th Edition"
+            }
+          },
+          {
+            "id": "3214227a2bf904cb",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -36,20 +97,35 @@
             }
           },
           {
-            "id": "e148e48fe48d6ea8",
+            "id": "c8f52e0d8c1ba855",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "vim.md",
-                "mode": "source",
-                "source": false
+                "url": "https://42-cursus.gitbook.io/guide/4-rank-04/netpractice/theory",
+                "title": "Theory | Guide",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "vim"
+              "icon": "globe-2",
+              "title": "Theory | Guide"
+            }
+          },
+          {
+            "id": "0ad65b6edd3ff31c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing",
+                "title": "Classless Inter-Domain Routing - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Classless Inter-Domain Routing - Wikipedia"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,6 +137,7 @@
       {
         "id": "a10290a45f0b7cfa",
         "type": "tabs",
+        "dimension": 63.26979472140763,
         "children": [
           {
             "id": "407d7f91a45acf99",
@@ -103,11 +180,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "0a6e8af355e46c4a",
+        "id": "14331782c3621e85",
         "type": "tabs",
+        "dimension": 36.73020527859238,
         "children": [
           {
             "id": "68068e575d50463f",
@@ -122,7 +200,7 @@
             }
           },
           {
-            "id": "be6a76b1718c8b13",
+            "id": "ba104d8a4cddc4ec",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -137,12 +215,12 @@
                   "localForelinks": true,
                   "localInterlinks": false,
                   "showTags": false,
-                  "showAttachments": true,
+                  "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
+                  "collapse-display": true,
+                  "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -180,7 +258,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learncpp.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +267,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for learncpp.com"
+              "title": "Backlinks"
             }
           },
           {
@@ -199,12 +276,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learncpp.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from learncpp.com"
+              "title": "Outgoing links"
             }
           },
           {
@@ -228,13 +304,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learncpp.com.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of learncpp.com"
+              "title": "Outline"
             }
           },
           {
@@ -252,51 +327,92 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "637536c1f611f822",
+  "floating": {
+    "id": "c16ba8fa96905c6d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a545a974fec91573",
+        "type": "window",
+        "children": [
+          {
+            "id": "9ed07ad6dff2dc44",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4cf877eab9176718",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html#outputanimage/theppmimageformat",
+                    "title": "Ray Tracing in One Weekend",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Ray Tracing in One Weekend"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1777,
+        "y": 32,
+        "width": 783,
+        "height": 1408,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0ad65b6edd3ff31c",
   "lastOpenFiles": [
+    "IP address.md",
+    "Switch.md",
+    "Untitled.md",
+    "Books/The C++ Programming Language.md",
+    "Transmission Control Protocol.md",
     "learncpp.com.md",
+    "Internet Protocol.md",
+    "Ray Tracing in One Weekend.md",
     "Nand to Tetris.md",
     "Free Software Foundation.md",
-    "vim.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
+    "Compiler.md",
+    "Orthodox Canonical Form.md",
     "Escape Sequences.md",
+    "Pasted image 20250518191101.png",
+    "gcc.md",
     "clang-format.md",
     "vimium.md",
-    "Ray Tracing in One Weekend.md",
-    "Books/The Psychology of Computer Programming.md",
-    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf",
-    "Books/The C++ Programming Language.md",
+    "GNU readline().md",
+    "vim.md",
     "LLVM.md",
-    "Compiler.md",
-    "The Psychology of Computer Programming.md",
-    "Sorting Algorithms.md",
+    "clang.md",
+    "Object File.md",
+    "cc.md",
+    "Stream Pointer.md",
     "Current Working Directory.md",
-    "git.md",
-    "C.md",
-    "Orthodox Canonical Form.md",
-    "Code projects/Philosophers.canvas",
+    "The Psychology of Computer Programming.md",
+    "Books/2013 Stroustrup - The C++ Programming Language 4th Edition.pdf.crdownload",
     "Books",
-    "touch.md",
-    "rmdir.md",
-    "rm.md",
-    "pwd.md",
-    "nano.md",
-    "mv.md",
-    "ls.md",
-    "cd.md",
+    "Shell.md",
+    "Code projects/Philosophers.canvas",
     "Code projects/Minishell.canvas",
     "Code projects"
   ]
