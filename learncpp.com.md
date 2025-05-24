@@ -6,7 +6,7 @@ Website: https://www.learncpp.com/
 ---
 [[C++]] tutorials and learning materials.
 # Progress
-8.1
+8.4
 # Bookmarks - Stuff to remember
 ## 0 - Introduction
 ### 0.1
@@ -316,3 +316,5 @@ Otherwise, use `inline` variables (not functions) inside a header. This allows m
 If you reaaaaaally wanna use `using` statement (spoiler, you don't), please declare them in block scope to make their duration not global.
 Please.
 ## 8 - Control flow
+### 8.4
+In C++17, you can do `constexpr` if statements. Use them if the condition contains only `constexpr` values.

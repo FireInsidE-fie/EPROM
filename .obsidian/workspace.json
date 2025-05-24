@@ -48,12 +48,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.learncpp.com/cpp-tutorial/control-flow-introduction/",
-                "title": "8.1 — Control flow introduction – Learn C++",
+                "url": "https://www.learncpp.com/cpp-tutorial/switch-statement-basics/",
+                "title": "8.5 — Switch statement basics – Learn C++",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "8.1 — Control flow introduction – Learn C++"
+              "title": "8.5 — Switch statement basics – Learn C++"
             }
           }
         ]
@@ -231,9 +231,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e148e48fe48d6ea8",
+  "active": "68068e575d50463f",
   "lastOpenFiles": [
     "learncpp.com.md",
+    "Linked List.md",
     "Transmission Control Protocol.md",
     "Switch.md",
     "Routing Table.md",
@@ -259,7 +260,6 @@
     "The Psychology of Computer Programming.md",
     "Sorting Algorithms.md",
     "Current Working Directory.md",
-    "git.md",
     "Code projects/Philosophers.canvas",
     "Books",
     "Code projects/Minishell.canvas",

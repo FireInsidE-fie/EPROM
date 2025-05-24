@@ -1,7 +1,7 @@
 ---
 tags:
-  - Extension
   - cheatsheet
+  - browser_extension
 ---
 # Navigating the page
 j, <c-e>		Scroll down (scrollDown)
