@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "638567796ff931d7",
+        "id": "33f1978edd3e1bda",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "ca28a2323691c4b9",
+            "id": "7c99a8430cef4786",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Computer Science/Code projects/webserv.canvas",
                 "viewState": {
-                  "x": 4594.393828067597,
-                  "y": -3686.554004408523,
-                  "zoom": -0.3709083620206651
+                  "x": -1516,
+                  "y": -5190,
+                  "zoom": -0.17467853141294698
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -28,22 +27,24 @@
         ]
       },
       {
-        "id": "a4aabda295c41e37",
+        "id": "638567796ff931d7",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "c386a16006f66383",
+            "id": "ca28a2323691c4b9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "canvas",
               "state": {
-                "aFile": "Computer Science/Code projects/webserv.canvas",
-                "bFile": "Computer Science/Code projects/webserv.canvas",
-                "aRef": ""
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "viewState": {
+                  "x": 4650,
+                  "y": -3640,
+                  "zoom": -0.6637166121355679
+                }
               },
-              "icon": "diff",
-              "title": "Diff: webserv.canvas  (Working Tree)"
+              "icon": "lucide-layout-dashboard",
+              "title": "webserv"
             }
           }
         ]
@@ -213,7 +214,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -225,10 +225,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c386a16006f66383",
+  "active": "7c99a8430cef4786",
   "lastOpenFiles": [
     "Computer Science/Code projects/webserv.canvas",
-    "Computer Science/WebAssembly.md",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
     "Math/Vector.md",
@@ -237,6 +236,7 @@
     "Pasted image 20260213154008.png",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Web Server.md",
+    "Computer Science/WebAssembly.md",
     "Computer Science/ncat.md",
     "Computer Science/Docker.md",
     "Computer Science/Networking/Common Gateway Interface.md",
