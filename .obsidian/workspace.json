@@ -15,27 +15,13 @@
               "state": {
                 "file": "Computer Science/Code projects/webserv.canvas",
                 "viewState": {
-                  "x": 4420.709367380682,
-                  "y": -3687.0099533063135,
-                  "zoom": -0.44999999999999885
+                  "x": 3799.280934534746,
+                  "y": -4489.792844071473,
+                  "zoom": -0.7999999999999989
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "webserv"
-            }
-          },
-          {
-            "id": "66cbb6e323f308fa",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return",
-                "title": "Module ngx_http_rewrite_module",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Module ngx_http_rewrite_module"
             }
           }
         ]
@@ -218,15 +204,15 @@
   },
   "active": "ca28a2323691c4b9",
   "lastOpenFiles": [
+    "Computer Science/Project Ideas.md",
+    "Computer Science/Code projects/webserv.canvas",
     "EPROM Vault Structure.md",
     "Things to Learn.md",
-    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/WebAssembly.md",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
     "Math/Vector.md",
     "dsfd.md",
-    "Computer Science/Project Ideas.md",
     "Pasted image 20260213154008.png",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Web Server.md",
@@ -247,7 +233,6 @@
     "Computer Science/MIME Type.md",
     "Computer Science/MIME.md",
     "Computer Science/Networking/Webhook.md",
-    "Computer Science/FastCGI.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Untitled.base",
     "Odoo/Projects/stc-location/Meetings",
