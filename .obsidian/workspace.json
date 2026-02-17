@@ -4,27 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "638567796ff931d7",
+        "id": "626a64f98ece0831",
         "type": "tabs",
         "children": [
           {
-            "id": "ca28a2323691c4b9",
+            "id": "6c18ab1cddd1d671",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Computer Science/Code projects/webserv.canvas",
-                "viewState": {
-                  "x": 3799.280934534746,
-                  "y": -4489.792844071473,
-                  "zoom": -0.7999999999999989
+                "file": "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "webserv"
+              "icon": "lucide-file",
+              "title": "M001 - 09-02-2026 - MVP Requirements"
+            }
+          },
+          {
+            "id": "b9a501849519eb59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Books (deprecated)/The Rust Book.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Rust Book"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +222,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -202,20 +233,32 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ca28a2323691c4b9",
+  "active": "5afbc682b8960c44",
   "lastOpenFiles": [
-    "Computer Science/Project Ideas.md",
+    "Computer Science/Books (deprecated)/Exploring JavaScript.md",
+    "Computer Science/Books/The Raytracing Challenge.md",
+    "Computer Science/Books/The Psychology of Computer Programming.md",
+    "Computer Science/Tutorials (deprecated)/Cisco Net Academy.md",
+    "Computer Science/Tutorials/Nand to Tetris.md",
+    "Computer Science/Tutorials/AI Fluency.md",
+    "Computer Science/Tutorials/Algorithm Analysis Deep Dive.md",
+    "Computer Science/Tutorials/ARM Assembly - Raspberry Pi.md",
+    "Computer Science/Tutorials (deprecated)/learncpp.com.md",
+    "Computer Science/Tutorials/Learning Modern 3D Graphics Programming.md",
+    "Computer Science/Tutorials/Scratch a Pixel.md",
+    "Computer Science/Tutorials/Ray Tracing in One Weekend.md",
+    "Computer Science/Tutorials/The Vulkan Tutorial.md",
+    "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Code projects/webserv.canvas",
-    "EPROM Vault Structure.md",
-    "Things to Learn.md",
-    "Computer Science/WebAssembly.md",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
     "Math/Vector.md",
     "dsfd.md",
+    "Computer Science/Project Ideas.md",
     "Pasted image 20260213154008.png",
-    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Web Server.md",
+    "Computer Science/WebAssembly.md",
     "Computer Science/ncat.md",
     "Computer Science/Docker.md",
     "Computer Science/Networking/Common Gateway Interface.md",
@@ -223,17 +266,6 @@
     "Computer Science/Networking/Content Delivery Network.md",
     "Computer Science/Zabbix.md",
     "Computer Science/Mutex.md",
-    "Computer Science/Secure SHell.md",
-    "Computer Science/Secure Shell Protocol.md",
-    "Computer Science/UNIX Signal.md",
-    "Computer Science/Signal.md",
-    "Computer Science/Pipe.md",
-    "Computer Science/Pipes.md",
-    "Computer Science/InterProcess Communication.md",
-    "Computer Science/MIME Type.md",
-    "Computer Science/MIME.md",
-    "Computer Science/Networking/Webhook.md",
-    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Untitled.base",
     "Odoo/Projects/stc-location/Meetings",
     "Odoo/Projects/stc-location/Deliverables",
