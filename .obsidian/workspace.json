@@ -11,14 +11,17 @@
             "id": "1c683e733f4cfff1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "canvas",
               "state": {
-                "aFile": ".obsidian/plugins/harper/data.json",
-                "bFile": ".obsidian/plugins/harper/data.json",
-                "aRef": ""
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "viewState": {
+                  "x": 3800,
+                  "y": -4280,
+                  "zoom": -1.7068691694200728
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-layout-dashboard",
+              "title": "webserv"
             }
           }
         ]
@@ -144,39 +147,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "b2c79f52e6f581c4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Odoo/Projects/stc-location/Scratchboard.canvas",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Scratchboard"
-            }
-          },
-          {
-            "id": "fb146dca994816fc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Odoo/Projects/stc-location/Scratchboard.canvas",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Scratchboard"
             }
           }
         ],
