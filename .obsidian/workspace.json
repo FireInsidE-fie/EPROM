@@ -15,9 +15,9 @@
               "state": {
                 "file": "Computer Science/Code projects/webserv.canvas",
                 "viewState": {
-                  "x": -790,
-                  "y": -3916,
-                  "zoom": -0.08594961281861539
+                  "x": -754.6829749049416,
+                  "y": -3987.741937642588,
+                  "zoom": -0.12538459380134787
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
