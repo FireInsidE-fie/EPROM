@@ -15,9 +15,9 @@
               "state": {
                 "file": "Computer Science/Code projects/webserv.canvas",
                 "viewState": {
-                  "x": 3800,
-                  "y": -4280,
-                  "zoom": -1.7068691694200728
+                  "x": 2963.766336633662,
+                  "y": -5539.041584158416,
+                  "zoom": -0.6637166121355679
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -148,6 +148,39 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "401666d0e462d98a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for webserv"
+            }
+          },
+          {
+            "id": "bb4ea104feb6b568",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from webserv"
+            }
           }
         ],
         "currentTab": 2
@@ -169,11 +202,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1c683e733f4cfff1",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
-    "Computer Science/Code projects/webserv.canvas",
-    "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Computer Science/Networking/Transmission Control Protocol.md",
+    "Computer Science/Networking/TCP IP Model.md",
+    "Odoo/Projects/stc-location/Deliverables/Quotation.md",
+    "Odoo/Projects/stc-location/Meetings/M002 - XX-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
+    "Odoo/Projects/stc-location/Meetings/M003 - XX-02 -2026 - Final Quotation.md",
+    "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Math/Vector.md",
+    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Books (deprecated)/The Rust Book.md",
     "Computer Science/Books (deprecated)/Exploring JavaScript.md",
     "Computer Science/Books/The Raytracing Challenge.md",
@@ -190,17 +229,12 @@
     "Computer Science/Tutorials/The Vulkan Tutorial.md",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
-    "Math/Vector.md",
     "dsfd.md",
     "Computer Science/Project Ideas.md",
     "Pasted image 20260213154008.png",
     "Computer Science/Networking/Web Server.md",
     "Computer Science/WebAssembly.md",
     "Computer Science/ncat.md",
-    "Computer Science/Docker.md",
-    "Computer Science/Networking/Common Gateway Interface.md",
-    "Computer Science/Data Structures/Queue.md",
-    "Computer Science/Networking/Content Delivery Network.md",
     "Untitled.base",
     "Odoo/Projects/stc-location/Meetings",
     "Odoo/Projects/stc-location/Deliverables",
