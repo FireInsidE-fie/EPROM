@@ -11,17 +11,14 @@
             "id": "1c683e733f4cfff1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "split-diff-view",
               "state": {
-                "file": "Computer Science/Code projects/webserv.canvas",
-                "viewState": {
-                  "x": -560,
-                  "y": -3580,
-                  "zoom": -0.6221464905146455
-                }
+                "aFile": "Computer Science/Code projects/webserv.canvas",
+                "bFile": "Computer Science/Code projects/webserv.canvas",
+                "aRef": ""
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "webserv"
+              "icon": "diff",
+              "title": "Diff: webserv.canvas  (Working Tree)"
             }
           }
         ]
@@ -204,15 +201,15 @@
   },
   "active": "1c683e733f4cfff1",
   "lastOpenFiles": [
+    "Computer Science/Code projects/webserv.canvas",
+    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Computer Science/Networking/Transmission Control Protocol.md",
     "Computer Science/Networking/TCP IP Model.md",
     "Odoo/Projects/stc-location/Deliverables/Quotation.md",
     "Odoo/Projects/stc-location/Meetings/M002 - XX-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Odoo/Projects/stc-location/Meetings/M003 - XX-02 -2026 - Final Quotation.md",
-    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Math/Vector.md",
-    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Books (deprecated)/The Rust Book.md",
     "Computer Science/Books (deprecated)/Exploring JavaScript.md",
     "Computer Science/Books/The Raytracing Challenge.md",
@@ -234,7 +231,6 @@
     "Pasted image 20260213154008.png",
     "Computer Science/Networking/Web Server.md",
     "Computer Science/WebAssembly.md",
-    "Computer Science/ncat.md",
     "Untitled.base",
     "Odoo/Projects/stc-location/Meetings",
     "Odoo/Projects/stc-location/Deliverables",
