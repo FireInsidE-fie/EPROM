@@ -15,9 +15,9 @@
               "state": {
                 "file": "Computer Science/Code projects/webserv.canvas",
                 "viewState": {
-                  "x": 2963.766336633662,
-                  "y": -5539.041584158416,
-                  "zoom": -0.6637166121355679
+                  "x": -790,
+                  "y": -3916,
+                  "zoom": -0.08594961281861539
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +203,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bc852d9c449dd058",
+  "active": "1c683e733f4cfff1",
   "lastOpenFiles": [
     "Computer Science/Networking/Transmission Control Protocol.md",
     "Computer Science/Networking/TCP IP Model.md",
