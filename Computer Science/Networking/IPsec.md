@@ -1,7 +1,7 @@
-The Internet Protocol Security or IPsec is **a secure network protocol suite that authenticates and encrypts packest of data**.
+The Internet Protocol Security or IPsec is **a secure network protocol suite that authenticates and encrypts packets of data**.
 It ensures secure, encrypted communications between two computers over an [[Internet Protocol]] network.
 It is notably used in [[Virtual Private Network]]s.
-# How does it work, really?
+# How Does It Work, Really?
 IPsec connections include a few different steps:
 1. **Key exchange**: The connection starts by exchanging cryptographic keys.
    These will be useful for encrypting the devices and, after transmission, decrypting them.
