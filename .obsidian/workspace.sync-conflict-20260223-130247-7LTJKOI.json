@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fab0fafd41754041",
+        "id": "ce3c210fd87cccb0",
         "type": "tabs",
         "children": [
           {
-            "id": "6b8e96b332bebf62",
+            "id": "f45c6b59e0e50074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Networking/Cryptography/X.509.md",
+                "file": "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "X.509"
+              "title": "M002 - 23-02-2026 - Quotation Draft"
             }
           }
         ]
@@ -43,10 +43,10 @@
       {
         "id": "7314ae3322c1ade6",
         "type": "tabs",
-        "dimension": 79.29138668295663,
+        "dimension": 69.8639942734431,
         "children": [
           {
-            "id": "19abd76a06e1d099",
+            "id": "5afbc682b8960c44",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +65,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,7 +90,7 @@
       {
         "id": "b3405bf85693d9b7",
         "type": "tabs",
-        "dimension": 20.708613317043373,
+        "dimension": 30.13600572655691,
         "children": [
           {
             "id": "2aa113e46b2d22b9",
@@ -117,21 +117,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75875c64b0cc9641",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Computer Science/Networking/Common Gateway Interface.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Common Gateway Interface"
-            }
-          },
-          {
             "id": "7fab731c95c112de",
             "type": "leaf",
             "state": {
@@ -147,6 +132,20 @@
             }
           },
           {
+            "id": "75875c64b0cc9641",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
             "id": "bc852d9c449dd058",
             "type": "leaf",
             "state": {
@@ -157,12 +156,12 @@
             }
           },
           {
-            "id": "abc11bc4ddc97925",
+            "id": "401666d0e462d98a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Odoo/Projects/stc-location/Tasks.md",
+                "file": "Computer Science/Code projects/webserv.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,25 +171,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tasks"
+              "title": "Backlinks for webserv"
             }
           },
           {
-            "id": "8456e32df12b12d0",
+            "id": "bb4ea104feb6b568",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Odoo/Projects/stc-location/Tasks.md",
+                "file": "Computer Science/Code projects/webserv.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tasks"
+              "title": "Outgoing links from webserv"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -198,61 +197,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "graph:Open graph view": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "canvas:Create new canvas": false,
-      "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "obsidian-git:Open Git source control": false
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6b8e96b332bebf62",
+  "active": "f45c6b59e0e50074",
   "lastOpenFiles": [
-    "Computer Science/Networking/Common Gateway Interface.md",
+    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
+    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Computer Science/Networking/Cryptography/X.509.md",
-    "Computer Science/Networking/SSLVPN.md",
-    "Computer Science/Networking/Cryptography/Certificates.md",
-    "Computer Science/Networking/Transport Layer Security.md",
-    "Computer Science/Networking/Cryptography/Hash.md",
-    "Computer Science/Networking/Cryptography",
-    "Computer Science/Networking/Secure Sockets Layer.md",
     "Computer Science/Networking/Lightweight Directory Access Protocol.md",
-    "Computer Science/Amazon S3.md",
-    "Computer Science/Active Directory.md",
-    "Computer Science/Kerberos.md",
-    "Computer Science/Linux.md",
-    "Computer Science/Display Manager.md",
-    "Computer Science/Escape Sequences.md",
-    "Computer Science/Docker.md",
-    "Computer Science/Networking/Small Computer System Interface.md",
-    "Computer Science/Core Dump.md",
+    "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
+    "Computer Science/Logical Unit Number.md",
     "Computer Science/Networking/iSCSI.md",
+    "Computer Science/Networking/Small Computer System Interface.md",
+    "Computer Science/Programming/git.md",
+    "Computer Science/Programming/clang-format.md",
+    "Computer Science/Networking/Remote Desktop Protocol.md",
+    "Computer Science/Programming/GCC.md",
+    "Computer Science/Networking/Network Time Protocol.md",
+    "Computer Science/Cyber Security/Insecure Direct Object Reference.md",
+    "Computer Science/Networking/Cryptography/Certificates.md",
+    "Computer Science/Networking/Mail Transfer Agent.md",
+    "Computer Science/Programming/Pipe.md",
+    "Computer Science/Programming/Closures.md",
+    "Computer Science/Programming/InterProcess Communication.md",
+    "Computer Science/Networking/Cryptography/Hash.md",
+    "Computer Science/Programming/Mutex.md",
+    "Computer Science/Programming/clang.md",
+    "Computer Science/Programming/GNU readline.md",
+    "Computer Science/Programming/Executable and Linkable Format.md",
     "Computer Science/Programming/WebAssembly.md",
-    "Computer Science/vimium.md",
-    "Parallel Bus.md",
-    "EPROM Vault Structure.md",
-    "Computer Science/vim.md",
-    "Computer Science/Valgrind.md",
-    "Computer Science/Linux Commands.md",
-    "Computer Science/lazygit.md",
+    "Computer Science/Programming/heredoc.md",
     "Computer Science/Programming",
-    "Computer Science/Networking/~syncthing~Webhook.md.tmp",
-    "Computer Science/Networking/~syncthing~Transmission Control Protocol.md.tmp",
-    "Computer Science/Code projects/~syncthing~webserv.canvas.tmp",
-    "Computer Science/~syncthing~Linux.md.tmp",
-    "Odoo/Projects/stc-location/~syncthing~Scratchboard.canvas.tmp",
-    "Computer Science/~syncthing~Mutex.md.tmp",
-    "Computer Science/~syncthing~systemd.md.tmp",
-    "Computer Science/~syncthing~.DS_Store.tmp",
+    "Computer Science/Networking/Cryptography",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
-    "Untitled.canvas",
-    "Computer Science/Code projects/miniRT.canvas",
     "Computer Science/Code projects/webserv.canvas",
+    "Pasted image 20260216083233.png",
+    "Pasted image 20260216083228.png",
+    "Pasted image 20260213154008.png",
+    "Untitled.base",
+    "Odoo/Projects/stc-location/Meetings",
+    "Odoo/Projects/stc-location/Deliverables",
+    "Odoo/Projects/stc-location",
+    "Odoo/Projects",
+    "Odoo/Modules",
+    "Odoo/Concepts",
+    "Odoo",
     "Pasted image 20251202195510.png",
+    "Computer Science/Code projects/miniRT.canvas",
     "Computer Science/Code projects/Philosophers.canvas",
     "Computer Science/Code projects/Minishell.canvas"
   ]
