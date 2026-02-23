@@ -11,14 +11,21 @@
             "id": "f45c6b59e0e50074",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "kanban",
               "state": {
-                "aFile": "Computer Science/Secure SHell.md",
-                "bFile": "Computer Science/Secure SHell.md",
-                "aRef": ""
+                "file": "Odoo/Projects/stc-location/Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Secure SHell  (Working Tree)"
+              "icon": "lucide-trello",
+              "title": "Tasks"
             }
           }
         ]
@@ -187,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
