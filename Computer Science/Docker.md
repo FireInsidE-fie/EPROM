@@ -160,8 +160,6 @@ services:
       - ecommerce
     ports:
       - '80:80'
-
-
   database:
     image: mysql:latest
     networks:

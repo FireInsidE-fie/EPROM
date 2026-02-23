@@ -2,7 +2,7 @@
 tags:
 ---
 The **default authentication protocol for any recent version of Windows**.
-# How it works
+# How It Works
 Users who log into a service using Kerberos are **assigned tickets**, which are basically session IDs that prove previous authentication.
 ## Usual Authentication Workflow
 1. The user sends their username and a timestamp encrypted using a key derived from their password to the *Key Distribution Center or KDC*. This service is usually installed on the Domain Controller of the [[Active Directory]].

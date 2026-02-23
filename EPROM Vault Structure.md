@@ -1,3 +1,8 @@
+---
+tags:
+  - meta
+---
+
 This page details all the conventions regarding the structure and organization of this Obsidian vault.
 # Folders
 Pages are structured in folders, which **determine the general theme of the pages within**.

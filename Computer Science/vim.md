@@ -1,5 +1,6 @@
 ---
 tags:
+  - editor
 ---
 **The** perfect text editor.
 An in-terminal text editor to edit text files, code and do a lot of stuff.
@@ -8,7 +9,7 @@ Most modern IDEs have plugins or builtin support for vim motions.
 # Derivatives
 [[nvim]]
 [[vimium]]
-# Vim modes
+# Vim Modes
 ## Normal mode
 In this mode, Vim motions and actions can be used. You can easily move around the document and make light edits with commands such as `r` and `x`, or enter another mode, copy and paste, delete entire lines, etc...
 ## Insert mode

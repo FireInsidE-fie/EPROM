@@ -1,3 +1,8 @@
+---
+tags: 
+abbreviation: JWT
+---
+
 JWTs are simple tokens that **allow you to store key-value pairs on a token that provides integrity as part of it**.
 The idae it that you can generate tokens you can give your users (as cookies) while being certain they won't be able to tamper with it to try and impersonate someone else.
 # Structure

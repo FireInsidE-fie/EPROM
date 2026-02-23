@@ -1,5 +1,6 @@
 ---
 tags:
+  - tool
 ---
 [[vim]] emulation in the browser.
 # Navigating the page

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "86f4f9685ffed172",
+        "id": "f77397577e6586b4",
         "type": "tabs",
         "children": [
           {
-            "id": "1c683e733f4cfff1",
+            "id": "eead83f2f706f4b1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Computer Science/Code projects/webserv.canvas",
-                "bFile": "Computer Science/Code projects/webserv.canvas",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: webserv.canvas  (Working Tree)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -96,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -199,38 +194,41 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1c683e733f4cfff1",
+  "active": "eead83f2f706f4b1",
   "lastOpenFiles": [
-    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/Networking/Cryptography/X.509.md",
+    "Computer Science/Networking/Lightweight Directory Access Protocol.md",
+    "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
+    "Computer Science/Logical Unit Number.md",
+    "Computer Science/Networking/iSCSI.md",
+    "Computer Science/Networking/Small Computer System Interface.md",
+    "Computer Science/Programming/git.md",
+    "Computer Science/Programming/clang-format.md",
+    "Computer Science/Networking/Remote Desktop Protocol.md",
+    "Computer Science/Programming/GCC.md",
+    "Computer Science/Networking/Network Time Protocol.md",
+    "Computer Science/Cyber Security/Insecure Direct Object Reference.md",
+    "Computer Science/Networking/Cryptography/Certificates.md",
+    "Computer Science/Networking/Mail Transfer Agent.md",
+    "Computer Science/Programming/Pipe.md",
+    "Computer Science/Programming/Closures.md",
+    "Computer Science/Programming/InterProcess Communication.md",
+    "Computer Science/Networking/Cryptography/Hash.md",
+    "Computer Science/Programming/Mutex.md",
+    "Computer Science/Programming/clang.md",
+    "Computer Science/Programming/GNU readline.md",
+    "Computer Science/Programming/Executable and Linkable Format.md",
+    "Computer Science/Programming/WebAssembly.md",
+    "Computer Science/Programming/heredoc.md",
+    "Computer Science/Programming/LLVM.md",
+    "Computer Science/Programming/Compiler.md",
+    "Computer Science/Programming",
+    "Computer Science/Networking/Cryptography",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
-    "Computer Science/Networking/Transmission Control Protocol.md",
-    "Computer Science/Networking/TCP IP Model.md",
-    "Odoo/Projects/stc-location/Deliverables/Quotation.md",
-    "Odoo/Projects/stc-location/Meetings/M002 - XX-02-2026 - Quotation Draft.md",
-    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
-    "Odoo/Projects/stc-location/Meetings/M003 - XX-02 -2026 - Final Quotation.md",
-    "Math/Vector.md",
-    "Computer Science/Books (deprecated)/The Rust Book.md",
-    "Computer Science/Books (deprecated)/Exploring JavaScript.md",
-    "Computer Science/Books/The Raytracing Challenge.md",
-    "Computer Science/Books/The Psychology of Computer Programming.md",
-    "Computer Science/Tutorials (deprecated)/Cisco Net Academy.md",
-    "Computer Science/Tutorials/Nand to Tetris.md",
-    "Computer Science/Tutorials/AI Fluency.md",
-    "Computer Science/Tutorials/Algorithm Analysis Deep Dive.md",
-    "Computer Science/Tutorials/ARM Assembly - Raspberry Pi.md",
-    "Computer Science/Tutorials (deprecated)/learncpp.com.md",
-    "Computer Science/Tutorials/Learning Modern 3D Graphics Programming.md",
-    "Computer Science/Tutorials/Scratch a Pixel.md",
-    "Computer Science/Tutorials/Ray Tracing in One Weekend.md",
-    "Computer Science/Tutorials/The Vulkan Tutorial.md",
+    "Computer Science/Code projects/webserv.canvas",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
-    "dsfd.md",
-    "Computer Science/Project Ideas.md",
     "Pasted image 20260213154008.png",
-    "Computer Science/Networking/Web Server.md",
-    "Computer Science/WebAssembly.md",
     "Untitled.base",
     "Odoo/Projects/stc-location/Meetings",
     "Odoo/Projects/stc-location/Deliverables",
@@ -239,8 +237,6 @@
     "Odoo/Modules",
     "Odoo/Concepts",
     "Odoo",
-    "Computer Science/Algorithms",
-    "Computer Science/Data Structures",
     "Pasted image 20251202195510.png",
     "Computer Science/Code projects/miniRT.canvas",
     "Computer Science/Code projects/Philosophers.canvas",

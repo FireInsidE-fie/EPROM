@@ -1,0 +1,16 @@
+---
+tags:
+  - programming_concept
+---
+# Primer
+InterProcess Communication, or IPC, is the art of transmitting data from a process to another one, using tools such as [[Pipe]]s, [[FIFO]]s and many other mechanics.
+
+# Types of [[Unix]] IPC
+[[UNIX Signal]]
+[[Pipe]]
+[[FIFO]]
+Semaphore ([[System V#Inter-Process Communications]])
+[[Unix Socket]]
+
+# Resources
+[Beej's guide to InterProcess Communications](https://beej.us/guide/bgipc/)
