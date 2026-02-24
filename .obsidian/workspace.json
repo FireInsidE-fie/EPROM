@@ -11,21 +11,14 @@
             "id": "f45c6b59e0e50074",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "split-diff-view",
               "state": {
-                "file": "Odoo/Projects/stc-location/Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "aFile": "Computer Science/Code projects/webserv.canvas",
+                "bFile": "Computer Science/Code projects/webserv.canvas",
+                "aRef": ""
               },
-              "icon": "lucide-trello",
-              "title": "Tasks"
+              "icon": "diff",
+              "title": "Diff: webserv.canvas  (Working Tree)"
             }
           }
         ]
@@ -103,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -208,6 +202,8 @@
   },
   "active": "f45c6b59e0e50074",
   "lastOpenFiles": [
+    "Computer Science/Code projects/webserv.canvas",
+    "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Projects/stc-location/Meetings/M003 - 23-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
@@ -233,11 +229,8 @@
     "Computer Science/Programming/Mutex.md",
     "Computer Science/Programming/clang.md",
     "Computer Science/Programming/GNU readline.md",
-    "Computer Science/Programming/Executable and Linkable Format.md",
-    "Computer Science/Programming/WebAssembly.md",
     "Computer Science/Programming",
     "Computer Science/Networking/Cryptography",
-    "Computer Science/Code projects/webserv.canvas",
     "Pasted image 20260216083233.png",
     "Pasted image 20260216083228.png",
     "Pasted image 20260213154008.png",
