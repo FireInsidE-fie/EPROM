@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 Every device using the [[Internet Protocol]] is assigned a unique IP address to distinguish them from others.
 # Subnet Mask

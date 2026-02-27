@@ -1,3 +1,8 @@
+---
+tags:
+  - tool/network
+  - networking
+---
 Uncomplicated FireWall or UFW is a simple to use [[Firewall]], providing simple setting of rules at the host level.
 # Cheatsheet
 All `ufw` commands **have to be run as root**.

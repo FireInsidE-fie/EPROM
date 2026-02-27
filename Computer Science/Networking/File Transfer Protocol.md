@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - protocol
+  - networking
 port: "21"
 abbreviation: FTP
 ---

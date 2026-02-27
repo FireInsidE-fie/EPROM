@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 A **physical network interface's identifier**, the MAC (Media Access Control) address is here to uniquely identify a physical device.
 These can range from microchips found on motherboards, to interfaces found on database servers.

@@ -1,6 +1,7 @@
 ---
 tags:
-- protocol
+  - protocol
+  - networking
 abbreviation: CGI
 ---
 The Common Gateway Interface or CGI is **an interface specification for [[Web Server]]s to execute an external program to process [[HyperText Transfer Protocol]] requests**.

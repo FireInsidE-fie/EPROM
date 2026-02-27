@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 A domain name is a string that identifies a realm of autonomy, authority or control.
 They are often used **to identify services provided through the Internet**, like websites, email services, etc...

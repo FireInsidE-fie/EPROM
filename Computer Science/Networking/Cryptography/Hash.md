@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - cryptography
 ---
 A Hash or *hash value* is **a fixed-size string that is computed by a hash function**.
 A *hash function* is **a pure function that takes input of an arbitrary size and returns an output of fixed length**.

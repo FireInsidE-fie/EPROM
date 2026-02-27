@@ -1,5 +1,7 @@
 ---
 tags:
+  - protocol
+  - networking
 ---
 
 RDP or Remote Desktop Protocol allows for **remote login on a system using a GUI**.

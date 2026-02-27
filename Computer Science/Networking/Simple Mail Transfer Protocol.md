@@ -1,5 +1,7 @@
 ---
 tags:
+  - protocol
+  - networking
 port: "25"
 ---
 The Simple Mail Transfer Protocol is a standard internet communication protocol **for electronic mail transmission**.

@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/network
+  - networking
 ---
 PHP [[FastCGI]] Process Manager is **an implementation of FastCGI for PHP designed to handle high traffic websites**.
 **It daemonizes PHP**, which makes it run in the background instead of as a foreground process.

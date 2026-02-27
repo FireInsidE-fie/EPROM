@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 Subnetting is the action of **splitting up a network into smaller, miniature networks within itself called subnets**.
 It's a bit like having a network being a big cake. You slice it into smaller parts to share it between different people.

@@ -58,12 +58,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Science/Algorithms/Algorithm.md",
-                "bFile": "Computer Science/Algorithms/Algorithm.md",
+                "aFile": "Computer Science/Networking/Apache.md",
+                "bFile": "Computer Science/Networking/Apache.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Algorithm  (Working Tree)"
+              "title": "Diff: Apache  (Working Tree)"
             }
           }
         ],

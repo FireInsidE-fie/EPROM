@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 A reverse proxy is **a server that sits in from of [[Web Server]]s and forwards client requests to those web servers**.
 This helps in increasing security, performance, and reliability of the information presented by the web servers.

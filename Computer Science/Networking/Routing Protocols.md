@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 When a [[Router]] sends an [[Internet Protocol]] packet on its way to its destination, it can use a variety of **routing protocols** to choose which path to take.
 # OSPF - Open Shortest Path First

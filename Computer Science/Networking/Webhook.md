@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - networking
+---
 A webhook is **a [[HyperText Transfer Protocol]] callback**, a way for a website to tell a program something is ready.
 # Use Case
 Instead of *polling*, as in repeatedly checking "has anything changed?", webhooks allow applications to **get a notification when things are ready**, via a `POST` request.

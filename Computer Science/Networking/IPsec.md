@@ -1,3 +1,9 @@
+---
+tags:
+  - protocol
+  - networking
+  - security
+---
 The Internet Protocol Security or IPsec is **a secure network protocol suite that authenticates and encrypts packets of data**.
 It ensures secure, encrypted communications between two computers over an [[Internet Protocol]] network.
 It is notably used in [[Virtual Private Network]]s.

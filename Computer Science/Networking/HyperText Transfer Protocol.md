@@ -1,5 +1,7 @@
 ---
 tags:
+  - protocol
+  - networking
 port: "80"
 abbreviation: HTTP
 ---

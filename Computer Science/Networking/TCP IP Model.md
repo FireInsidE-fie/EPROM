@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 The TCP/IP model is the [[OSI Model]] implemented using the [[Internet Protocol]] over [[Transmission Control Protocol]].
 # Layers
