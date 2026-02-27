@@ -53,17 +53,17 @@
             }
           },
           {
-            "id": "475129b48e53efaa",
+            "id": "312d262dcfb8ec74",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Science/Code projects/webserv.canvas",
-                "bFile": "Computer Science/Code projects/webserv.canvas",
+                "aFile": "Computer Science/Networking/HyperText Transfer Protocol.md",
+                "bFile": "Computer Science/Networking/HyperText Transfer Protocol.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: webserv.canvas  (Working Tree)"
+              "title": "Diff: HyperText Transfer Protocol  (Working Tree)"
             }
           }
         ],
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -245,23 +246,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "475129b48e53efaa",
+  "active": "312d262dcfb8ec74",
   "lastOpenFiles": [
+    "Computer Science/Networking/iSCSI.md",
     "Computer Science/Code projects/webserv.canvas",
+    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Modules/eCommerce Rental with Stock Management.md",
     "Odoo/Modules/Rental.md",
     "Odoo/Modules/eCommerce Rental with Planning.md",
     "Odoo/Modules/eCommerce Rental.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
-    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Cryptography/X.509.md",
     "Computer Science/Networking/Lightweight Directory Access Protocol.md",
     "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
     "Computer Science/Logical Unit Number.md",
-    "Computer Science/Networking/iSCSI.md",
     "Computer Science/Networking/Small Computer System Interface.md",
     "Computer Science/Programming/git.md",
     "Computer Science/Programming/clang-format.md",

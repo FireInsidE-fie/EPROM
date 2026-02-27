@@ -1,6 +1,7 @@
 ---
 tags:
-  - protocol, hardware
+  - protocol
+  - hardware
 abbreviation: SCSI
 ---
 Small Computer System Interface or SCSI is **a set of standards for linking peripheral devices, and transmitting data between them**.
