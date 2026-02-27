@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 System V refers to a **major version of [[Unix]] released by [[AT&T]] in 1983**.
 # Inter-Process Communications
 System V is often mentioned when talking about [[InterProcess Communication]] in a [[Unix]] system.

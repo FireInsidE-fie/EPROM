@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 A Window Manager is a system on [[Unix]] and [[Linux]] that **manages windows in a desktop environment (or just a GUI)**.
 Its job is to **draw window decorations like title bars and border, handle window placement, stacking, focus, resizing etc...**

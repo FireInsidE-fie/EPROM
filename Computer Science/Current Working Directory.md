@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 The current directory or folder a [[Shell]] or other terminal application is running in.
 All commands and actions from that [[Shell]] or application will be run inside that folder.

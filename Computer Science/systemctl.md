@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - linux
+---
 Systemctl is a **tool used to interact with the [[Systemd]] system and service manager**.
 See the Systemd page for details about terminology and the inner workings of the manager.
 # Cheatsheet

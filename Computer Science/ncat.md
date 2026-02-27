@@ -1,3 +1,9 @@
+---
+tags:
+  - tool/security
+  - networking
+  - security
+---
 An improved version of [[Netcat]] distributed by the [[NMAP Project]].
 **Provides encryption** alongside other features.
 # Cheat Sheet

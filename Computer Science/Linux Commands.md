@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 # Terminal
 ## pwd
 Prints the [[Current Working Directory]].

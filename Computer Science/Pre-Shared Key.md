@@ -1,5 +1,7 @@
 ---
 tags:
+  - protocol
+  - cryptography
 ---
 PSK or Pre-Shared Key is a protocol by which two devices communicate by encrypted messages.
 These messages are encrypted using an encryption key that is **the same for both server and client**, thus the name.

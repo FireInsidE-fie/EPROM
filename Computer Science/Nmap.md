@@ -1,5 +1,8 @@
 ---
 tags:
+  - tool/security
+  - networking
+  - security
 ---
 Nmap is **an open-source network scanner**.
 # Cheat sheet

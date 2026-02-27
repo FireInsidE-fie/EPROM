@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 chroot **changes what the current process believes is the root filesystem**.
 # Syscall
 At the syscall level, the C function is actually really really simple:

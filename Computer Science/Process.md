@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 
 # 64-bit [[Linux]] Process Memory Map
 In a 64-bit Linux environment, a process memory map typically includes:

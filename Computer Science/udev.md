@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 udev is a **userspace daemon that listens to the [[Linux]] [[Kernel]] for *uevents*, changes to the list of devices currently available to the system**.
 Essentially, every time a new device gets plugged in, the kernel notifies udev through a uevent, and udev is charged with creating the userspace interface in `/dev/xxx` with the right permissions, thereby allowing the users to access the devices, too.
 It is also tasked with **loading the appropriate [[Firmware]] for the devices** and creating symlinks referring to them.

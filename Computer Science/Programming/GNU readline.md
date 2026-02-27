@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - programming
 ---
 A C software library that provides in-line edition and history capabilities for interactive programs with a command-line interface for example, like [[bash]]. Part of the [[GNU Project]].
 

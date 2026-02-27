@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - standard
+  - security
 abbreviation: JWT
 ---
 

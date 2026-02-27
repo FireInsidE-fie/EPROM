@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 In [[bash]] and other [[Unix]] shells, heredocs are a type of redirection. You use them like `less << EOF`, where less is the command, and `<< EOF` is the heredoc itself.
 More generally, a here document is a part of a file that is treated as a completely different file. That's why it works the way it does in [[bash]], replacing input from actual input files with the input of a particular part of the terminal.
 # How it works

@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 # Common Directories
 - `/`: Root directory, the top level of the filesystem.

@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - networking
 ---
 Allows for **secure copying of files over [[Secure Shell Protocol]]**.
 

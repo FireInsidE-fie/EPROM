@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/security
+  - security
 ---
 Splunk is a platform for **collecting, storing and analyzing machine data**.
 It provides various tools for analyzing data, including search, correlation and visualization.

@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 A core dump, also called a *memory dump, crash dump, storage dump, system dump, or ABEND dump*, is a recorded state of the working memory of a Program at a specific time.
 Often, it's the [[Operating System]] that dumps the core of a program when it stops, either unexpectedly or expectedly (at a user's command like when using ^\\ on [[Linux]]).

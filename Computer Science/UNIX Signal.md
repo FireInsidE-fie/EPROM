@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 Signals are ways for **processes to communicate between each other**.
 Most of the available signals can be caught by processes, which allows them to behave differently based on specific signals.

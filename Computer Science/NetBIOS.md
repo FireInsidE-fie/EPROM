@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - protocol
+  - windows
+  - networking
 port: "139"
 ---
 

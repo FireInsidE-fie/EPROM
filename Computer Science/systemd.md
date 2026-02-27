@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - linux
 ---
 A **system and service manager for [[Linux]] [[Operating System]]s**.
 It is usually run as the first [[Process]] (PID 1) as an init system that brings up and maintains user-space [[Service]]s.

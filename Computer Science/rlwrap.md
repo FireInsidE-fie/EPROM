@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - linux
+---
 A tool that is essentially a wrapper on [[GNU readline]].
 # Examples
 ## Better netcat shell

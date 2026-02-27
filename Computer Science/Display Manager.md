@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - linux
+---
 Display Managers in [[UNIX]] and [[Linux]] environments are **software that runs before you log in** into a graphical environment. Their job is to **start the graphical server ([[X11]] or [[Wayland]]), present the login screen, authenticate you and then hand you off to your session**.
 # Launching a Window Manager
 When you log in through a display manager, **it looks through `/usr/share/wayland-sessions` (or `/usr/share/xsessions` for `.desktop` files**.

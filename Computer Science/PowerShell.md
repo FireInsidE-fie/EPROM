@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - windows
 ---
 PowerShell is a **tool from Microsoft designed to automate tasks and manage configurations**.
 It combines a command-line interface and a scripting language built on the [[.NET]] framework.

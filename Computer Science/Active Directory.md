@@ -1,5 +1,8 @@
 ---
 tags:
+  - concept
+  - windows
+  - security
 ---
 Active Directory is a **service for identity management of users, groups, computers, and general authentication**.
 # Terminology

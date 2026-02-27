@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/compiler
+  - programming
 ---
 A collection of modular and reusable compilers and other tool-chains.
 [Official website](https://llvm.org/)

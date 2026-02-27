@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - networking
 ---
 **An open-source software allowing extensive monitoring of servers and client's health and integrity.**
 Greatly configurable, it can target any device on which a Zabbix agent exists.

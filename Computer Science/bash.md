@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - linux
 ---
 The Bourne Again SHell `bash`, the GNU [[Shell]] that's usable on basically all [[UNIX]] systems.
 An interactive command interpreter AND a programming language too.

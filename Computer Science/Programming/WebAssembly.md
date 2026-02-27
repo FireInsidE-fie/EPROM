@@ -1,5 +1,7 @@
 ---
 tags:
+  - standard
+  - programming
 ---
 WebAssembly or Wasm for short, is a **binary instruction format for a stack-based [[Virtual Machine]]**.
 It enables deployment on the web for client and server applications.

@@ -1,5 +1,8 @@
 ---
 tags:
+  - protocol
+  - networking
+  - security
 port: 22
 abbreviation: SSH
 ---

@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool
+  - programming
 ---
 based version control system
 # Useful commands

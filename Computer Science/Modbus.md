@@ -1,5 +1,7 @@
 ---
 tags:
+  - protocol
+  - hardware
 port: "502"
 ---
 A protocol **without authentication to manage [[SCADA]] systems** and other industrial devices.

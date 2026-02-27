@@ -1,4 +1,5 @@
 ---
 tags:
+  - tool/editor
 ---
 An easier to use (and worse in possibly every way) text editor than [[vim]]. Sorry guys.

@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - networking
 ---
 Search Engines allow for easy retrieval and scraping of information on the world wide web.
 # Search Engine Operators

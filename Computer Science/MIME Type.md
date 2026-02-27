@@ -1,5 +1,7 @@
 ---
 tags:
+  - standard
+  - networking
 ---
 Multipurpose Internet Mail Extensions or MIME are **types determining the nature of a resources circulating over the internet.**
 It was originally designed mainly for email, but is now widely used in the [[HyperText Transfer Protocol]] and its derived form.

@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - networking
+---
 A utility that **allows you to create a Socket connection between two data sources**.
 
 # Cheatsheet
