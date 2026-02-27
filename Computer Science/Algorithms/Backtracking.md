@@ -1,6 +1,7 @@
 ---
 tags:
-  - programming_concept
+  - algorithm
+  - programming
 ---
 Backtracking involves [[Recursion]], but after the recursion is done, **you effectively "go back" a step to go down a different route**.
 This allows you to explore all possible combinations of different values or "paths".

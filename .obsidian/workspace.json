@@ -58,12 +58,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Science/Cyber Security/Bind Shell.md",
-                "bFile": "Computer Science/Cyber Security/Bind Shell.md",
+                "aFile": "Computer Science/Algorithms/Algorithm.md",
+                "bFile": "Computer Science/Algorithms/Algorithm.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Bind Shell  (Working Tree)"
+              "title": "Diff: Algorithm  (Working Tree)"
             }
           }
         ],

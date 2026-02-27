@@ -1,6 +1,7 @@
 ---
 tags:
-  - programming_concept
+  - concept
+  - programming
 ---
 Memory, or Random Access Memory (RAM) is the main storage of memory for an operating system at runtime.
 # Virtual vs Physical Memory

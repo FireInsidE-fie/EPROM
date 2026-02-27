@@ -1,6 +1,7 @@
 ---
 tags:
-  - programming_concept
+  - concept
+  - programming
 ---
 **Recursion is when a function calls itself when certain conditions are met**.
 Careful to set the conditions right, because this can easily result in a [[Stack]] overflow if the recursive function is called infinitely.

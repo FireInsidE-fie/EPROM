@@ -1,6 +1,7 @@
 ---
 tags:
-  - compiler
+  - tool/compiler
+  - programming
 ---
 The GNU Compiler Collection, the Linux specific C compiler. It's pretty good, just like [[clang]], but has more restrictive licenses such that you can't implement it into a project without making it open source. Also, [[clang]] is simply more suited for modern projects that don't require direct Linux kernel interop.
 

@@ -1,6 +1,7 @@
 ---
 tags:
-  - programming_concept
+  - concept
+  - programming
 ---
 Closures are when a function returns another function that **"remembers" variables local to the outer function**.
 The inner function will retain access to the members of the outer function **even after that one has finished execution and returned the inner function.**

@@ -1,6 +1,7 @@
 ---
 tags:
-  - compiler
+  - tool/compiler
+  - programming
 ---
 Clang is part of the [[LLVM]] project and as such, directly integrates it into its compilation system.
 The most notable difference between [[GCC]] and clang is the IR, or Intermediate Representation ; this allows [[LLVM]] to perform heavy optimizations on the code being compiled. The process is basically like this :
