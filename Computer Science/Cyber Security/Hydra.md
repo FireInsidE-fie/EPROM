@@ -1,3 +1,8 @@
+---
+tags:
+  - tool/security
+  - security
+---
 Hydra is a **brute force online password cracking program**.
 It is **also available through a CLI**.
 # Cheatsheet

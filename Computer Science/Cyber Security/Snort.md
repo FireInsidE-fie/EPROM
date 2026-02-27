@@ -1,3 +1,8 @@
+---
+tags:
+  - tool/security
+  - security
+---
 Snort is one of the most widely used [[Intrusion Detection System]]s in the world.
 It uses **signature-based and anomaly-based detections** to identify threats.
 It can also be used as both a **packet sniffer and packet logger**.

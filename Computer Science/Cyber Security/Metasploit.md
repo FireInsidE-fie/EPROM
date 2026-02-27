@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/security
+  - security
 ---
 The **most widely used exploitation framework**. Metasploit is a powerful tool that can support all stages of penetration testing, from enumeration to post-exploitation.
 It has two main version: a "Pro" version that is the commercial one (with a GUI) and the open-source "Framework" version that anyone can use.

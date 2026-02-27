@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/security
+  - security
 ---
 A password-recovery utility perfect for cracking hashes.
 # Single Crack Mode

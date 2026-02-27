@@ -1,5 +1,8 @@
 ---
 tags:
+  - vulnerability
+  - attack
+  - security
 abbreviation: CSRF
 ---
 Cross-Site Request Forgery or CSRF (also sometimes called sea-surf) is a type of attack on web applications.

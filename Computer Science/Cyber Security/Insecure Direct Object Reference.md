@@ -1,6 +1,7 @@
 ---
 tags:
   - vulnerability
+  - security
 ---
 IDOR or Insecure Object Reference occurs when you **don't check access on direct object references in your [[Uniform Resource Locator]]s**.
 For example, having a URL like `bank.com/account?id=11111` raises questions like "what happens if I just access `bank.com/account?id=22222`?".

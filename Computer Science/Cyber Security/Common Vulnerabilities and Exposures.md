@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - security
+---
 CVEs are **unique numbers given to digital vulnerabilities**.
 They were developed by the [[MITRE Corporation]].
 Whenever a new vulnerability is identified, **it is given a CVE number and published online in CVE databases**.

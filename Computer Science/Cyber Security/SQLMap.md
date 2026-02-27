@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/security
+  - security
 ---
 SQLMap is **an automated [[SQL Injection]] tool**.
 It detects and exploits SQL Injection vulnerabilities in web applications.

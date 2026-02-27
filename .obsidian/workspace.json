@@ -53,17 +53,17 @@
             }
           },
           {
-            "id": "312d262dcfb8ec74",
+            "id": "de9d7db86a391e84",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Science/Networking/HyperText Transfer Protocol.md",
-                "bFile": "Computer Science/Networking/HyperText Transfer Protocol.md",
+                "aFile": "Computer Science/Cyber Security/Bind Shell.md",
+                "bFile": "Computer Science/Cyber Security/Bind Shell.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: HyperText Transfer Protocol  (Working Tree)"
+              "title": "Diff: Bind Shell  (Working Tree)"
             }
           }
         ],
@@ -246,13 +246,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "312d262dcfb8ec74",
+  "active": "de9d7db86a391e84",
   "lastOpenFiles": [
+    "Odoo/Modules/eCommerce Rental with Stock Management.md",
     "Computer Science/Networking/iSCSI.md",
     "Computer Science/Code projects/webserv.canvas",
     "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Tasks.md",
-    "Odoo/Modules/eCommerce Rental with Stock Management.md",
     "Odoo/Modules/Rental.md",
     "Odoo/Modules/eCommerce Rental with Planning.md",
     "Odoo/Modules/eCommerce Rental.md",

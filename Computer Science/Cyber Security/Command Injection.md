@@ -1,6 +1,8 @@
 ---
 tags:
   - vulnerability
+  - attack
+  - security
 ---
 Command Injection occurs when **server-side code like PHP in a web app makes a call to a function that interacts with the server's console directly**.
 An injection vulnerability **allows an attacker to take advantage of that call to execute arbitrary code on the server**.

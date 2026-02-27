@@ -1,3 +1,8 @@
+---
+tags:
+  - tool/security
+  - security
+---
 Gobuster is a **tool for enumerating web directories, subdomains and virtual hosts**.
 # Commands
 Gobuster has multiple commands, each corresponding to a different **target to enumerate**.

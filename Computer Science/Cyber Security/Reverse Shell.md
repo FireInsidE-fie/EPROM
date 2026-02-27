@@ -1,5 +1,7 @@
 ---
 tags:
+  - attack
+  - security
 ---
 A Reverse [[Shell]] is **one of the most popular techniques for gaining access to a system when penetration testing**.
 The concept is simple: make the target **initiate a connection back to you** so you can avoid [[Firewall]]s and other security mechanisms.

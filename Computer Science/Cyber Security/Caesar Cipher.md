@@ -1,6 +1,7 @@
 ---
 tags:
   - algorithm
+  - cryptography
 ---
 The Caesar Cipher is an old algorithm from the first century after JC.
 The idea is simple: **shift each letter by a certain number to encrypt the message**.

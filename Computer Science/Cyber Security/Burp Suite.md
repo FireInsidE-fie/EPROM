@@ -1,5 +1,7 @@
 ---
 tags:
+  - tool/security
+  - security
 ---
 Burp Suite is a **framework designed for penetration-testing of web applications, mobile applications and their APIs**.
 It captures HTTP/HTTPS traffic between a browser and the web server, and allows you to redirect them freely.

@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - security
+---
 An Intrusion Detection System or IDS is a **system looking for unauthorized access or behavior on a network**.
 Upon detection of intrusion, an alert is generated and sent to the relevant staff.
 # Types of IDS

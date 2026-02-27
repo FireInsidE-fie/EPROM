@@ -1,5 +1,7 @@
 ---
 tags:
+  - concept
+  - security
 ---
 A Security Operations Center or SOC is a **dedicated facility operated by a specialized security team**.
 This team **aims to monitor an organization's network and resources and identify suspicious activity to prevent damage**.

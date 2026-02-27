@@ -1,6 +1,8 @@
 ---
 tags:
   - vulnerability
+  - attack
+  - security
 ---
 Cross-Site Scripting or XSS is **a web application vulnerability that lets you inject code into input fields that represent content displayed on the app**.
 This makes the code you inject execute as the element that needs to be displayed is loaded, getting you arbitrary code execution.
