@@ -8,7 +8,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f45c6b59e0e50074",
+            "id": "ed690733b6a79dd7",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Odoo/Projects/stc-location/Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "2ad548ee2b55abf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Odoo/Modules/eCommerce Rental with Stock Management.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "eCommerce Rental with Stock Management"
+            }
+          },
+          {
+            "id": "475129b48e53efaa",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
@@ -21,7 +66,8 @@
               "title": "Diff: webserv.canvas  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -200,14 +245,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f45c6b59e0e50074",
+  "active": "475129b48e53efaa",
   "lastOpenFiles": [
     "Computer Science/Code projects/webserv.canvas",
     "Odoo/Projects/stc-location/Tasks.md",
-    "Odoo/Projects/stc-location/Meetings/M003 - 23-02-2026 - Payment Flow.md",
-    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
-    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
+    "Odoo/Modules/eCommerce Rental with Stock Management.md",
+    "Odoo/Modules/Rental.md",
+    "Odoo/Modules/eCommerce Rental with Planning.md",
+    "Odoo/Modules/eCommerce Rental.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
+    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
+    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Cryptography/X.509.md",
     "Computer Science/Networking/Lightweight Directory Access Protocol.md",
     "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
@@ -225,10 +274,6 @@
     "Computer Science/Programming/Pipe.md",
     "Computer Science/Programming/Closures.md",
     "Computer Science/Programming/InterProcess Communication.md",
-    "Computer Science/Networking/Cryptography/Hash.md",
-    "Computer Science/Programming/Mutex.md",
-    "Computer Science/Programming/clang.md",
-    "Computer Science/Programming/GNU readline.md",
     "Computer Science/Programming",
     "Computer Science/Networking/Cryptography",
     "Pasted image 20260216083233.png",
