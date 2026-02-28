@@ -126,3 +126,9 @@ Cookies are saved when the server gives you a **Set-Cookie header** with your re
 This essentially asks your browser to save a piece of data and send it back to the server with its requests, so that the server can identify you among other users, for example.
 Your browser then uses the **Cookie header** to send it back to the server in its requests.
 # HTTP Messages Structure
+
+# Keep Alive Connections
+In HTTP 1.0, before the rise of persistent connections with 1.1, there existed a `Connection: Keep-alive` header.
+This header, added to a request, asked the server to **keep the connection alive even after the pending transaction is done**.
+The server would answer back with the same header if it was okay with this, or without it if not.
+If a message is sent to the server without that header, the server will close the connection.

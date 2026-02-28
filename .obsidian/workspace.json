@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ce3c210fd87cccb0",
+        "id": "de994265be754679",
         "type": "tabs",
         "children": [
           {
-            "id": "2ad548ee2b55abf7",
+            "id": "c5d10f06776d0ed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Tag Taxonomy.md",
+                "file": "Computer Science/Networking/HyperText Transfer Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tag Taxonomy"
+              "title": "HyperText Transfer Protocol"
             }
           }
         ]
@@ -188,7 +188,8 @@
               "title": "Outgoing links from webserv"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -208,18 +209,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2ad548ee2b55abf7",
+  "active": "c5d10f06776d0ed5",
   "lastOpenFiles": [
-    "Computer Science/Tag Taxonomy.md",
+    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025.md",
+    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Odoo/Modules/eCommerce Rental with Stock Management.md",
+    "Odoo/Modules/eCommerce Rental with Planning.md",
+    "Odoo/Projects/stc-location/Deliverables/Quotation.md",
+    "Computer Science/Tag Taxonomy.md",
+    "EPROM Vault Structure.md",
     "Computer Science/Networking/iSCSI.md",
     "Computer Science/Code projects/webserv.canvas",
     "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Modules/Rental.md",
-    "Odoo/Modules/eCommerce Rental with Planning.md",
     "Odoo/Modules/eCommerce Rental.md",
-    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Cryptography/X.509.md",
@@ -234,10 +238,6 @@
     "Computer Science/Networking/Network Time Protocol.md",
     "Computer Science/Cyber Security/Insecure Direct Object Reference.md",
     "Computer Science/Networking/Cryptography/Certificates.md",
-    "Computer Science/Networking/Mail Transfer Agent.md",
-    "Computer Science/Programming/Pipe.md",
-    "Computer Science/Programming/Closures.md",
-    "Computer Science/Programming/InterProcess Communication.md",
     "Computer Science/Programming",
     "Computer Science/Networking/Cryptography",
     "Pasted image 20260216083233.png",
