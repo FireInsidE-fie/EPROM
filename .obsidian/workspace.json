@@ -11,9 +11,26 @@
             "id": "c5d10f06776d0ed5",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "viewState": {
+                  "x": -1308.7856038900668,
+                  "y": -5283.940417209338,
+                  "zoom": 0.6500000000000004
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "webserv"
+            }
+          },
+          {
+            "id": "b9e7ea383bd003b2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Networking/HyperText Transfer Protocol.md",
+                "file": "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025 - Payment Process 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +45,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HyperText Transfer Protocol"
+              "title": "M004 - 28-02-2025 - Payment Process 2"
+            }
+          },
+          {
+            "id": "e148d6eb747ed139",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Odoo/Projects/stc-location/Scratchboard.canvas",
+                "viewState": {
+                  "x": -1593.246522146234,
+                  "y": -709.1242537873545,
+                  "zoom": 0.1287765125780462
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Scratchboard"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,23 +244,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c5d10f06776d0ed5",
+  "active": "b9e7ea383bd003b2",
   "lastOpenFiles": [
-    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025.md",
+    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Process 1.md",
+    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025 - Payment Process 2.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
+    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
+    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/Networking/HyperText Transfer Protocol.md",
     "Odoo/Modules/eCommerce Rental with Stock Management.md",
     "Odoo/Modules/eCommerce Rental with Planning.md",
     "Odoo/Projects/stc-location/Deliverables/Quotation.md",
     "Computer Science/Tag Taxonomy.md",
     "EPROM Vault Structure.md",
     "Computer Science/Networking/iSCSI.md",
-    "Computer Science/Code projects/webserv.canvas",
-    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Flow.md",
     "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Modules/Rental.md",
     "Odoo/Modules/eCommerce Rental.md",
-    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
-    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Computer Science/Networking/Cryptography/X.509.md",
     "Computer Science/Networking/Lightweight Directory Access Protocol.md",
     "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
@@ -237,7 +273,6 @@
     "Computer Science/Programming/GCC.md",
     "Computer Science/Networking/Network Time Protocol.md",
     "Computer Science/Cyber Security/Insecure Direct Object Reference.md",
-    "Computer Science/Networking/Cryptography/Certificates.md",
     "Computer Science/Programming",
     "Computer Science/Networking/Cryptography",
     "Pasted image 20260216083233.png",
