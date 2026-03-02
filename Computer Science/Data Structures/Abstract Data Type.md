@@ -6,5 +6,5 @@ Abstract Data Types refer to data types that can **be implemented with multiple 
 These include but aren't limited to:
 - [[Stack]]
 - [[Queue]]
-- [[Computer Science/Set]]
+- [[Set]]
 - ...

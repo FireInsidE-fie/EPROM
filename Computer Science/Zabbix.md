@@ -10,7 +10,7 @@ Click the header for the official list of terms defined in the Zabbix Manual.
 # Structure Overview
 ## Server
 The central component receiving reports from the agents and stocking everything in the Database.
-Essentially the central repository where all configuration, statistics and operations are stored.
+Essentially the central repository where all configuration, statistics, and operations are stored.
 It is the entity that is responsible for alerting administrators and sending notifications when triggers happen.
 ## Database
 Contains all the configuration information and the data gathered by Zabbix Agents.
@@ -27,36 +27,36 @@ They are deployed on the monitoring targets directly, running continually in the
 There are two types : Zabbix Agent and Zabbix Agent 2.
 The first is lightweight, supported on many platforms and written in C.
 The second is more flexible and extensible, written in Go.
-## Data flow
+## Data Flow
 Setting up a data flow in Zabbix is pretty tough, but extremely powerful.
 For example, you could create something that sends you an email if the CPU load on a given server is too high:
 - Create a host entry for the server
 - Create an item for monitoring the CPU
 - Add a trigger for when the CPU usage is too high
 - The trigger is followed by an action to send you an email
-# Related software
+# Related Software
 Zabbix works around modern web servers, database engines and PHP.
-The database, for example, supports many backends, like [[MySQL]], [[PostgreSQL]] and [[Oracle]].
-# Structure deep dive
+The database, for example, supports many backends, like [[MySQL]], [[PostgreSQL,]] and [[Oracle]].
+# Structure Deep Dive
 ## Server
 You usually set the server as a non-root **daemon** process (using [[systemctl]] for example). Zabbix can only run on [[Unix]] systems.
 ___
 It has a built-in High Availability feature which, if turned on, runs multiple Zabbix Server nodes in a cluster, with only one active.
 If one of them fails, another one picks up and continues where the other left off, in this way always having an instance up and running.
 ___
-You can encrypt communications between Zabbix Agents, Proxies and the Server using [[Pre-Shared Key]] keys.
+You can encrypt communications between Zabbix Agents, Proxies, and the Server using [[Pre-Shared Key]] keys.
 ## Agent (1)
-The Zabbix Agent is **deployed on the monitoring target** to actively check ressources and **report to the Zabbix Server** (or a Proxy, more on that below).
-Same as the Server, it runs as a background process, using [[systemctl]] on unix-likes and a [[Service]] on Windows.
+The Zabbix Agent is **deployed on the monitoring target** to actively check resources and **report to the Zabbix Server** (or a Proxy, more on that below).
+Same as the Server, it runs as a background process, using [[systemctl]] on Unix-likes and a [[Service]] on Windows.
 ___
 Zabbix agents use native system calls and as such are highly efficient.
-### Passive vs Active checking
+### Passive Vs Active Checking
 Passive checking occurs when the Agent **receives a specific request** from the Server (or Proxy).
 For example, the Server might request some data about the CPU load, and the Agent obliges and returns the result.
 ___
 Active checking, on the other hand, occurs when the Agent checks for data and sends it **without prior demand**.
 This means it checks for the given data all the time, without being prompted by the Server or a Proxy.
-It does so by retrieving a list of monitoring Items from the Server (Items are the specific things you want to monitor like CPU usage, RAM usage, etc...).
+It does so by retrieving a list of monitoring Items from the Server (Items are the specific things you want to monitor like CPU usage, RAM usage, etc.).
 ___
 Passive or Active checking is **chosen when configuring the Items** (Items of type "Zabbix agent" or "Zabbix agent (active)").
 ## Agent 2
@@ -69,12 +69,12 @@ Here are the listed enhancements:
 ___
 The Zabbix Agent 2 also **supports passive and active checking**.
 It runs as a daemon on [[Unix]]-likes, but as a standalone process on [[Windows Registry]] (though it can also be run as a [[Service]] if wanted).
-### Installing and configuring
+### Installing and Configuring
 #### Linux
 You install the Zabbix Agent 2 on Debian/Ubuntu systems by **adding the repo's key and source**.
 Configuration file located at `/etc/zabbix/zabbix_agent2.conf`.
-You'll want to set the Zabbix server [[IP Address]], [[Hostname]] directive matching the host config in the server, and [[ListenPort]] directive specifying the agent listening port.
-Enable and start the agent service using systemctl commands, then check proper operation by checking service status and reviewing log files at `/var/log/zabbix/`.
+You'll want to set the Zabbix server [[IP Address]], [[Hostname]] directive matching the host config in the server, and `ListenPort` directive specifying the agent listening port.
+Enable and start the agent service using systemctl commands, then check proper operation by checking service status and reviewing logfiles at `/var/log/zabbix/`.
 You can check network connectivity using [[telnet]] and [[Netcat]] commands to verify that the agent can talk to the Zabbix server.
 #### Windows
 Download the appropriate installer **from the official website**.
@@ -101,8 +101,8 @@ Custom data submission.
 
 ## Web Service
 # Templates
-Templates serve as **blueprints** for monitoring configurations, containing predefined items, triggers, graphs and discovery rules.
-Zabbix 7.0 LTS, for example, contains an extensive library of templates for existing operating systems, applications and network devices.
+Templates serve as **blueprints** for monitoring configurations, containing predefined items, triggers, graphs, and discovery rules.
+Zabbix 7.0 LTS, for example, contains an extensive library of templates for existing operating systems, applications, and network devices.
 ## Linking a Template with a Host
 You can **link a template** by associating one with a host in the Zabbix web interface, in `Configuration -> Hosts`.
 Select the target host, and use the Templates tab to link appropriate templates.

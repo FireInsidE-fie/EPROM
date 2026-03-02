@@ -10,7 +10,7 @@ Unlike most other command-line interface, **PowerShell is object-oriented** to m
 Instead of being entirely text-based like most other CLIs on the market, PowerShell cmdlets (command-lets) return objects that retain their properties and methods.
 ## Piping
 Even piping with `|` **sends objects instead of just text content**.
-# Cmd-lets
+# Cmd-Lets
 Cmd-lets are structured in a Verb-Noun structure, like `Get-Content` or `Set-Location`.
 ## File System
 ### Get-Content

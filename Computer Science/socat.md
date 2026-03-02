@@ -5,7 +5,7 @@ tags:
 ---
 A utility that **allows you to create a Socket connection between two data sources**.
 
-# Cheatsheet
+# Cheat Sheet
 ```sh
 # Extra verbose (-dd) creation of a TCP listener on port 443 to listen for a reverse shell, for example
 # This essentially creates a server socket for incoming connections

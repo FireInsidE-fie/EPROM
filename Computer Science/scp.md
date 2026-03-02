@@ -4,7 +4,6 @@ tags:
   - networking
 ---
 Allows for **secure copying of files over [[Secure Shell Protocol]]**.
-
 # Usage
 ```sh
 scp [SOURCE] [DESTINATION]

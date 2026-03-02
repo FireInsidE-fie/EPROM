@@ -1,3 +1,8 @@
+---
+tags:
+  - geometry
+---
+
 In mathematics, a vector **can represent either a position or a direction within a particular space**.
 # Numerical Representation
 Vectors can be represented both **geometrically**, but also **numerically**, through a sequence of numbers.
