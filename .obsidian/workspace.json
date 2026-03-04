@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/scp.md",
+                "file": "Odoo/Projects/stc-location/Time Log.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "scp"
+              "title": "Time Log"
             }
           }
         ]
@@ -210,8 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc852d9c449dd058",
+  "active": "687c461b996641e8",
   "lastOpenFiles": [
+    "Odoo/Projects/stc-location/Scratchboard.canvas",
+    "Odoo/Projects/stc-location/Time Log.md",
+    "Odoo/Projects/stc-location/Tasks.md",
+    "Odoo/Projects/Projects Organization.md",
+    "Computer Science/scp.md",
     "Computer Science/Pre-Shared Key.md",
     "Computer Science/Zabbix.md",
     "Computer Science/PowerShell.md",
@@ -220,7 +225,6 @@
     "Computer Science/SharePoint.md",
     "Computer Science/Secure SHell.md",
     "Computer Science/Search Engines.md",
-    "Computer Science/scp.md",
     "Computer Science/SCADA.md",
     "Computer Science/Data Structures/Set.md",
     "Tag Taxonomy.md",
@@ -244,11 +248,6 @@
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
     "Computer Science/Networking/Common Gateway Interface.md",
-    "Computer Science/Networking/SSLVPN.md",
-    "Computer Science/Networking/Cryptography/Certificates.md",
-    "Computer Science/Networking/Transport Layer Security.md",
-    "Computer Science/Networking/Cryptography/Hash.md",
-    "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Untitled.canvas",
     "Computer Science/Code projects/miniRT.canvas",
     "Computer Science/Code projects/webserv.canvas",
