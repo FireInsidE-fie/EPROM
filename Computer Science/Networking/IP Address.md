@@ -7,7 +7,7 @@ Every device using the [[Internet Protocol]] is assigned a unique IP address to 
 # Subnet Mask
 IP addresses are "divided" into two parts, one identifies the network of the host, the other, the host itself.
 In TCP/IP ([[Transmission Control Protocol]] over [[Internet Protocol]]), this is called the subnet mask.
-The CIDR determines the number of 1-bits found in the subnet mask, and thus its size.
+The CIDR determines the number of `1`-bits found in the subnet mask, and thus its size.
 By using the CIDR, you can determine the number of subnets found in a network.
 These are small independent networks; hosts need to be in the same subnet to communicate directly.
 
