@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "762129d89c8d134b",
+        "id": "9503e597321f1ffe",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8d86ee7ed415e6",
+            "id": "ec864b6ee179176a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odoo/Projects/stc-location/Time Log.md",
+                "file": "Computer Science/Data Structures/Red-Black Tree.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Time Log"
+              "title": "Red-Black Tree"
             }
           }
         ]
@@ -157,12 +157,12 @@
             }
           },
           {
-            "id": "2fc92c780146ce33",
+            "id": "6ac62076bf2a8fb3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/scp.md",
+                "file": "Computer Science/Data Structures/Red-Black Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,21 +172,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour scp"
+              "title": "Backlinks for Red-Black Tree"
             }
           },
           {
-            "id": "b3d7667232d6429c",
+            "id": "f7ed3434b29c9894",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/scp.md",
+                "file": "Computer Science/Data Structures/Red-Black Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de scp"
+              "title": "Outgoing links from Red-Black Tree"
             }
           }
         ],
@@ -210,10 +210,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f8d86ee7ed415e6",
+  "active": "ec864b6ee179176a",
   "lastOpenFiles": [
-    "Computer Science/PowerShell.md",
+    "Odoo/Modules/Inventory.md",
+    "Odoo/Modules/Contacts.md",
+    "Odoo/Modules/Website.md",
+    "Odoo/Modules/Rental.md",
+    "Odoo/Modules/eCommerce.md",
+    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025 - Payment Process 2.md",
+    "Tag Taxonomy.md",
+    "Computer Science/Tutorials (deprecated)/Cisco Net Academy.md",
     "Odoo/Projects/stc-location/Time Log.md",
+    "Computer Science/PowerShell.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
     "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Projects/Projects Organization.md",
@@ -227,7 +235,6 @@
     "Computer Science/Search Engines.md",
     "Computer Science/SCADA.md",
     "Computer Science/Data Structures/Set.md",
-    "Tag Taxonomy.md",
     "Computer Science/Window Manager.md",
     "Math/Vector.md",
     "Computer Science/Tail Recursion.md",
@@ -241,13 +248,7 @@
     "Computer Science/Networking/~syncthing~Virtual Private Network.md.tmp",
     "Computer Science/Networking/~syncthing~TCP IP Model.md.tmp",
     "Computer Science/Tutorials (deprecated)/~syncthing~learncpp.com.md.tmp",
-    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025 - Payment Process 2.md",
-    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Process 1.md",
     "Computer Science/Networking/Cryptography/~syncthing~Hash.md.tmp",
-    "Computer Science/Networking/IPsec.md",
-    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
-    "Computer Science/Docker.sync-conflict-20260223-121139-7LTJKOI.md",
-    "Computer Science/Networking/Common Gateway Interface.md",
     "Untitled.canvas",
     "Computer Science/Code projects/miniRT.canvas",
     "Computer Science/Code projects/webserv.canvas",

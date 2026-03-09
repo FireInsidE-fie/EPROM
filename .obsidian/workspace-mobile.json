@@ -160,8 +160,7 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "omnisearch:Omnisearch": false
+      "bases:Create new base": false
     }
   },
   "active": "445d99c566aec7e8",
