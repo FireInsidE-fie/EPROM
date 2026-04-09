@@ -4,12 +4,30 @@ Then, you add all the elements of the resulting matrix lines to be left with the
 ```
 v = (0, 0, 1)  // Vector pointing towards Z
 
-M
+M (rotates 90 degrees to the left)
 0 0 -1
 0 1 0
-1 0 1
+1 0 0
 
+Take column and multiply it with the right vector element
+First column is multiplied by the first vector element, etc.
+0 * (0, 0, 1) = (0, 0, 0)
+0 * (0, 1, 0) = (0, 0, 0)
+1 * (-1, 0, 0) = (-1, 0, 0)
 
+Which gives you
+0 0 -1
+0 0 0
+0 0 0
+
+Then, take each line, sum it all up to end up with only 3 numbers
+0 + 0 + -1 = -1
+0 + 0 + 0 = 0
+0 + 0 + 0 = 0
+=
+(-1, 0, 0)
+
+Your vector is now looking to the left!
 ```
 # Matrices Examples
 ## Identity Matrix
