@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "72ab4c5daca52cb7",
+        "id": "1d92b437616443b0",
         "type": "tabs",
         "children": [
           {
-            "id": "c53d44aee41259f0",
+            "id": "330edff6ac4d1921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odoo/Projects/stc-location/Logbook.md",
+                "file": "Math/Rotation Matrix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logbook"
+              "title": "Rotation Matrix"
             }
           },
           {
-            "id": "efcd6139cf7c7735",
+            "id": "02702667880ab74c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odoo/Projects/stc-location/Time Log.md",
+                "file": "Model Distillation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,28 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Time Log"
-            }
-          },
-          {
-            "id": "b0ad5b35dc28ae2d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Computer Science/Code projects/webserv.canvas",
-                "viewState": {
-                  "x": -428.14000000000004,
-                  "y": -3021.660000000004,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "webserv"
+              "title": "Model Distillation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Networking/Virtual LAN.md",
+                "file": "Model Distillation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Virtual LAN"
+              "title": "Outgoing links from Model Distillation"
             }
           }
         ],
@@ -253,13 +236,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0ad5b35dc28ae2d",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
+    "Math/Rotation Matrix.md",
+    "Model Distillation.md",
+    "Computer Science/Character Encoding Schemes.md",
+    "Computer Science/Amazon S3.md",
+    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/Docker.md",
     "Odoo/Projects/stc-location/Logbook.md",
     "Odoo/Projects/stc-location/Time Log.md",
     "Odoo/Projects/stc-location/Meetings/M005 - XX-03-2025 - ???.md",
     "Odoo/Projects/stc-location/Meetings/CM001 - 18-03-2026 - First meeting.md",
-    "Computer Science/Code projects/webserv.canvas",
     "Odoo/Projects/stc-location/Tasks.md",
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
@@ -269,7 +257,7 @@
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Computer Science/Networking/Virtual LAN.md",
     "Computer Science/Networking/Switch.md",
-    "Broadcast Domain.md",
+    "Computer Science/Networking/Broadcast Domain.md",
     "Computer Science/Networking/IP Address.md",
     "Computer Science/Networking/Internet Control Message Protocol.md",
     "Computer Science/Data Structures/Red-Black Tree.md",
@@ -279,11 +267,7 @@
     "Odoo/Modules/Website.md",
     "Odoo/Modules/Rental.md",
     "Odoo/Modules/eCommerce.md",
-    "Tag Taxonomy.md",
-    "Computer Science/Tutorials (deprecated)/Cisco Net Academy.md",
-    "Computer Science/PowerShell.md",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
-    "Odoo/Projects/Projects Organization.md",
     "Untitled.base",
     "Computer Science/~syncthing~Open Web Application Security Project.md.tmp",
     "Computer Science/Networking/~syncthing~Webhook.md.tmp",
