@@ -29,3 +29,4 @@ It allows you to retrieve, update, and manage the data being stored.
 - [[MongoDB]]
 - [[Oracle Database]]
 - [[MariaDB]]
+- [[PostgreSQL]]

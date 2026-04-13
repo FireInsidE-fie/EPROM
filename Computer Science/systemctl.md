@@ -5,7 +5,7 @@ tags:
 ---
 Systemctl is a **tool used to interact with the [[Systemd]] system and service manager**.
 See the Systemd page for details about terminology and the inner workings of the manager.
-# Cheatsheet
+# Cheat Sheet
 ```bash
 # List units that systemd currently has in memory
 systemctl list-units
@@ -19,6 +19,8 @@ systemctl status UNIT
 systemctl show
 # Show properties of one or more units or jobs
 systemctl show UNIT|JOB
+# Show configuration for a unit
+systemctl cat UNIT
 
 # Show the man page for one or more units, if available
 systemctl help UNIT
