@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1d92b437616443b0",
+        "id": "d86c2e8731805014",
         "type": "tabs",
         "children": [
           {
-            "id": "330edff6ac4d1921",
+            "id": "a1376091e28b0e06",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/harper/data.sync-conflict-20260413-185155-7LTJKOI.json",
-                "bFile": ".obsidian/plugins/harper/data.sync-conflict-20260413-185155-7LTJKOI.json",
-                "aRef": ""
+                "file": "Nix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.sync-conflict-20260413-185155-7LTJKOI.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Nix"
             }
           }
         ]
@@ -112,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Networking/Common Gateway Interface.md",
+                "file": "Nix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Common Gateway Interface"
+              "title": "Outline of Nix"
             }
           },
           {
@@ -200,8 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "330edff6ac4d1921",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
+    "NixOS.md",
+    "Nix.md",
     "Math/Rotation Matrix.md",
     "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-185155-7LTJKOI.md",
     "Structured Query Language.md",
@@ -227,8 +239,6 @@
     "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
     "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
     "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Process 1.md",
-    "Odoo/Projects/stc-location/Meetings/M004 - 28-02-2025 - Payment Process 2.md",
-    "Computer Science/Networking/Mail Transfer Agent.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
