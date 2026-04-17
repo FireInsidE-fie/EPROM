@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nix.md",
+                "file": "Computer Science/Nix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nix.md",
+                "file": "Computer Science/Nix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,11 +212,11 @@
   },
   "active": "bc852d9c449dd058",
   "lastOpenFiles": [
-    "NixOS.md",
-    "Nix.md",
+    "Computer Science/Nix.md",
+    "Computer Science/NixOS.md",
     "Math/Rotation Matrix.md",
     "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-185155-7LTJKOI.md",
-    "Structured Query Language.md",
+    "Computer Science/Structured Query Language.md",
     "Computer Science/PostgreSQL.md",
     "Computer Science/etcd.md",
     "Computer Science/Fibre Channel.md",
