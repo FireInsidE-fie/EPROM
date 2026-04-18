@@ -4,6 +4,13 @@
 ```sh
 # Remove unused packages from system
 nix-collect-garbage
+
+# Create a derivation from a file
+nix-instantiate file.nix
+# Evaluate a file as an expression
+nix-instantiate --eval file.nix
+# If no file is specified, it defaults to default.nix in the current directory
+nix-instantiate --eval
 ```
 ## Nix Shells
 Nix Shells are **useful to try one or several packages without installing them permanently**.
@@ -36,13 +43,40 @@ curl https://github.com/NixOS/nixpkgs/releases.atom | xml2json | jq .
 - `-p` lists packages that should be present in the interpreter's environment
 - `--pure` excludes most of the environment before running
 - `-I` sets the search path for packages; in the above case a specific commit of the nixpkgs repo
-## Declarative Shell Environments
+## Nix Files
 Creating *nix files* will allow you to **create a reproducible shell environment** that you can share with anyone who has nix installed.
 Declarative shell environments allow you to:
 - **Automatically run bash commands** during environment activation
 - Automatically set **environment variables**
 - Put the environment definition under **version control** and reproduce it on other machines
 ___
-`nix-shell` by default searches for a `shell.nix` file in the current directory containing a nix expression, and runs it to create a shell.
+`nix-shell` by default **searches for a `shell.nix` file in the current directory** containing a nix expression, and runs it to create a shell.
+Here, we first define the **version of nixpkgs to use** (pinned to a release branch in this case).
+Then, we explicitly define `config` and `overlays` to prevent them from being overridden by the global nix config.
+Finally, in `mkShellNoCC`, we **give the list of packages**, create an **environment variable** and define the command that will **run on shell startup**.
+```nix
+let
+  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05";
+  pkgs = import nixpkgs { config = {}; overlays = []; };
+in
+
+pkgs.mkShellNoCC {
+  packages = with pkgs; [
+    cowsay
+    lolcat
+  ];
+  
+  GREETING = "Hello, Nix!";
+  
+  shellHook = ''
+	echo $GREETING | cowsay | lolcat
+  '';
+}
+```
 # Resources
 - [nix.dev](https://nix.dev/)
+  *Tutorials and other useful resources*
+- [Nix Manual](https://nix.dev/manual/nix/2.28/introduction.html)*
+  *Language and package manager reference*
+- [Nix Status](https://status.nixos.org)
+  *Useful to pin a specific nixpkgs release when writing nix expressions (try to use a NixOS release or unstable)*
