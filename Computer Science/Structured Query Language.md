@@ -13,7 +13,7 @@ CREATE TABLE weather (
     temp_hi         int,           -- high temperature
     prcp            real,          -- precipitation
     date            date
-):
+);
 
 -- Insert values into a table
 INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');

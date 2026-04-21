@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Science/Nix.md",
-                "bFile": "Computer Science/Nix.md",
+                "aFile": "Computer Science/Structured Query Language.md",
+                "bFile": "Computer Science/Structured Query Language.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Nix  (Working Tree)"
+              "title": "Diff: Structured Query Language  (Working Tree)"
             }
           }
         ]
@@ -112,13 +112,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Nix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nix"
+              "title": "Outline"
             }
           },
           {
@@ -203,6 +202,11 @@
   "active": "a1376091e28b0e06",
   "lastOpenFiles": [
     "Computer Science/Nix.md",
+    "Computer Science/Structured Query Language.sync-conflict-20260420-215407-7LTJKOI.md",
+    "Computer Science/Structured Query Language.sync-conflict-20260420-170726-7LTJKOI.md",
+    "Computer Science/keepalived.md",
+    "Computer Science/Structured Query Language.sync-conflict-20260420-141507-7LTJKOI.md",
+    "Computer Science/Structured Query Language.sync-conflict-20260420-141508-7LTJKOI.md",
     "Computer Science/NixOS.md",
     "Math/Rotation Matrix.md",
     "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-185155-7LTJKOI.md",
@@ -224,11 +228,6 @@
     "Odoo/Projects/stc-location/Logbook.md",
     "Odoo/Projects/stc-location/Time Log.md",
     "Odoo/Projects/stc-location/Meetings/M005 - XX-03-2025 - ???.md",
-    "Odoo/Projects/stc-location/Meetings/CM001 - 18-03-2026 - First meeting.md",
-    "Odoo/Projects/stc-location/Tasks.md",
-    "Odoo/Projects/stc-location/Meetings/M002 - 23-02-2026 - Quotation Draft.md",
-    "Odoo/Projects/stc-location/Meetings/M001 - 09-02-2026 - MVP Requirements.md",
-    "Odoo/Projects/stc-location/Meetings/M003 - 25-02-2026 - Payment Process 1.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",

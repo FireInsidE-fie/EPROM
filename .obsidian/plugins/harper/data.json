@@ -626,6 +626,7 @@
     "YourPredicateAdjective": null
   },
   "userDictionary": [
+    "ARP",
     "Bourne",
     "C.",
     "CIDR",
@@ -667,7 +668,6 @@
     "interop",
     "nginx",
     "nginx's",
-    "nixpkgs",
     "systemctl",
     "udev",
     "webserv",
