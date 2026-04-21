@@ -6,7 +6,7 @@ A router is responsible for connecting multiple networks together.
 It has multiple interfaces, usually one for each network it connects to.
 Some devices are both routers and [[Gateway]]s.
 Routing occurs at layer 3 of the [[OSI Model]].
-# Network interfaces
+# Network Interfaces
 Be careful to not make the ranges of [[IP Address]]es between interfaces overlap.
 This would imply that the two interfaces belong to the same network.
 # Routing Tables
