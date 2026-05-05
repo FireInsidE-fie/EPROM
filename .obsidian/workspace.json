@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1031459ee845789b",
+        "id": "efd12dc12242ab8f",
         "type": "tabs",
         "children": [
           {
-            "id": "29eb580948f2a1a8",
+            "id": "1999b272e422770a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/harper/data.sync-conflict-20260504-140246-7LTJKOI.json",
-                "bFile": ".obsidian/plugins/harper/data.sync-conflict-20260504-140246-7LTJKOI.json",
-                "aRef": ""
+                "file": "XML Path Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.sync-conflict-20260504-140246-7LTJKOI.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "XML Path Language"
             }
           }
         ]
@@ -96,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -112,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Networking/Domain Name System.md",
+                "file": "XML Path Language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Domain Name System"
+              "title": "Outline of XML Path Language"
             }
           },
           {
@@ -171,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Rotation Matrix.md",
+                "file": "XML Path Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rotation Matrix"
+              "title": "Outgoing links from XML Path Language"
             }
           }
         ],
@@ -200,8 +211,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc852d9c449dd058",
+  "active": "1999b272e422770a",
   "lastOpenFiles": [
+    "XML Path Language.md",
     "Computer Science/DMARC.md",
     "Computer Science/DomainKeys Identified Mail.md",
     "Computer Science/Sender Policy Framework.md",
@@ -227,7 +239,6 @@
     "Computer Science/Application-Specific Integrated Circuit.md",
     "Computer Science/HAProxy.md",
     "Computer Science/Fibre Channel Protocol.md",
-    "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-085303-7LTJKOI.md",
     "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
