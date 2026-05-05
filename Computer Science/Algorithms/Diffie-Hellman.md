@@ -4,7 +4,7 @@ tags:
 ---
 Diffie-Hellman is a **key-exchange algorithm leveraging [[Public-key Cryptography]] to safely exchange a secret between two parties**.
 This secret is very often a symmetric key to be used for secure communications.
-# How it works
+# How It Works
 Here are the key steps:
 1. Alice and Bob agree on the **public variables**: a large prime number _p_ and a generator _g_, where 0 < _g_ < _p_. These values will be disclosed publicly over the communication channel. Although insecurely small, we will choose _p_ = 29 and _g_ = 3 to simplify our calculations.
 2. Each party chooses a private integer. As a numerical example, Alice chooses _a_ = 13, and Bob chooses _b_ = 15. Each of these values represents a **private key** and must not be disclosed.

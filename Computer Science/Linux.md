@@ -3,7 +3,7 @@ tags:
   - concept
   - linux
 ---
-# Common Directories
+# Common Directories[^1]
 - `/`: Root directory, the top level of the filesystem.
 - `/home`: User home directories.
 - `/dev`: System devices exposed by [[udev]].
@@ -12,6 +12,8 @@ tags:
 - `/etc`: Configuration files.
 - `/var`: Variable data, which is frequently accessed by services or apps running on the system for disk cache.
   Notable for storing logs in `/var/log`.
+- `/media`: Mount points for removable media (usb sticks, external drives, CDs, DVDs)
+- `/mnt`:  Mount points for temporarily mounted filesystems.
 - `/usr`: User programs and data.
 - `/lib`: Shared libraries.
 - `/root`: The home directory of the `root` user.
@@ -38,3 +40,5 @@ This is how [[Docker]] containers don't have access to other processes: **they h
 - `ipc`: [[System V]] [[InterProcess Communication]], [[POSIX]] message queues
 - `user`: User/group ID mappings
 - `cgroup`: Cgroup root directory view
+
+[^1]: See the hier(7) manual for more details

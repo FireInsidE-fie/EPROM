@@ -6,7 +6,7 @@ tags:
 ---
 A VPN or Virtual Private Network is a way to **create a dedicated tunnel between two network or devices, effectively creating a new network** (hence the name).
 This allows devices from different geographical positions to be connected together regardless of distance (or network!).
-# Okay, but... why?
+# Okay, but... Why?
 Using a VPN has multiple benefits:
 - It allows networks in **different geographical locations to be connected**.
   For example, a business with multiple offices worldwide will find it very beneficial when using it to create a single, interconnected network.
@@ -16,7 +16,7 @@ Using a VPN has multiple benefits:
 - It offer anonymity.
   Using a VPN effectively **helps at hiding your identity**, which is very useful for journalists and activists in countries where censorship is rampant.
   Of course, anonymity depends on the level of logging performed by the VPN's other devices. As such, only use VPNs from trusted sources (or your own).
-# VPN technologies
+# VPN Technologies
 There are several major VPN protocol versions, each using a different way to encrypt the actual data being transmitted.
 ## PPP
 This is used by PPTP to allow for authentication and provide encryption of data.
@@ -42,9 +42,9 @@ Secure Socket Tunneling Protocol uses SSL/TLS over port 443 to bypass firewall a
 Mainly used on Windows boxes.
 ## [[SSLVPN]]
 This one uses plain SSL/TLS as the encryption layer for the VPN connection.
-# Split vs Full Tunnelling
+# Split Vs Full Tunnelling
 The difference between split tunnel and full tunnel in SSLVPN is how network traffic from the remote user is routed through the VPN:
-- Full tunnel **routes all of the user's traffic, including local network access and internet browsing through the VPN**.
+- Full tunnel **routes all the user's traffic, including local network access and internet browsing through the VPN**.
   This means that all data is encrypted.
   This provides maximum security and privacy, at the cost of latency and slower speeds on all tasks, since everything goes through the VPN.
 - Split tunnel, on the other hand, **only routes traffic of specified apps or services through the VPN**.

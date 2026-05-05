@@ -12,5 +12,5 @@ Modbus organizes data into **four distinct types**, each serving a specific purp
 - Discrete Inputs: binary values representing sensor input (button pressed, door closed, sensor triggered)
 - Holding Registers: analog outputs, from 0 to 65535
 - Input Registers: analog inputs, from 0 to 65535
-# TCP vs Serial
+# TCP Vs Serial
 Modbus was original created to work over serial cables, but **it can now also use [[Transmission Control Protocol]] for its transport layer**.
