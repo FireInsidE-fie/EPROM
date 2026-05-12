@@ -33,8 +33,16 @@ Predicates are **great at isolating a specific node, often with a specific value
 //title[@lang='en']
 # Selects all title elements under a book that has a price higher than 35, under bookstore, starting from the root of the document
 /bookstore/book[price>35.00]/title
+# Selects all small elements containing a "from" text inside
+//small[text()='from']
 ```
-
+## Complicated Real-Life Examples
+```xpath
+# From the product_price div, grab the first child element, but only if it's a span that contains rental_duration in its t-if attribute
+//div[hasclass('product_price')]/*[1][self::span[contains(@t-if, 'rental_duration')]]
+# Finds the first sibling t from the del element named product_price_strikethrough 
+//del[@name='product_price_strikethrough']/following-sibling::t[1]
+```
 # Resources
 - [MDN Snippets Guide](https://developer.mozilla.org/en-US/docs/Web/XML/XPath/Guides/Snippets)
 - [XPath Tester](https://extendsclass.com/xpath-tester.html)

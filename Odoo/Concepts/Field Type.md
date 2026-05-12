@@ -1,8 +1,7 @@
 Field types **define the types of fields inside an Odoo [[Model]].**
-
 # List of Field Types
-All field types can have a **default value**.
-Suffixes of fields allow you to set a unit for the field's values. For example *Cost per km*.
+All field types allow their fields to have a **default value**.
+Suffixes of fields allow you to set a unit for the field's values. For example, *Cost per km*.
 - **Text**
 - **Multiline Text**
 - **HTML**

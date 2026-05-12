@@ -11,9 +11,26 @@
             "id": "1999b272e422770a",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Computer Science/Code projects/webserv.canvas",
+                "viewState": {
+                  "x": -531.5208486308629,
+                  "y": -3450.951657856322,
+                  "zoom": -0.8308729075570445
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "webserv"
+            }
+          },
+          {
+            "id": "dc61b4406162ee45",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "XML Path Language.md",
+                "file": "Computer Science/Networking/Common Gateway Interface.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +45,25 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "XML Path Language"
+              "title": "Common Gateway Interface"
+            }
+          },
+          {
+            "id": "a99bde18b77a2c44",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/graph.sync-conflict-20260509-094221-OC55DRX.json",
+                "bFile": ".obsidian/graph.sync-conflict-20260509-094221-OC55DRX.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: graph.sync-conflict-20260509-094221-OC55DRX.json  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,8 +243,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1999b272e422770a",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
+    "Computer Science/XML Path Language.md",
+    "Computer Science/RAID.md",
+    "RAID.md",
+    "Computer Science/Networking/Common Gateway Interface.md",
+    "Computer Science/Code projects/webserv.canvas",
     "XML Path Language.md",
     "Computer Science/DMARC.md",
     "Computer Science/DomainKeys Identified Mail.md",
@@ -235,11 +272,6 @@
     "Computer Science/PostgreSQL.md",
     "Computer Science/etcd.md",
     "Computer Science/Fibre Channel.md",
-    "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-172833-7LTJKOI.md",
-    "Computer Science/Application-Specific Integrated Circuit.md",
-    "Computer Science/HAProxy.md",
-    "Computer Science/Fibre Channel Protocol.md",
-    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",

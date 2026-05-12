@@ -19,7 +19,7 @@ Other CA certificates are called *intermediate* or *subordinate* CA certificates
 ## End-Entity Certificates
 An end-entity, on the other hand, identifies **the user**, like a person or a business.
 An end-entity certificate **cannot sign other certificates**.
-These certificates sometimes call *leaf* certificates.
+These certificates are sometimes called *leaf* certificates.
 ## Extensions
 - `.pem`
 - `.cer`, `.crt`, `.der`
