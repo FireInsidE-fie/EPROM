@@ -26,7 +26,7 @@ The specification **defines specific mechanisms by which meta-variables are to b
 The specification also **defines a lot of standard meta-variables**. All extension (implementation-defined) meta variables **must be prefixed with `X_`**.
 There may also be **Protocol-Specific meta-variables**, which depend on the protocol the initial request used.
 For HTTP, meta-variables prefixed with `HTTP_` can be set, **reflecting the HTTP headers to the CGI script**.
-Refer to [Section 4.1](https://www.rfc-editor.org/rfc/rfc3875#section-4.1) of RFC 3875 for details on every possible meta-variable.
+Refer to [Section 4.1](https://www.rfc-editor.org/rfc/rfc3875#section-4.1) of RFC 3875 for details on standard meta-variables.
 ## The CGI Response
 A CGI script's job is to **generate a response** to send back to the web server.
 **It has to**, it can't return 0 without pushing anything onto the standard output.

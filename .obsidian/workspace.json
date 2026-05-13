@@ -4,33 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "efd12dc12242ab8f",
+        "id": "4ca460c1def3b0bd",
         "type": "tabs",
         "children": [
           {
-            "id": "1999b272e422770a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Computer Science/Code projects/webserv.canvas",
-                "viewState": {
-                  "x": -531.5208486308629,
-                  "y": -3450.951657856322,
-                  "zoom": -0.8308729075570445
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "webserv"
-            }
-          },
-          {
-            "id": "dc61b4406162ee45",
+            "id": "59f46462c313cc9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Networking/Common Gateway Interface.md",
+                "file": "Computer Science/Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -45,25 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Gateway Interface"
-            }
-          },
-          {
-            "id": "a99bde18b77a2c44",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/graph.sync-conflict-20260509-094221-OC55DRX.json",
-                "bFile": ".obsidian/graph.sync-conflict-20260509-094221-OC55DRX.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: graph.sync-conflict-20260509-094221-OC55DRX.json  (Working Tree)"
+              "title": "Docker"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -155,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XML Path Language.md",
+                "file": "Computer Science/Networking/Domain Name System.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of XML Path Language"
+              "title": "Outline of Domain Name System"
             }
           },
           {
@@ -214,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XML Path Language.md",
+                "file": "Math/Rotation Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from XML Path Language"
+              "title": "Outgoing links from Rotation Matrix"
             }
           }
         ],
@@ -238,25 +205,20 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bc852d9c449dd058",
+  "active": "59f46462c313cc9b",
   "lastOpenFiles": [
-    "Computer Science/XML Path Language.md",
-    "Computer Science/RAID.md",
-    "RAID.md",
-    "Computer Science/Networking/Common Gateway Interface.md",
-    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/QEMU.md",
+    "Hypervisor.md",
+    "Computer Science/Cyber Security/Metasploit.md",
+    "Computer Science/Networking/Web Server.md",
+    "Computer Science/Cyber Security/Security Information and Event Management.md",
     "XML Path Language.md",
-    "Computer Science/DMARC.md",
-    "Computer Science/DomainKeys Identified Mail.md",
-    "Computer Science/Sender Policy Framework.md",
     "Computer Science/Networking/Domain Name System.md",
-    "Computer Science/Cyber Security/Gobuster.md",
-    "Odoo/Concepts/Model.md",
     "Computer Science/Networking/Router.md",
     "Computer Science/Networking/Switch.md",
     "Computer Science/Nix.md",
@@ -272,6 +234,11 @@
     "Computer Science/PostgreSQL.md",
     "Computer Science/etcd.md",
     "Computer Science/Fibre Channel.md",
+    "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-172833-7LTJKOI.md",
+    "Computer Science/Application-Specific Integrated Circuit.md",
+    "Computer Science/HAProxy.md",
+    "Computer Science/Fibre Channel Protocol.md",
+    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",

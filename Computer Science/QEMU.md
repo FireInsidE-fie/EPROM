@@ -2,7 +2,7 @@
 tags:
   - tool
 ---
-The Quick EMUlator, or QEMU, is a free and open-source emulator that uses dynamic [[Binary Translation]] to a emulate a computer's [[Processor]].
+The Quick EMUlator, or QEMU, is a free and open-source emulator that uses dynamic [[Binary Translation]] to emulate a computer's [[Processor]].
 In doing this, it **translates the emulated binary codes to native binary code to be executed on the machine**.
 QEMU supports the emulation of [[x86]], [[ARM]], [[PowerPC]], [[RISC-V]] and other architectures.
 # Operating Modes
