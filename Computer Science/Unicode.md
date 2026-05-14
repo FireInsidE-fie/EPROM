@@ -5,8 +5,8 @@ tags:
 Unicode is a **standard for representing and managing text in most of the world's writing systems**.
 Almost all modern software that works with text, works with that text in Unicode.
 Every year, a new version of that standard gets published (including new emojis, for example).
-# How it works
-## Code points vs Code units
+# How It Works
+## Code Points Vs Code Units
 These concepts are very important to understand how Unicode works under the hood:
 - Code points are **numbers that represent the atomic parts of Unicode text**.
   Most of them represent visible symbols, but they can also have different meanings, like specifying an aspect of the symbol.
@@ -15,7 +15,7 @@ These concepts are very important to understand how Unicode works under the hood
   One or more code units encode a single code point.
   **Each code unit has the same size**, which depends on the encoding format being used.
   The most popular format, UTF-8, has **8-bit code units**.
-## Encoding Unicode code points
+## Encoding Unicode Code Points
 The size of a code point nowadays (2025) is **21 bits**. These 21 bits are partitioned in 17 planes, with 16 bits in total.
 The main ways to encode code points is called **Unicode Transformation Format (UTF)**, and there is three versions of that technique:
 - **UTF-32: 32 bits**
@@ -30,7 +30,7 @@ The main ways to encode code points is called **Unicode Transformation Format (U
 
 > [!TODO] Research to be done!
 > I got lazy on the specifics of how the binary works in UTF-16 and 8, look it up when you want to!
-## Grapheme clusters
+## Grapheme Clusters
 Since a lot of languages think of singular "characters" very differently, Unicode also has different ways of thinking about a singular "character".
 Graphemes are one of these. It corresponds as closely as possible to a symbol displayed on screen or paper.
 It is also sometimes called a "user-perceived character", notably in the official Unicode documents.
