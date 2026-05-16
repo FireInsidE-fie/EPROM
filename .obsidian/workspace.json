@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca460c1def3b0bd",
+        "id": "efd12dc12242ab8f",
         "type": "tabs",
         "children": [
           {
-            "id": "59f46462c313cc9b",
+            "id": "1999b272e422770a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Operating System.md",
+                "file": "Computer Science/cmd.exe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Operating System"
+              "title": "cmd.exe"
             }
           },
           {
-            "id": "1a6ae520d8da37bb",
+            "id": "48c5fc71f4a01bb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unicode.md",
+                "file": "Computer Science/Cyber Security/OpenVAS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unicode"
+              "title": "OpenVAS"
+            }
+          },
+          {
+            "id": "ce929168a40dbc74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Cyber Security/CAPA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CAPA"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Networking/Domain Name System.md",
+                "file": "XML Path Language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Domain Name System"
+              "title": "Outline of XML Path Language"
             }
           },
           {
@@ -172,6 +196,25 @@
             }
           },
           {
+            "id": "ebcc170fe1384ed4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Cyber Security/CAPA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CAPA"
+            }
+          },
+          {
             "id": "bc852d9c449dd058",
             "type": "leaf",
             "state": {
@@ -182,40 +225,21 @@
             }
           },
           {
-            "id": "ebcc170fe1384ed4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Computer Science/Networking/Virtual LAN.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Rétrolien pour Virtual LAN"
-            }
-          },
-          {
             "id": "81fb030937024a82",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Rotation Matrix.md",
+                "file": "Computer Science/Cyber Security/CAPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rotation Matrix"
+              "title": "Outgoing links from CAPA"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -230,40 +254,40 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a6ae520d8da37bb",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
+    "Computer Science/Cyber Security/OpenVAS.md",
+    "Computer Science/Cyber Security/CAPA.md",
+    "Computer Science/cmd.exe.md",
     "Computer Science/ASCII.md",
-    "Computer Science/Operating System.md",
-    "Tag Taxonomy.md",
-    "Computer Science/systemd.md",
-    "Computer Science/Docker.md",
-    "Computer Science/QEMU.md",
+    "Odoo/Modules/Rental.md",
     "Computer Science/Hypervisor.md",
-    "Computer Science/Cyber Security/Metasploit.md",
-    "Computer Science/Networking/Web Server.md",
-    "Computer Science/Cyber Security/Security Information and Event Management.md",
+    "Computer Science/Operating System.md",
+    "Odoo/Concepts/Activity.md",
+    "Odoo/Concepts/Odoo Database.md",
+    "Odoo/Concepts/Model.md",
+    "Odoo/Concepts/View.md",
+    "Computer Science/Networking/Common Gateway Interface.md",
+    "Computer Science/Networking/Uniform Resource Locator.md",
+    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/RAID.md",
+    "Computer Science/XML Path Language.md",
+    "RAID.md",
     "XML Path Language.md",
+    "Computer Science/DMARC.md",
+    "Computer Science/DomainKeys Identified Mail.md",
+    "Computer Science/Sender Policy Framework.md",
     "Computer Science/Networking/Domain Name System.md",
+    "Computer Science/Cyber Security/Gobuster.md",
     "Computer Science/Networking/Router.md",
     "Computer Science/Networking/Switch.md",
     "Computer Science/Nix.md",
     "Computer Science/Structured Query Language.sync-conflict-20260420-215407-7LTJKOI.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-170726-7LTJKOI.md",
-    "Computer Science/keepalived.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-141507-7LTJKOI.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-141508-7LTJKOI.md",
-    "Computer Science/NixOS.md",
-    "Math/Rotation Matrix.md",
-    "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-185155-7LTJKOI.md",
-    "Computer Science/Structured Query Language.md",
-    "Computer Science/PostgreSQL.md",
-    "Computer Science/etcd.md",
-    "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
