@@ -367,11 +367,14 @@ function createMarkdownTable(tracker, settings) {
   }
   return ret;
 }
+function createCsvCell(content) {
+  return `"${content.replace(/"/g, '""')}"`;
+}
 function createCsv(tracker, settings) {
   let ret = "";
   for (let entry of orderedEntries(tracker.entries, settings)) {
     for (let row of createTableSection(entry, settings))
-      ret += row.join(settings.csvDelimiter) + "\n";
+      ret += row.map(createCsvCell).join(settings.csvDelimiter) + "\n";
   }
   return ret;
 }
@@ -597,7 +600,12 @@ function showConfirm(app, message) {
 }
 function renderNameAsMarkdown(app, label, getFile, component) {
   void import_obsidian3.MarkdownRenderer.render(app, label.innerHTML, label, getFile(), component);
-  label.innerHTML = label.querySelector("p").innerHTML;
+  let p = label.querySelector("p");
+  if (p.children.length > 0) {
+    label.replaceChildren(...Array.from(p.children));
+  } else {
+    label.setText(p.textContent);
+  }
 }
 var EditableField = class {
   constructor(row, indent, value) {

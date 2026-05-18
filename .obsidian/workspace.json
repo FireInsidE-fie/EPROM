@@ -4,59 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca460c1def3b0bd",
+        "id": "ecc13d636448e03a",
         "type": "tabs",
         "children": [
           {
-            "id": "59f46462c313cc9b",
+            "id": "b8e33b1d400ebf74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Computer Science/Operating System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".obsidian/plugins/omnisearch/manifest.json",
+                "bFile": ".obsidian/plugins/omnisearch/manifest.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Operating System"
-            }
-          },
-          {
-            "id": "1a6ae520d8da37bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Unicode.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Unicode"
+              "icon": "diff",
+              "title": "Diff: manifest.json  (Working Tree)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,7 +200,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "19abd76a06e1d099",
+  "active": "b8e33b1d400ebf74",
   "lastOpenFiles": [
     "Computer Science/ASCII.md",
     "Computer Science/Operating System.md",
