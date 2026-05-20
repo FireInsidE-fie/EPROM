@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ecc13d636448e03a",
+        "id": "efd12dc12242ab8f",
         "type": "tabs",
         "children": [
           {
-            "id": "b8e33b1d400ebf74",
+            "id": "ce929168a40dbc74",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/omnisearch/manifest.json",
-                "bFile": ".obsidian/plugins/omnisearch/manifest.json",
-                "aRef": ""
+                "file": "Computer Science/Cyber Security/Common Vulnerabilities and Exposures.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: manifest.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Common Vulnerabilities and Exposures"
             }
           }
         ]
@@ -96,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -112,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Networking/Domain Name System.md",
+                "file": "XML Path Language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Domain Name System"
+              "title": "Outline of XML Path Language"
             }
           },
           {
@@ -137,6 +148,24 @@
             }
           },
           {
+            "id": "ebcc170fe1384ed4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
             "id": "bc852d9c449dd058",
             "type": "leaf",
             "state": {
@@ -147,40 +176,20 @@
             }
           },
           {
-            "id": "ebcc170fe1384ed4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Computer Science/Networking/Virtual LAN.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Rétrolien pour Virtual LAN"
-            }
-          },
-          {
             "id": "81fb030937024a82",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Rotation Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rotation Matrix"
+              "title": "Outgoing links"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,40 +204,41 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8e33b1d400ebf74",
+  "active": "ce929168a40dbc74",
   "lastOpenFiles": [
+    "Computer Science/Cyber Security/CAPA.md",
+    "Computer Science/Networking/Common Gateway Interface.md",
+    "Computer Science/Cyber Security/OpenVAS.md",
+    "Computer Science/cmd.exe.md",
+    "Untitled.md",
+    "Computer Science/Networking/Link Aggregation Group.md",
+    "Computer Science/Networking/Link Aggregation Control Protocol.md",
+    "Computer Science/Hardware/Application-Specific Integrated Circuit.md",
+    "Computer Science/Hardware",
+    "Computer Science/MITRE ATT&CK.md",
+    "MITRE ATT&CK.md",
     "Computer Science/ASCII.md",
-    "Computer Science/Operating System.md",
-    "Tag Taxonomy.md",
-    "Computer Science/systemd.md",
-    "Computer Science/Docker.md",
-    "Computer Science/QEMU.md",
+    "Odoo/Modules/Rental.md",
     "Computer Science/Hypervisor.md",
-    "Computer Science/Cyber Security/Metasploit.md",
-    "Computer Science/Networking/Web Server.md",
-    "Computer Science/Cyber Security/Security Information and Event Management.md",
-    "XML Path Language.md",
-    "Computer Science/Networking/Domain Name System.md",
-    "Computer Science/Networking/Router.md",
-    "Computer Science/Networking/Switch.md",
-    "Computer Science/Nix.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-215407-7LTJKOI.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-170726-7LTJKOI.md",
-    "Computer Science/keepalived.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-141507-7LTJKOI.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-141508-7LTJKOI.md",
-    "Computer Science/NixOS.md",
-    "Math/Rotation Matrix.md",
-    "Computer Science/Networking/Broadcast Domain.sync-conflict-20260413-185155-7LTJKOI.md",
-    "Computer Science/Structured Query Language.md",
-    "Computer Science/PostgreSQL.md",
-    "Computer Science/etcd.md",
+    "Computer Science/Operating System.md",
+    "Odoo/Concepts/Activity.md",
+    "Odoo/Concepts/Odoo Database.md",
+    "Odoo/Concepts/Model.md",
+    "Odoo/Concepts/View.md",
+    "Computer Science/Networking/Uniform Resource Locator.md",
     "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/RAID.md",
+    "Computer Science/XML Path Language.md",
+    "RAID.md",
+    "XML Path Language.md",
+    "Computer Science/DMARC.md",
+    "Computer Science/DomainKeys Identified Mail.md",
+    "Computer Science/Sender Policy Framework.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
@@ -239,7 +249,6 @@
     "Computer Science/Programming/~syncthing~LLVM.md.tmp",
     "Computer Science/Networking/~syncthing~Simple Mail Transfer Protocol.md.tmp",
     "Computer Science/Networking/~syncthing~Virtual Private Network.md.tmp",
-    "Computer Science/Networking/~syncthing~TCP IP Model.md.tmp",
     "Untitled.canvas",
     "Computer Science/Code projects/miniRT.canvas",
     "Pasted image 20251202195510.png",

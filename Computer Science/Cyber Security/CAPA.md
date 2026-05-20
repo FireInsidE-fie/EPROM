@@ -4,6 +4,7 @@ tags:
   - windows
 ---
 CAPA or Common Analysis Platform for Artifacts is **a tool used for static analysis of executables**.
+It uses [[YAML]] rules to match malware behavior and report it.
 # Cheat Sheet
 ```powershell
 # Run CAPA on a specific binary
@@ -13,8 +14,12 @@ capa .\binary.bin
 capa /h
 
 # Use verbose or extra verbose for results
+# Extra verbose is useful to detail why a given CAPA rule was matched
 capa .\binary.bin /v
 capa .\binary.bin /vv
+
+# Output results as JSON
+capa .\binary.bin /v /j
 ```
 # Breakdown of Results
 Results of a CAPA analysis can be pretty complicated, so here is a breakdown of the structure.
@@ -34,6 +39,17 @@ Common attributes include *launcher* (launching additional payloads) or *downloa
 ## MBC
 Then, the *Malware Behavior Catalogue*. This one serves as **a repertoire of malware objectives and behaviors**.
 These results are often used in tandem with ATT&CK labels, to add additional information.
+## Namespace
+CAPA **uses namespaces to group items with the same purpose**.
+Namespaces are often nested, with top-level namespaces or TLNs containing more precise namespaces as you go down their levels.
+Namespaces are often **linked to capabilities**, which are the actual actions taken by malware, classified by namespace.
+
+> [!INFO] On Nursery rules
+> Nursery rules are CAPA rules that aren't quite polished just yet.
+> Look at that folder in the CAPA namespaces organization repo when you don't find the rule you're looking for in the folder that CAPA references.
+
 # Resources
 - [capa GitHub Repository](https://github.com/mandiant/capa)
+- [CAPA namespace organization](https://github.com/mandiant/capa-rules/blob/master/README.md#namespace-organization)
 - [MBC Summary](https://github.com/MBCProject/mbc-markdown/blob/main/mbc_summary.md)
+- [CAPA Explorer Web](https://mandiant.github.io/capa/explorer/#/)

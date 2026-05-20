@@ -35,4 +35,4 @@ Responses **comprise of a message header and a message body**.
 The headers of a CGI response are either CGI-specific, or protocol-specific, like HTTP headers to be used by the web server to send the response back to the client.
 For details, see [Section 6.3](https://www.rfc-editor.org/rfc/rfc3875#section-6.3) of the CGI RFC.
 # Resources
-[RFC 3875 [CGI 1.1]](https://www.rfc-editor.org/rfc/rfc3875)
+[RFC 3875](https://www.rfc-editor.org/rfc/rfc3875)
