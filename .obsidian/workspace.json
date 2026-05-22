@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Cyber Security/Common Vulnerabilities and Exposures.md",
+                "file": "Computer Science/Cyber Security/REMnux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Vulnerabilities and Exposures"
+              "title": "REMnux"
             }
           }
         ]
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -209,8 +208,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce929168a40dbc74",
+  "active": "19abd76a06e1d099",
   "lastOpenFiles": [
+    "Computer Science/Volatility.md",
+    "Computer Science/Cyber Security/REMnux.md",
+    "Computer Science/Cyber Security/INetSim.md",
+    "Computer Science/Code projects/webserv.canvas",
+    "Computer Science/Windows Registry.md",
+    "Computer Science/Cyber Security/oledump.md",
+    "Computer Science/Object Linking and Embedding.md",
+    "Odoo/Concepts/Action.md",
+    "Odoo/Modules/Rental.md",
+    "Computer Science/Cyber Security/Common Vulnerabilities and Exposures.md",
     "Computer Science/Cyber Security/CAPA.md",
     "Computer Science/Networking/Common Gateway Interface.md",
     "Computer Science/Cyber Security/OpenVAS.md",
@@ -223,22 +232,12 @@
     "Computer Science/MITRE ATT&CK.md",
     "MITRE ATT&CK.md",
     "Computer Science/ASCII.md",
-    "Odoo/Modules/Rental.md",
     "Computer Science/Hypervisor.md",
     "Computer Science/Operating System.md",
     "Odoo/Concepts/Activity.md",
     "Odoo/Concepts/Odoo Database.md",
     "Odoo/Concepts/Model.md",
     "Odoo/Concepts/View.md",
-    "Computer Science/Networking/Uniform Resource Locator.md",
-    "Computer Science/Code projects/webserv.canvas",
-    "Computer Science/RAID.md",
-    "Computer Science/XML Path Language.md",
-    "RAID.md",
-    "XML Path Language.md",
-    "Computer Science/DMARC.md",
-    "Computer Science/DomainKeys Identified Mail.md",
-    "Computer Science/Sender Policy Framework.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",
