@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Cyber Security/REMnux.md",
+                "file": "Computer Science/Open Web Application Security Project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "REMnux"
+              "title": "Open Web Application Security Project"
             }
           }
         ]
@@ -180,11 +180,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Open Web Application Security Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Open Web Application Security Project"
             }
           }
         ],
@@ -208,10 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19abd76a06e1d099",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
-    "Computer Science/Volatility.md",
+    "Computer Science/Cyber Security/Security Model.md",
+    "Computer Science/Cyber Security/FlareVM.md",
     "Computer Science/Cyber Security/REMnux.md",
+    "Computer Science/Volatility.md",
     "Computer Science/Cyber Security/INetSim.md",
     "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Windows Registry.md",
@@ -236,8 +239,6 @@
     "Computer Science/Operating System.md",
     "Odoo/Concepts/Activity.md",
     "Odoo/Concepts/Odoo Database.md",
-    "Odoo/Concepts/Model.md",
-    "Odoo/Concepts/View.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",

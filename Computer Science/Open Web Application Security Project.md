@@ -3,7 +3,10 @@ tags:
   - organization
   - security
 ---
-OWASP is a non-profit foundation focused on understanding web technologies and exploitations and providing resources and tools designed to improve the security of software applications.
+OWASP is a **nonprofit foundation focused on understanding web technologies and exploitation** and providing resources and tools designed to **improve the security of software applications**.
+It analyzes how the *IAAA principles* (Identity, Authentication, Authorization, and Accountability) were implemented and how they failed at implementing it.
+# OWASP Top 10 (2025)
+
 # OWASP Top 10 (2021)
 ## 1. Broken Access Control
 Accessing web pages standard users aren't supposed to access is still the most widely found vulnerabilities on web applications.
