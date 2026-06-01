@@ -7,15 +7,18 @@ PostgreSQL is an **open-source [[Relational Database Management System]] or RDBM
 It is supported on all major [[Operating System]]s.
 # Cheat Sheet
 ## Connection
-Make sure your `PGHOST` and `PGPORT` environment variables are set up correctly.
+Make sure your `PGHOST` and `PGPORT` environment variables are set up correctly if you aren't using `-h`.
 ```sh
 # Connect to the server and access the mydb database
 psql mydb
 # -U allows you to specify a user to connect to the database with
 psql -U some-user mydb
+# -h allows you to specify a host and -p a port
+psql -h 10.0.0.1 -p 5000 -U some-user mydb
 ```
 ### Troubleshooting
 - If you get an error about a socket not existing, **that's your connection information being incorrect or (most probably) not set up at all**.
+  This happens because `psql` is trying to connect to a local socket, a fallback from a network connection.
 - If you get an error about a role not existing, **your user account on the database is missing**.
 ## Database Management
 ```sh

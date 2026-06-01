@@ -10,6 +10,8 @@ Switches can operate at both layer 2 or 3 of the [[OSI Model]]. This is exclusiv
 - They keep track of what device is connected to each port, so they can send each packet to its destination directly instead of broadcasting it to everyone that's connected (what a hub would do).
 ## Trunk Ports
 Trunk ports are **special ports carrying packets for multiple [[Virtual LAN]]s, usually to another switch**.
+These aren't special in the hardware sense, but **are configured to preserve [[Virtual LAN]] tags for its configured VLANs**, effectively sharing information with the other switch.
+This is different from *access ports*, which strip all VLAN information that the end devices do not need.
 # Physical Structure
 Switches can have a number of ports, ranging but not limited to 4, 8, 16, 24, 32, 64 for devices to plug into.
 # Switch Stacking
@@ -34,6 +36,5 @@ Each have their own use-cases though:
 - Switch Stacking makes switches act as one, while link aggregation does this to individual ports
 - Switch stacking adds redundancy to switches, while link aggregation adds redundancy to ports/links
 **Many networks use both approaches to guarantee redundancy across both switches and individual links**.
-- [ ] 
 # Resources
 - [Cycle article on Switch Stacking](https://cycle.io/learn/switch-stacking-vs-link-aggregation)

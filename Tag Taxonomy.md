@@ -48,5 +48,3 @@ These describe the field a note belongs to. Used alongside type tags to enable c
 # Why Both `tool/security` And `security`?
 Obsidian's nested tag search works top-down: searching `#tool` matches all `tool/*` subtags, but searching `#security` does **not** match `tool/security`.
 To keep "show me everything security-related" as a single query, security tools carry both `tool/security` and the flat `security` domain tag. The redundancy is intentional.
-# Deprecated Folders
-Notes in `Books (deprecated)/` and `Tutorials (deprecated)/` carry `book` and `tutorial` tags respectively. These folders are winding down and their tags are not part of the active taxonomy.

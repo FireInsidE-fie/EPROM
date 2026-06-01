@@ -7,7 +7,7 @@ Here is a list of notable and important commands to use in [[cmd.exe]] and [[Pow
 Use the `/?` to display the help page of a command.
 # Stream Editing
 ## more/less
-Allows you to see content in an interactive environment. You can pipe results of commands directly to less to get a nice reader interface.
+Allows you to see content in an interactive environment. You can pipe results of commands directly to `less` to get a nice reader interface.
 # File System
 ## cd
 **Change** Directory.
@@ -27,7 +27,7 @@ Make **new** directory.
 **Remove** directory.
 ## type
 **Dumps** the **content** of a text file.
-Powerful with tools like [[Windows Commands#more/less]].
+Powerful with tools like [[cmd.exe#more/less]].
 ## copy
 Copies files.
 ## move
