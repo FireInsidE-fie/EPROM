@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - 
 abbreviation: OS
 ---
 An operating system is **software that sits between applications and a computer's hardware**.

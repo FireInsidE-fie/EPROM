@@ -1,6 +1,6 @@
 ---
 tags:
-  - file_format
+  - standard/file_format
 ---
 Also called **ELF**, the Executable and Linkable Format is a standard often used for compiled executables, [[Object File]]s, libraries and [[Core Dump]]s.
 It was first created for the UNIX family of systems.

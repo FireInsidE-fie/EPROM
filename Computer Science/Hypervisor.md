@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - 
 ---
 A hypervisor is **what enables virtualization on a given system**.
 Its job is to manage system resources and distribute it to the running virtualized system on that host.

@@ -1,6 +1,6 @@
 ---
 tags:
-  - file_format
+  - standard/file_format
 abbreviation: OLE, OLE2
 ---
 

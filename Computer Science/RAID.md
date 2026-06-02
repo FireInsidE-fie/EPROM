@@ -1,6 +1,7 @@
 ---
 tags:
-  -
+  - concept
+  - hardware
 ---
 RAID is **a way to store data on more than one disk at a time**.
 It coordinates between two or more storage devices, creating a *disk array* out of them.
