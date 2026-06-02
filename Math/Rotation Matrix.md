@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - math/geometry
+---
 # Multiplying by a Vector
 When multiplying a rotation matrix $M$ by a vector $v$, **you scale each column of the matrix by the corresponding element of that vector**.
 Then, you add all the elements of the resulting matrix lines to be left with the same amount of elements as the base vector. **That's your new, rotated vector**.

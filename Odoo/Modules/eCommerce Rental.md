@@ -1,4 +1,6 @@
 ---
+tags:
+  - odoo/module
 technical_name: website_sale_renting
 ---
 > This module allows you to sell rental products in your eCommerce with appropriate views and selling choices.

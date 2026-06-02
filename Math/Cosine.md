@@ -1,5 +1,7 @@
 ---
-tags: []
+tags:
+  - concept
+  - math/geometry
 ---
 The cosine of the angle between two vectors or lines represents the difference in angle between them.
 This provides valuable information indicated whether they are aligned or perpendicular, or somewhere in between.

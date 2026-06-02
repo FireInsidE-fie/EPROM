@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - odoo
+---
 Field types **define the types of fields inside an Odoo [[Model]].**
 # List of Field Types
 All field types allow their fields to have a **default value**.

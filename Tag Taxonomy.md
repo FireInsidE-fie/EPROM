@@ -18,6 +18,7 @@ These describe what kind of thing a note is.
 | `language`       | A formal language for querying or instructing a system, where the language itself — not a protocol or standard — is the primary framing. SQL, XPath.                                                                     |
 | `hardware`       | Physical computing components or hardware-level interfaces.                                                                                                                                                              |
 | `organization`   | A notable institution or foundation. OWASP, Free Software Foundation.                                                                                                                                                    |
+| `reference`      | Lookup or cheat-sheet material — notation tables, command references, quick guides. Greek Letters, Linux Commands.                                                                                                       |
 ## Tool Subtags
 `tool` is nested when the tool's domain is specific enough to be worth filtering on:
 
@@ -49,6 +50,16 @@ These describe the field a note belongs to. Used alongside type tags to enable c
 | `email`        | Email infrastructure, transport, and authentication. SMTP, IMAP, POP, DMARC, DKIM, SPF.                             |
 | `ai`           | Artificial intelligence and machine learning. Model Distillation, large language models.                            |
 | `hardware`     | Used both as a type tag and as a domain tag for notes that are hardware-adjacent without being hardware themselves. |
+| `math`         | Mathematics — algebra, trigonometry, linear algebra, geometry.                                                      |
+| `music`        | Music theory.                                                                                                       |
+| `odoo`         | The Odoo ERP platform — its concepts and modules.                                                                  |
+## Domain Subtags
+Domain tags nest the same way type tags do: searching `#math` matches `math/geometry`, and `#odoo` matches `odoo/module`.
+
+| Tag             | Meaning                                                                                            |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| `math/geometry` | Geometry and linear-algebra notes. Vector, Rotation Matrix, Cosine.                                |
+| `odoo/module`   | An installable Odoo feature module, as distinct from an Odoo concept. Rental, eCommerce, Inventory. |
 # Why Both `tool/security` And `security`?
 Obsidian's nested tag search works top-down: searching `#tool` matches all `tool/*` subtags, but searching `#security` does **not** match `tool/security`.
 To keep "show me everything security-related" as a single query, security tools carry both `tool/security` and the flat `security` domain tag. The redundancy is intentional.

@@ -1,6 +1,7 @@
 ---
 tags:
-  - geometry
+  - concept
+  - math/geometry
 ---
 
 In mathematics, a vector **can represent either a position or a direction within a particular space**.

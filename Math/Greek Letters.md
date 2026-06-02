@@ -1,5 +1,7 @@
 ---
-tags: []
+tags:
+  - reference
+  - math
 ---
 # Alpha
 $\alpha$

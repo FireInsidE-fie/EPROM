@@ -1,3 +1,8 @@
+---
+tags:
+  - concept
+  - odoo
+---
 Views define **how to see and interact with Odoo [[Model]]s**.
 They are the other half of the important pair of Models and Views. Models define what exists, and views define how to interact with that data.
 Views are written in [[eXtensible Markup Language]]. They live in data files that are then loaded on the database.

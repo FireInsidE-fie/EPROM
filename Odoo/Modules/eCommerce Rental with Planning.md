@@ -1,4 +1,6 @@
 ---
+tags:
+  - odoo/module
 technical_name: website_sale_renting_planning
 ---
 # Features

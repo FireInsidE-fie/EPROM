@@ -11,14 +11,10 @@
             "id": "ea6554a537bbd886",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Computer Science/Database.md",
-                "bFile": "Computer Science/Database.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Database  (Working Tree)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
