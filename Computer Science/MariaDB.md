@@ -1,6 +1,7 @@
 ---
 tags:
   - database
+  - tool
 ---
 A fork of [[MySQL]] by its original creator after it was bought by Oracle.
 It maintains high compatibility with MySQL, using the same commands and APIs.

@@ -1,7 +1,8 @@
 ---
 tags:
-  - tool/security
+  - tool/forensics
   - windows
+  - security
 ---
 CAPA or Common Analysis Platform for Artifacts is **a tool used for static analysis of executables**.
 It uses [[YAML]] rules to match malware behavior and report it.

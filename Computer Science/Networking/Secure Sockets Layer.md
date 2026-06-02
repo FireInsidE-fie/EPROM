@@ -1,6 +1,8 @@
 ---
 tags:
   - protocol
+  - networking
+  - security
 ---
 SSL or Secure Sockets Layer, is **a security protocol for encrypting data transmitted over the internet**.
 It ensures privacy, authentication, and data integrity.

@@ -1,6 +1,7 @@
 ---
 tags:
-  - tool/security
+  - tool/forensics
+  - security
 ---
 `Oledump.py` is a Python tool made to **analyze [[Object Linking and Embedding]] OLE2 files**.
 It is used to extract and examine the contents of OLE2 files.

@@ -1,6 +1,7 @@
 ---
 tags:
   - database
+  - concept
 ---
 Databases are **an organized collection of structured data that is easily accessible, manipulated or analyzed**.
 # Types of Databases

@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - linux
+---
 
 # Cheat Sheet
 ## General

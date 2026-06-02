@@ -2,6 +2,7 @@
 tags:
   - protocol
   - networking
+  - email
 port: "143"
 ---
 IMAP is an internet standard protocol that is used by email clients to **retrieve email messages from a mail server**.

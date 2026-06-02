@@ -1,6 +1,8 @@
 ---
 tags:
   - protocol
+  - networking
+  - security
 abbreviation: TLS
 ---
 The TLS (Transport Layer Security) protocol is a cryptographic protocol **designed to provide communications security over a network**, like the Internet.

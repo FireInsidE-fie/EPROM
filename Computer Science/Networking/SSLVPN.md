@@ -1,6 +1,8 @@
 ---
 tags:
   - protocol
+  - networking
+  - security
 ---
 [[Secure Sockets Layer]] [[Virtual Private Network]] or SSLVPN is a remote access technology that enables secure connections to internal organizational ressources using SSL/TLS encryption.
 It operates at the application and transport layers, which makes it work directly in standard web browsers or lightweight client software.

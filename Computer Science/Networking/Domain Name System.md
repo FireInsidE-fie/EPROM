@@ -1,6 +1,7 @@
 ---
 tags:
   - protocol
+  - networking
 port: "53"
 abbreviation: DNS
 ---

@@ -1,6 +1,7 @@
 ---
 tags:
   - linux
+  - concept
 ---
 NixOS is an [[Operating System]] based on the [[Nix]] [[Package Manager]].
 

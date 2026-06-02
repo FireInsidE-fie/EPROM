@@ -1,6 +1,7 @@
 ---
 tags:
   - database
+  - tool
 ---
 An open-source relational database management system.
 A relational database organizes data into **one or more data tables** in which data may be related to each other.

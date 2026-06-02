@@ -1,6 +1,7 @@
 ---
 tags:
   - protocol
+  - networking
 abbreviation: ICMP
 ---
 Internet Control Message Protocol or ICMP is **used to determine the performance of a connection between devices**.

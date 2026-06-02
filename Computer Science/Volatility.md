@@ -1,6 +1,7 @@
 ---
 tags:
   - tool/forensics
+  - security
 ---
 Volatility is a tool **designed to identify and extract artifacts from memory images**.
 It is mainly used in [[Digital Forensics]] to recover evidence from computers.

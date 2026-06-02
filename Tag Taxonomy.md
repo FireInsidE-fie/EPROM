@@ -15,6 +15,7 @@ These describe what kind of thing a note is.
 | `attack`         | A technique actively used to exploit a system. Reverse Shell, CSRF, Command Injection. A note can carry both `vulnerability` and `attack` if it describes both the weakness and its exploitation.                        |
 | `standard`       | A formal specification — typically an RFC, ISO standard, or W3C spec. X.509, JWT, ELF, URI. Note that protocols are also standards, but the `protocol` tag is used when the communication aspect is the primary framing. |
 | `encoding`       | A scheme for representing data. Base64, Unicode.                                                                                                                                                                         |
+| `language`       | A formal language for querying or instructing a system, where the language itself — not a protocol or standard — is the primary framing. SQL, XPath.                                                                     |
 | `hardware`       | Physical computing components or hardware-level interfaces.                                                                                                                                                              |
 | `organization`   | A notable institution or foundation. OWASP, Free Software Foundation.                                                                                                                                                    |
 ## Tool Subtags
@@ -26,6 +27,7 @@ These describe what kind of thing a note is.
 | `tool/network`  | Network infrastructure tools. nginx, Wireshark, tcpdump.                       |
 | `tool/editor`   | Text editors. vim, nvim, nano.                                                 |
 | `tool/compiler` | Compilers and compiler toolchains. GCC, clang, LLVM.                           |
+| `tool/forensics` | Digital forensics and malware-analysis tools. Volatility, oledump, CAPA.       |
 For tools that don't fit a subcategory clearly, the flat `tool` tag is used.
 ## Standard Subtags
 
@@ -44,6 +46,8 @@ These describe the field a note belongs to. Used alongside type tags to enable c
 | `cryptography` | Cryptographic primitives, protocols, and implementations.                                                           |
 | `programming`  | Writing, compiling, or reasoning about code.                                                                        |
 | `database`     | Database systems and related tooling.                                                                               |
+| `email`        | Email infrastructure, transport, and authentication. SMTP, IMAP, POP, DMARC, DKIM, SPF.                             |
+| `ai`           | Artificial intelligence and machine learning. Model Distillation, large language models.                            |
 | `hardware`     | Used both as a type tag and as a domain tag for notes that are hardware-adjacent without being hardware themselves. |
 # Why Both `tool/security` And `security`?
 Obsidian's nested tag search works top-down: searching `#tool` matches all `tool/*` subtags, but searching `#security` does **not** match `tool/security`.

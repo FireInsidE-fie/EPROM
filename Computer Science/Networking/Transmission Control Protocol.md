@@ -1,6 +1,7 @@
 ---
 tags:
   - protocol
+  - networking
 abbreviation: TCP
 ---
 A protocol which directly complements the [[Internet Protocol]] by providing **reliable and error-checked delivery of a stream of octets between application-running hosts**.

@@ -2,6 +2,7 @@
 tags:
   - protocol
   - networking
+  - email
 port: "110"
 ---
 The Post Office Protocol is **designed to allow the client to communicate with a web server and retrieve email message**.

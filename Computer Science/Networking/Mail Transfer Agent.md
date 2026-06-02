@@ -2,6 +2,7 @@
 tags:
   - concept
   - networking
+  - email
 ---
 An MTA is **software that transfers electronic mail messages from one computer to another**.
 It does this using the [[Simple Mail Transfer Protocol]].

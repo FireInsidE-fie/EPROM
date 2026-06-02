@@ -2,6 +2,7 @@
 tags:
   - networking
   - email
+  - standard
 abbreviation: SPF
 ---
 Sender Policy Framework is **an email authentication method** which ensures that **the sending mail server has the permission to send email on behalf of the sender's domain**.

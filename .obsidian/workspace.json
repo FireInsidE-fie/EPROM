@@ -11,10 +11,14 @@
             "id": "ea6554a537bbd886",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Computer Science/Database.md",
+                "bFile": "Computer Science/Database.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Database  (Working Tree)"
             }
           }
         ]
@@ -197,11 +201,13 @@
   },
   "active": "ea6554a537bbd886",
   "lastOpenFiles": [
+    "Computer Science/Open Web Application Security Project.sync-conflict-20260531-085345-OC55DRX.md",
+    "Computer Science/Cyber Security/Endpoint Detection and Response.md",
+    "Computer Science/Cyber Security/Security Information and Event Management.md",
     "Computer Science/Open Web Application Security Project.md",
     "LaTeX.md",
     "Computer Science/Networking/Load Balancer.md",
     "Computer Science/Networking/Gateway.md",
-    "Computer Science/Open Web Application Security Project.sync-conflict-20260531-085345-OC55DRX.md",
     "Computer Science/Cyber Security/Security Model.md",
     "Computer Science/Cyber Security/FlareVM.md",
     "Computer Science/Cyber Security/REMnux.md",
@@ -223,8 +229,6 @@
     "Computer Science/Hardware/Application-Specific Integrated Circuit.md",
     "Computer Science/Hardware",
     "Computer Science/MITRE ATT&CK.md",
-    "MITRE ATT&CK.md",
-    "Computer Science/ASCII.md",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
     "Odoo/Projects/stc-location/Scratchboard.canvas",

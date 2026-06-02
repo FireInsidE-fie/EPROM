@@ -1,6 +1,7 @@
 ---
 tags:
   - database
+  - tool
 ---
 
 PostgreSQL is an **open-source [[Relational Database Management System]] or RDBMS**.

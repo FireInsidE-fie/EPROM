@@ -1,6 +1,7 @@
 ---
 tags:
   - protocol
+  - networking
 port: 161, 162
 ---
 Simple Network Management Protocol or SNMP is an **Internet standard protocol** used for **collecting, organizing and managing information about devices** on [[Internet Protocol]] networks.

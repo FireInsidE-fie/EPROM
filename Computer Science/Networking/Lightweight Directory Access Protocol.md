@@ -1,6 +1,7 @@
 ---
 tags:
   - protocol
+  - networking
 port: 389
 abbreviation: LDAP
 ---

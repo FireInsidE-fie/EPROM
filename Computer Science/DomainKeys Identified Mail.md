@@ -2,6 +2,7 @@
 tags:
   - networking
   - email
+  - standard
 abbreviation: DKIM
 ---
 DomainKeys Identified Mail is **an email authentication method** and Internet standard that **allows a person or organization owning the *signing domain* to associate their domain with an email message**.

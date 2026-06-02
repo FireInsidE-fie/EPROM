@@ -2,6 +2,7 @@
 abbreviation: IP
 tags:
   - protocol
+  - networking
 ---
 **The main routing protocol used on the Internet.** 
 It is responsible for relaying packets across networks, routing data between different machines.
