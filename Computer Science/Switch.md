@@ -1,6 +1,7 @@
 ---
 tags:
   - hardware
+  - networking
 ---
 A networking device that **connects multiple devices to the same network**.
 Switches are more efficient than the lesser hubs or repeaters.

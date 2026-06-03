@@ -1,6 +1,7 @@
 ---
 tags:
   - hardware
+  - networking
 ---
 A router is responsible for connecting multiple networks together.
 It has multiple interfaces, usually one for each network it connects to.

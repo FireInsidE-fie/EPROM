@@ -1,6 +1,7 @@
 ---
 tags:
   - hardware
+  - networking
 ---
 A firewall is a hardware or software utility that **filters incoming and outcoming connections for a device of network**.
 Firewalls are powerful tools, able to be configured to let in or out connections based on a number of factors, such as traffic target and origin, ports and protocols.
