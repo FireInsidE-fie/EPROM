@@ -3,9 +3,9 @@ tags:
   - concept
   - cryptography
 ---
-Public-key Cryptography is the process of creating a secure communication between two parties using a combination of a public and a private key.
-It is also called **asymmetric encryption**, because it uses a different key for encryption and decryption.
-This is in stark contrast to its counterpart [[Private-Key Cryptography]].
+Asymmetric Encryption or Public-key Cryptography is the **process of creating a secure communication between two parties using a combination of a public and a private key**.
+It is called *asymmetric encryption* because it uses a different key for encryption and decryption.
+This is in stark contrast to its counterpart [[Symmetric Encryption]].
 # How It Works
 When establishing communications, two parties using the public-key cryptography paradigm will do a simple but intricate exchange of encrypted information:
 - The server creates a private and public key that is going to be used for communications.

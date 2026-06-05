@@ -3,7 +3,7 @@ tags:
   - algorithm
   - cryptography
 ---
-RSA or the Rivest-Shamir-Adlman algorithm is a **[[Public-key Cryptography]] encryption algorithm that enables secure data transmission over insecure channels**.
+RSA or the Rivest-Shamir-Adlman algorithm is a **[[Asymmetric Encryption]] encryption algorithm that enables secure data transmission over insecure channels**.
 The general idea is to exploit the loophole that *while multiplying two numbers is easy, figuring out which numbers were used in a multiplication with a final result isn't*.
 
 # Resources
