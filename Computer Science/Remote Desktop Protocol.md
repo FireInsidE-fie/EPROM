@@ -2,6 +2,7 @@
 tags:
   - protocol
   - networking
+abbreviation: RDP
 ---
 
 RDP or Remote Desktop Protocol allows for **remote login on a system using a GUI**.

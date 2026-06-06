@@ -4,6 +4,7 @@ tags:
   - networking
   - email
 port: "110"
+abbreviation: POP
 ---
 The Post Office Protocol is **designed to allow the client to communicate with a web server and retrieve email message**.
 Its version 3 (POP3) is the one often used.

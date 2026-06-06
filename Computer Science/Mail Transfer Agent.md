@@ -3,6 +3,7 @@ tags:
   - concept
   - networking
   - email
+abbreviation: MTA
 ---
 An MTA is **software that transfers electronic mail messages from one computer to another**.
 It does this using the [[Simple Mail Transfer Protocol]].

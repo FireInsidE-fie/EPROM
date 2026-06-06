@@ -1,6 +1,7 @@
 ---
 tags:
   - organization
+abbreviation: FSF
 ---
 A non-profit organization founded by [[Richard Stallman]] in 1985.
 It supports the free software movement, hellbent on using only free software in everything they do.

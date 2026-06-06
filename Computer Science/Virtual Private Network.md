@@ -3,6 +3,7 @@ tags:
   - concept
   - networking
   - security
+abbreviation: VPN
 ---
 A VPN or Virtual Private Network is a way to **create a dedicated tunnel between two network or devices, effectively creating a new network** (hence the name).
 This allows devices from different geographical positions to be connected together regardless of distance (or network!).

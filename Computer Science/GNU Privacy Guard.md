@@ -13,4 +13,7 @@ gpg --version
 gpg --symmetric --cipher-algo <algorithm> message.txt
 # Output as armored aSCII instead of OpenPGP
 gpg --armor --symmetric --cipher-algo <algorithm> message.txt
+
+# Decrypt an AES256 message
+gpg --decrypt --symmetric message.txt
 ```

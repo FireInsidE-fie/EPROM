@@ -3,6 +3,7 @@ tags:
   - protocol
   - networking
 port: 161, 162
+abbreviation: SNMP
 ---
 Simple Network Management Protocol or SNMP is an **Internet standard protocol** used for **collecting, organizing and managing information about devices** on [[Internet Protocol]] networks.
 It operates on the application layer of the IP suite, and allows administrators to monitor network performance, detect faults and configure devices remotely.

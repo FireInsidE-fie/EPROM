@@ -2,6 +2,7 @@
 tags:
   - concept
   - programming
+abbreviation: IPC
 ---
 # Primer
 InterProcess Communication, or IPC, is the art of transmitting data from a process to another one, using tools such as [[Pipe]]s, [[FIFO]]s and many other mechanics.
