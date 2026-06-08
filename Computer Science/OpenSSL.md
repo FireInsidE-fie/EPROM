@@ -4,6 +4,17 @@ tags:
 ---
 
 # Cheat Sheet
+## Certificates
+```sh
+# Inspect a certificate
+openssl x509 -in cert.pem -text
+
+# Create a new certificate signing request (CSR) with an RSA of 4096 bits
+openssl req -new -nodes -newkey rsa:4096 -keyout key.pem -out cert.csr
+
+# Create a self-signed certificate with -x509
+openssl req -x509 -newkey -nodes rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365
+```
 ## Key Generation
 ### RSA
 ```sh

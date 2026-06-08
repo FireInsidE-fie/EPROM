@@ -12,3 +12,9 @@ Here are the key steps:
 3. It is time for each party to calculate their **public key** using their private key from step 2 and the agreed-upon public variables from step 1. Alice calculates $A$ = $g$ * $a$ mod $p$ = 313 mod 29 = 19 and Bob calculates $B$ = $g$ * $b$ mod $p$ = 315 mod 29 = 26. These are the public keys.
 4. Alice and Bob send the keys to each other. Bob receives $A$ = $g$ * $a$ mod $p$ = 19, i.e., Alice’s public key. And Alice receives $B$ = $g$ * $b$ mod $p$ = 26, i.e., Bob’s public key. This step is called the **key exchange**.
 5. Alice and Bob can finally calculate the **shared secret** using the received public key and their own private key. Alice calculates $B$ * $a$ mod $p$ = 2613 mod 29 = 10 and Bob calculates $A$  * $b$ mod $p$ = 1915 mod 29 = 10. Both calculations yield the same result, $g$ * $a$ * $b$ mod $p$ = 10, the shared secret key.
+# Limitations
+The main problem with a key exchange before creating secure communications is [[Man in The Middle Attack]]s.
+The first party **has no way of verifying the identity of their interlocutor by default**.
+The main way to alleviate this is with *Public Key Infrastructure of PKI*, often in the form of digital [[Certificates]].
+To do this, you **start by generating a Certificate Signing Request or CSR**, by sending your freshly created certificate to be signed by a third party.
+Then, you send your CSR to the *Certificate Authority or CA* to sign it. Or, you can self-sign it, which isn't exactly a proof of your trustworthiness, but still works.
