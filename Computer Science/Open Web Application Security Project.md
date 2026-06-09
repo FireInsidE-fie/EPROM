@@ -5,7 +5,7 @@ tags:
 abbreviation: OWASP
 ---
 OWASP is a **nonprofit foundation focused on understanding web technologies and exploitation** and providing resources and tools designed to **improve the security of software applications**.
-It analyzes how the *IAAA principles* (Identity, Authentication, Authorization, and Accountability) were implemented and how they failed at implementing it.
+It analyzes how the [[IAAA Principles]] were implemented and how they failed at implementing it.
 # OWASP Top 10 (2025)
 OWASP categories are built on **causes of vulnerabilities**.
 The **ranking isn't data-driven**, as in they do look at data but the number of vulnerabilities is not deterministic.
