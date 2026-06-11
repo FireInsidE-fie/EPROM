@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"21d0c1b122a3bb86","type":"group","x":-411,"y":-960,"width":3771,"height":2190,"label":"Docs"},
+		{"id":"5bfa4d2777659806","type":"group","x":-411,"y":-2760,"width":3811,"height":1644,"label":"Project Architecture"},
+		{"id":"f5f035db1f6b52df","type":"group","x":1095,"y":-2720,"width":1265,"height":1560,"color":"1","label":"Backend"},
+		{"id":"97c2af4adf136346","type":"group","x":-360,"y":-2720,"width":1102,"height":1560,"color":"5","label":"Frontend"},
+		{"id":"4a1df1d02e12719b","type":"group","x":2520,"y":-2720,"width":840,"height":1560,"color":"4","label":"Database"},
+		{"id":"5720dac7317c7b37","type":"file","file":"Computer Science/WebSockets.md","x":580,"y":-876,"width":940,"height":1096},
+		{"id":"4465cb9a29be2a16","type":"file","file":"Computer Science/NestJS.md","x":-300,"y":-880,"width":820,"height":1160},
+		{"id":"4ddbf26cb71f6e83","type":"text","text":"# OAuth 2.0","x":-58,"y":-1357,"width":250,"height":60},
+		{"id":"be04f34c1034318e","type":"text","text":"# User Authentication\nhttps://docs.nestjs.com/security/authentication","x":79,"y":-1618,"width":373,"height":123},
+		{"id":"11177293471c8771","type":"text","text":"# User Management","x":1200,"y":-1800,"width":401,"height":120},
+		{"id":"6c60eaace4539105","type":"text","text":"# Player Guilds","x":1601,"y":-2000,"width":250,"height":60},
+		{"id":"4803d300be36636b","type":"text","text":"# ORM for the Database","x":2880,"y":-2149,"width":256,"height":149},
+		{"id":"12c16ad2f017c04e","type":"text","text":"# More than Two Players","x":214,"y":-2191,"width":441,"height":89},
+		{"id":"b833a5250b6f0079","type":"text","text":"# Web-based Game\nONO 99","x":-316,"y":-2424,"width":320,"height":184},
+		{"id":"7b0cb22088a64959","type":"text","text":"# Spectator Mode","x":281,"y":-2300,"width":306,"height":60},
+		{"id":"fe24350afae90f4d","type":"text","text":"# Tournament System","x":1800,"y":-2644,"width":401,"height":248},
+		{"id":"97aac71c437af10c","type":"text","text":"# Remote Players","x":281,"y":-2431,"width":264,"height":81},
+		{"id":"2c38fa7f1e60161b","type":"text","text":"# WebSockets\nFor real-time game chat and the game loop itself\n> real-time updates across clients, graceful connection/disconnection handling, and efficient message broadcasting","x":1160,"y":-2680,"width":335,"height":249},
+		{"id":"f8b2ea5de905ebfb","type":"text","text":"# 3D Graphics with ThreeJS","x":67,"y":-2669,"width":346,"height":139},
+		{"id":"53b188802b1f3d21","type":"text","text":"# Front-end Framework\nReact and ThreeJS","x":-316,"y":-2680,"width":324,"height":160},
+		{"id":"51cde4cba94fbbd0","type":"text","text":"# Modules\n## 1. Web\nTotal points: 5\n- Use a framework for the backend and the frontend (React for frontend, NestJS for backend) - Major +2\n- Realtime features using WebSockets (real-time text chat) - Major +2\n- Use an ORM for the db (Prisma) - Minor +1\n## 3. User Management\nTotal points: 4 (6)\n- Standard user management and authentication - Major +2\n- Game stats and match history - Minor +1\n- OAuth 2.0 - Minor +1\n- (Organization system for guilds - Major +2)\n## 6. Gaming\nTotal points: 7 (10)\n- Complete web-based game (ONO card game) - Major +2\n- Remote players - Major +2\n- More than two players - Major +2\n- (Advanced 3D graphics with Three.js - Major +2)\n- (Tournament system - Minor +1)\n- Spectator mode - Minor +1","x":-156,"y":-3910,"width":694,"height":840}
+	],
+	"edges":[
+		{"id":"f5e91ec97dbc2259","fromNode":"f5f035db1f6b52df","fromSide":"left","toNode":"97c2af4adf136346","toSide":"right"},
+		{"id":"66b4ea034c0c4c73","fromNode":"97c2af4adf136346","fromSide":"right","toNode":"f5f035db1f6b52df","toSide":"left"},
+		{"id":"14c836ab411f78a0","fromNode":"f5f035db1f6b52df","fromSide":"right","toNode":"4a1df1d02e12719b","toSide":"left"},
+		{"id":"19ac9ab90c4f2a15","fromNode":"4a1df1d02e12719b","fromSide":"left","toNode":"f5f035db1f6b52df","toSide":"right"},
+		{"id":"c98d2a050157df5b","fromNode":"be04f34c1034318e","fromSide":"right","toNode":"11177293471c8771","toSide":"left"},
+		{"id":"0b0aabea32d5fdc5","fromNode":"97aac71c437af10c","fromSide":"right","toNode":"2c38fa7f1e60161b","toSide":"left"},
+		{"id":"db6808808e4e643a","fromNode":"7b0cb22088a64959","fromSide":"right","toNode":"2c38fa7f1e60161b","toSide":"left"},
+		{"id":"0fcb6793caa217ac","fromNode":"4ddbf26cb71f6e83","fromSide":"top","toNode":"be04f34c1034318e","toSide":"bottom"},
+		{"id":"f2ad409753215dc7","fromNode":"b833a5250b6f0079","fromSide":"top","toNode":"53b188802b1f3d21","toSide":"bottom"},
+		{"id":"8a38ed589b0b7690","fromNode":"6c60eaace4539105","fromSide":"bottom","toNode":"11177293471c8771","toSide":"top"},
+		{"id":"5784c5c0c623a99b","fromNode":"12c16ad2f017c04e","fromSide":"right","toNode":"2c38fa7f1e60161b","toSide":"bottom"},
+		{"id":"2743846f48399873","fromNode":"f8b2ea5de905ebfb","fromSide":"left","toNode":"53b188802b1f3d21","toSide":"right"}
+	]
+}

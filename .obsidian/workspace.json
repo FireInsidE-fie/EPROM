@@ -4,59 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4aac5c7e96a2fd",
+        "id": "b346b52211d56188",
         "type": "tabs",
         "children": [
           {
-            "id": "ea6554a537bbd886",
+            "id": "ead461810b489b02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Hash.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "Computer Science/Projects/transcendence.canvas",
+                "viewState": {
+                  "x": 118.55264864864864,
+                  "y": -318.17437837837787,
+                  "zoom": -0.201068652527401
                 }
               },
-              "icon": "lucide-file",
-              "title": "Hash"
-            }
-          },
-          {
-            "id": "350c30638d620994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/IAAA Principles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "IAAA Principles"
+              "icon": "lucide-layout-dashboard",
+              "title": "transcendence"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +78,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b3405bf85693d9b7",
@@ -179,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/IAAA Principles.md",
+                "file": "Computer Science/Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +156,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IAAA Principles"
+              "title": "Backlinks for Hash"
             }
           },
           {
@@ -237,15 +204,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "350c30638d620994",
+  "active": "ead461810b489b02",
   "lastOpenFiles": [
-    "Computer Science/Open Web Application Security Project.md",
+    "Computer Science/Projects/transcendence.canvas",
+    "Computer Science/Abstract Data Type.md",
+    "Computer Science/WebSockets.md",
+    "Computer Science/NestJS.md",
+    "Computer Science/Access Control Model.md",
     "Computer Science/IAAA Principles.md",
+    "Computer Science/Hash.md",
+    "Computer Science/JSON Web Tokens.md",
+    "Computer Science/Open Web Application Security Project.md",
     "Computer Science/OpenSSL.md",
     "Computer Science/Certificates.md",
     "Computer Science/Diffie-Hellman.md",
     "Computer Science/Hash-based Message Authentication Code.md",
-    "Computer Science/Hash.md",
     "Computer Science/GNU Privacy Guard.md",
     "Computer Science/Asymmetric Encryption.md",
     "Computer Science/Rivest-Shamir-Adleman.md",
@@ -264,12 +237,6 @@
     "Odoo/eCommerce.md",
     "Odoo/eCommerce Rental.md",
     "Odoo/eCommerce Rental with Stock Management.md",
-    "Odoo/eCommerce Rental with Planning.md",
-    "Odoo/Website.md",
-    "Odoo/Rental.md",
-    "Odoo/Inventory.md",
-    "Odoo/Contacts.md",
-    "Odoo/View.md",
     "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Hardware",
     "Computer Science/Programming/~syncthing~git.md.tmp",
@@ -284,7 +251,6 @@
     "Untitled.canvas",
     "Computer Science/Code projects/miniRT.canvas",
     "Pasted image 20251202195510.png",
-    "Computer Science/Code projects/Philosophers.canvas",
-    "Computer Science/Code projects/Minishell.canvas"
+    "Computer Science/Code projects/Philosophers.canvas"
   ]
 }
