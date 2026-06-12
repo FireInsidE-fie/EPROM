@@ -8,7 +8,7 @@
 		{"id":"5720dac7317c7b37","type":"file","file":"Computer Science/WebSockets.md","x":580,"y":-876,"width":940,"height":1096},
 		{"id":"4465cb9a29be2a16","type":"file","file":"Computer Science/NestJS.md","x":-300,"y":-880,"width":820,"height":1160},
 		{"id":"4ddbf26cb71f6e83","type":"text","text":"# OAuth 2.0","x":-58,"y":-1357,"width":250,"height":60},
-		{"id":"be04f34c1034318e","type":"text","text":"# User Authentication\nhttps://docs.nestjs.com/security/authentication","x":79,"y":-1618,"width":373,"height":123},
+		{"id":"be04f34c1034318e","type":"text","text":"# User Authentication\nhttps://docs.nestjs.com/security/authentication","x":79,"y":-1618,"width":373,"height":138},
 		{"id":"11177293471c8771","type":"text","text":"# User Management","x":1200,"y":-1800,"width":401,"height":120},
 		{"id":"6c60eaace4539105","type":"text","text":"# Player Guilds","x":1601,"y":-2000,"width":250,"height":60},
 		{"id":"4803d300be36636b","type":"text","text":"# ORM for the Database","x":2880,"y":-2149,"width":256,"height":149},
@@ -20,7 +20,8 @@
 		{"id":"2c38fa7f1e60161b","type":"text","text":"# WebSockets\nFor real-time game chat and the game loop itself\n> real-time updates across clients, graceful connection/disconnection handling, and efficient message broadcasting","x":1160,"y":-2680,"width":335,"height":249},
 		{"id":"f8b2ea5de905ebfb","type":"text","text":"# 3D Graphics with ThreeJS","x":67,"y":-2669,"width":346,"height":139},
 		{"id":"53b188802b1f3d21","type":"text","text":"# Front-end Framework\nReact and ThreeJS","x":-316,"y":-2680,"width":324,"height":160},
-		{"id":"51cde4cba94fbbd0","type":"text","text":"# Modules\n## 1. Web\nTotal points: 5\n- Use a framework for the backend and the frontend (React for frontend, NestJS for backend) - Major +2\n- Realtime features using WebSockets (real-time text chat) - Major +2\n- Use an ORM for the db (Prisma) - Minor +1\n## 3. User Management\nTotal points: 4 (6)\n- Standard user management and authentication - Major +2\n- Game stats and match history - Minor +1\n- OAuth 2.0 - Minor +1\n- (Organization system for guilds - Major +2)\n## 6. Gaming\nTotal points: 7 (10)\n- Complete web-based game (ONO card game) - Major +2\n- Remote players - Major +2\n- More than two players - Major +2\n- (Advanced 3D graphics with Three.js - Major +2)\n- (Tournament system - Minor +1)\n- Spectator mode - Minor +1","x":-156,"y":-3910,"width":694,"height":840}
+		{"id":"51cde4cba94fbbd0","type":"text","text":"# Modules\n## 1. Web\nTotal points: 5\n- Use a framework for the backend and the frontend (React for frontend, NestJS for backend) - Major +2\n- Realtime features using WebSockets (real-time text chat) - Major +2\n- Use an ORM for the db (Prisma) - Minor +1\n## 3. User Management\nTotal points: 4 (6)\n- Standard user management and authentication - Major +2\n- Game stats and match history - Minor +1\n- OAuth 2.0 - Minor +1\n- (Organization system for guilds - Major +2)\n## 6. Gaming\nTotal points: 7 (10)\n- Complete web-based game (ONO card game) - Major +2\n- Remote players - Major +2\n- More than two players - Major +2\n- (Advanced 3D graphics with Three.js - Major +2)\n- (Tournament system - Minor +1)\n- Spectator mode - Minor +1","x":-156,"y":-3910,"width":694,"height":840},
+		{"id":"9c5076b00774c9ad","x":-275,"y":400,"width":770,"height":720,"type":"file","file":"Computer Science/JSON Web Tokens.md"}
 	],
 	"edges":[
 		{"id":"f5e91ec97dbc2259","fromNode":"f5f035db1f6b52df","fromSide":"left","toNode":"97c2af4adf136346","toSide":"right"},

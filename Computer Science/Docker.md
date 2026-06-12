@@ -67,7 +67,7 @@ When you define an *alias* for your container in the network, what it does is **
 Docker Compose is **a tool that was developed to help define and share multi-container applications**.
 With Compose, you can create a [[YAML]] file to define the services and, with a single command, can spin everything up or tear it all down.
 The big advantage of this is that **you can just give a Compose file to someone and they'd be able to build an exact copy of your environment**.
-# Cheatsheet
+# Cheat Sheet
 ## Commands
 ```bash
 # Download an image

@@ -12,5 +12,8 @@
   "catppuccin-tag-styles@@ctp-tag-pill": true,
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
   "catppuccin-font-styles@@ctp-blockquote": "var(--ctp-teal)",
-  "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)"
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)",
+  "everforest-theme-settings@@everforest-theme-dark": "efs-medium",
+  "everforest-theme-settings@@everforest-theme-accents": "efs-accent-pink",
+  "everforest-font-styles@@efs-bold": "var(--efs-sky)"
 }
