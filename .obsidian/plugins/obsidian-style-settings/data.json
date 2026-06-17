@@ -14,6 +14,6 @@
   "catppuccin-font-styles@@ctp-blockquote": "var(--ctp-teal)",
   "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)",
   "everforest-theme-settings@@everforest-theme-dark": "efs-medium",
-  "everforest-theme-settings@@everforest-theme-accents": "efs-accent-pink",
+  "everforest-theme-settings@@everforest-theme-accents": "efs-accent-green",
   "everforest-font-styles@@efs-bold": "var(--efs-sky)"
 }
