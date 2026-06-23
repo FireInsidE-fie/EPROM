@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b346b52211d56188",
+        "id": "4a0665f3811bb881",
         "type": "tabs",
         "children": [
           {
-            "id": "ead461810b489b02",
+            "id": "b79f6a046ddae3fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Access Control Model.md",
+                "file": "Governance Risk and Compliance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Access Control Model"
+              "title": "Governance Risk and Compliance"
             }
           },
           {
-            "id": "17ca679a06d52805",
+            "id": "d0ff046feb198d3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/NestJS.md",
+                "file": "General Data Protection Regulation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NestJS"
-            }
-          },
-          {
-            "id": "3101ae081da5be5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/WebSockets.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WebSockets"
+              "title": "General Data Protection Regulation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Hash.md",
+                "file": "General Data Protection Regulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hash"
+              "title": "Backlinks for General Data Protection Regulation"
             }
           },
           {
@@ -260,22 +236,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3101ae081da5be5c",
+  "active": "bc852d9c449dd058",
   "lastOpenFiles": [
-    "Computer Science/JSON Web Tokens.md",
+    "Governance Risk and Compliance.md",
+    "General Data Protection Regulation.md",
+    "Computer Science/Access Control Model.md",
     "Computer Science/NestJS.md",
+    "Computer Science/Hash.md",
+    "Computer Science/WebSockets.md",
+    "Computer Science/JSON Web Tokens.md",
     "Computer Science/Docker.md",
     "Computer Science/Single Sign-On.md",
-    "Computer Science/Access Control Model.md",
     "Computer Science/Projects/transcendence.canvas",
     "themes/everforest/theme.css",
     "themes/everforest/manifest.json",
     "themes/everforest",
     "themes",
     "Computer Science/Abstract Data Type.md",
-    "Computer Science/WebSockets.md",
     "Computer Science/IAAA Principles.md",
-    "Computer Science/Hash.md",
     "Computer Science/Open Web Application Security Project.md",
     "Computer Science/OpenSSL.md",
     "Computer Science/Certificates.md",
@@ -296,8 +274,6 @@
     "Computer Science/Projects/Philosophers.canvas",
     "Computer Science/Projects/Minishell.canvas",
     "Computer Science/Projects",
-    "Odoo/eCommerce.md",
-    "Odoo/eCommerce Rental.md",
     "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Hardware",
     "Computer Science/Programming/~syncthing~git.md.tmp",
