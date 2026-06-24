@@ -1,7 +1,6 @@
 ---
 tags:
   - security
-  - law
 abbreviation: GDPR
 ---
 The GDPR is a data protection law, implemented in the [[European Union]] in May 2018.
