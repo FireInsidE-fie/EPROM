@@ -17,3 +17,7 @@ This law applies to **all businesses that operate in the European Union, and col
   The maximum penalty for this is **4% of the organization's revenue, or 20 million euros, whichever is greater**.
   Tier 2: For less severe violations, like data breach or cyber policies breakage.
   The maximum fine for this is **2% of revenue, or 10 million euros, whichever is greater**.
+# Resources
+- [NIST 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - Security and Privacy Controls for Information Systems, published by [[National Institute of Standard and Technology]]
+  Good resource of potential controls put into place to protect IT systems.
+  Look at Section 2.2 for the controls list.
