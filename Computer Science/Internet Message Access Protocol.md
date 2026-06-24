@@ -8,7 +8,7 @@ abbreviation: IMAP
 ---
 IMAP is an internet standard protocol that is used by email clients to **retrieve email messages from a mail server**.
 These clients use a [[Transmission Control Protocol]] over [[Internet Protocol]] connection.
-# How it works
+# How It Works
 Instead of the server being just a temporary stop before emails get retrieved like in [[Post Office Protocol]], IMAP servers use quite a bit of storage, as they keep emails and their states unless otherwise specified.
 ## Commands
 - `LOGIN <username> <password>` authenticates the user
