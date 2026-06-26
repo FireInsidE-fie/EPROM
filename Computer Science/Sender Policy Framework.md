@@ -14,6 +14,6 @@ When a receiver gets a message, it verifies the *envelope sender*'s IP against t
 - `~all`: Softfail.
 - `?all`: Neutral.
 # Limitations
-- There is a hard limit of **10 DNS lookups per evaluation**. This can cause problematic for larger organizations.
+- There is a hard limit of **10 DNS lookups per evaluation**. This can cause problems for larger organizations.
 - SPF alone **doesn't prevent visible email spoofing**, since it only verifies the *envelope sender*, not the `From:` field of the actual email.
 - SPF **breaks when mail is forwarded**, because the forwarding server's IP isn't in the original sender's SPF record.

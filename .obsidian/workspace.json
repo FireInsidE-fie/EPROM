@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/MITRE ATT&CK.md",
+                "file": "Computer Science/Sender Policy Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,11 +38,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MITRE ATT&CK"
+              "title": "Sender Policy Framework"
+            }
+          },
+          {
+            "id": "e0e2c8e32396f0f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/DREAD Framework.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DREAD Framework"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -163,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/MITRE ATT&CK.md",
+                "file": "Computer Science/DREAD Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MITRE ATT&CK"
+              "title": "Backlinks for DREAD Framework"
             }
           },
           {
@@ -182,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/MITRE ATT&CK.md",
+                "file": "Computer Science/DREAD Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MITRE ATT&CK"
+              "title": "Outgoing links from DREAD Framework"
             }
           },
           {
@@ -221,10 +246,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52d9d5e1198f4614",
+  "active": "f0c5ccacd320b0fb",
   "lastOpenFiles": [
-    "Computer Science/Threat Modeling.md",
+    "Computer Science/Sender Policy Framework.md",
+    "Computer Science/DREAD Framework.md",
+    "Computer Science/DomainKeys Identified Mail.md",
     "Computer Science/MITRE ATT&CK.md",
+    "Computer Science/Threat Modeling.md",
     "Computer Science/Internet Message Access Protocol.md",
     "Computer Science/React Router.md",
     "Computer Science/NestJS.md",
@@ -252,9 +280,6 @@
     "Computer Science/OpenSSL.md",
     "Computer Science/Certificates.md",
     "Computer Science/Diffie-Hellman.md",
-    "Computer Science/Hash-based Message Authentication Code.md",
-    "Computer Science/GNU Privacy Guard.md",
-    "Computer Science/Asymmetric Encryption.md",
     "Computer Science/Projects/webserv.canvas",
     "Computer Science/Projects/miniRT.canvas",
     "Computer Science/Projects/Philosophers.canvas",
