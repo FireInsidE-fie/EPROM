@@ -60,7 +60,7 @@ It does so by retrieving a list of monitoring Items from the Server (Items are t
 ___
 Passive or Active checking is **chosen when configuring the Items** (Items of type "Zabbix agent" or "Zabbix agent (active)").
 ## Agent 2
-**A newer generation of the Zabbix Agent**, written in Go instead of C.
+**A newer generation of the Zabbix Agent**, written in [[Go]] instead of [[C]].
 Here are the listed enhancements:
 - Reduce the number of TCP connections.
 - Provide improved [concurrency of checks](https://www.zabbix.com/documentation/current/en/manual/concepts/agent2#check-concurrency).
