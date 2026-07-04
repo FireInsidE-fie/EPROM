@@ -13,3 +13,6 @@ Each CVE number starts with a `CVE` prefix, and is then followed by **the year a
 # CVSS
 The Common Vulnerability Scoring System scores CVEs according to their threat levels.
 It uses a score **from 0 to 10**, with 10 being the most critical.
+# Resources
+- [CVE Details](https://www.cvedetails.com/?__cf_chl_f_tk=Eag8x.tT8j_gUgKVbPQHkThs5FHvKocdnTMHcOZ1Vic-1783178175-1.0.1.1-IHTUrvSx9FjHmdHD_mBlJMBUomAZak1ls4rUsEkxdtQ)
+  Renowned website for searching CVEs and their impact.
