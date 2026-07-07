@@ -28,6 +28,11 @@ createdb mydb
 # Removes the mydb database
 dropdb mydb
 ```
+# Glossary
+## Tuple
+A tuple is basically **another word for a row in a database table**.
+These consist of a set of attributes, each with a name, value, and data type.
+In effect, it is **the internal representation of a row, including its user data and metadata**.
 # Architecture
 PostgreSQL uses a **client/server model**, both of which could be on different hosts.
 If this is the case, they communicate over a TCP/IP connection.
@@ -65,3 +70,5 @@ pg_ctl start -l logfile
 Two configuration files are particularly important for PostgreSQL:
 - `postgresql.conf`: Controls server behavior
 - `pg_hba.conf`: Controls who can connect, from where, and what they can access
+# Resources
+- [PostgreSQL latest version documentation](https://www.postgresql.org/docs/current/index.html)

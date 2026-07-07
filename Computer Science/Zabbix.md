@@ -35,8 +35,8 @@ For example, you could create something that sends you an email if the CPU load 
 - Add a trigger for when the CPU usage is too high
 - The trigger is followed by an action to send you an email
 # Related Software
-Zabbix works around modern web servers, database engines and PHP.
-The database, for example, supports many backends, like [[MySQL]], [[PostgreSQL,]] and [[Oracle]].
+Zabbix works around modern web servers, database engines and [[PHP]].
+The database, for example, supports many backends, like [[MySQL]], [[PostgreSQL]], and [[Oracle]].
 # Structure Deep Dive
 ## Server
 You usually set the server as a non-root **daemon** process (using [[systemctl]] for example). Zabbix can only run on [[Unix]] systems.

@@ -15,7 +15,7 @@ This makes it a **very good drop-in replacement to MySQL**.
 [Learn SQL in Y Minutes](https://learnxinyminutes.com/sql/)
 # Installation
 Install both `mariadb-server` and `mariadb-client` packages for both running the database and connecting to it.
-Don't forget to **secure the installation** by running `mariadb-secure-installation` afterwards!
+Don't forget to **secure thewinstallation** by running `mariadb-secure-installation` afterwards!
 This will allow you to set a root password as well.
 # Ressources
 [MariaDB Documentation](https://mariadb.com/docs)
