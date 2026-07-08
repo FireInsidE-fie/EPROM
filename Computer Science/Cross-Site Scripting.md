@@ -21,3 +21,5 @@ Each app is different, so not every measure might apply to your particular case.
 - **Make cookies inaccessible to JS**: Set session cookies with the `HttpOnly`, `Secure` and `SameSite` attributes.
 - **Always sanitize user input and output, and encode them**.
   This dramatically reduces the possibilities, but is a bit like a cat-and-mouse game to know what to sanitize for. Put yourself in the shoes of an attacker!
+# Resources
+- [MDN XSS Article](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)

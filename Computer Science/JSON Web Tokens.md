@@ -14,3 +14,5 @@ The *payload* contains the actual key-value pair with the data the web app wants
 The *signature* is like a hash, taken to verify the payload's integrity.
 If you change the payload in any way, **the webapp will be able that the signature doesn't match the new header, and will know the data was tampered with**.
 This is possible by the webapp **holding a secret** that it uses to generate the signature: this way, the client can't reverse-engineer the signature itself to make it seem like nothing changed.
+# Resources
+- [RFC 8725](https://www.rfc-editor.org/rfc/rfc8725.html)

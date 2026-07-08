@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "eaea3126dab5d578",
+        "id": "73b1e8733fd59624",
         "type": "tabs",
         "children": [
           {
-            "id": "d95cc04c3865f47e",
+            "id": "9d59284b70bee2f7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Computer Science/Web Shell.md",
-                "bFile": "Computer Science/Web Shell.md",
-                "aRef": ""
+                "file": "Computer Science/JSON Web Tokens.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Web Shell  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "JSON Web Tokens"
             }
           }
         ]
@@ -96,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329,
-    "collapsed": true
+    "width": 329
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -201,8 +210,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d95cc04c3865f47e",
+  "active": "9d59284b70bee2f7",
   "lastOpenFiles": [
+    "Computer Science/NestJS.md",
+    "Computer Science/Cross-Site Request Forgery.md",
+    "Computer Science/Cross-Site Scripting.md",
+    "Computer Science/Vulnerability Management.md",
     "Computer Science/Risk Management.md",
     "Computer Science/React Router.md",
     "Computer Science/MITRE ATT&CK.md",
@@ -225,10 +238,6 @@
     "XML Path Language.md",
     "Computer Science/Networking/Domain Name System.md",
     "Computer Science/Networking/Router.md",
-    "Computer Science/Networking/Switch.md",
-    "Computer Science/Nix.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-215407-7LTJKOI.md",
-    "Computer Science/Structured Query Language.sync-conflict-20260420-170726-7LTJKOI.md",
     "Computer Science/Code projects/webserv.canvas",
     "Computer Science/Programming/~syncthing~git.md.tmp",
     "Odoo/Projects/stc-location/Meetings/~syncthing~M004 - 28-02-2025 - Payment Process 2.md.tmp",
