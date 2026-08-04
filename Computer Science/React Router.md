@@ -59,7 +59,7 @@ Dynamic segments are **parsed from the URL and given as `params` to router APIs*
 ### Resources
 - [React Router Documentation](https://reactrouter.com/start/framework/routing#dynamic-segments)
 ## Middleware
-Middleware **allows you to run code before after the response generation** for the matched path.
+Middleware **allows you to run code before and after the response generation** for the matched path.
 This is particularly useful for logging, authentication, data preprocessing, and error handling.
 There are **client and server middleware**, whose sole different is that client middleware don't return response objects, since they're not wrapping an actual [[HyperText Transfer Protocol]] request.
 ### Resources

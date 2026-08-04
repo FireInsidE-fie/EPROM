@@ -27,7 +27,7 @@ This technology is not capable of leaving a network by itself (non-routable).
 The **Point-to-Point Tunneling Protocol or PPTP** is the technology that allows the data from PPP to **travel and leave a network**.
  It is very easy to setup and supported by most devices, but is weakly encrypted compared to alternatives.
 > [!ERROR] Warning
-> **Older protocol; should be avoid for real-world usage.**
+> **Older protocol; should be avoided for real-world usage.**
 ## IPSec
 **Internet Protocol Security or IPSec** encrypts data using the IP framework.
 It's more difficult to set up, but is way stronger in encryption and is also widely supported.

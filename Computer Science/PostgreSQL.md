@@ -33,6 +33,12 @@ dropdb mydb
 A tuple is basically **another word for a row in a database table**.
 These consist of a set of attributes, each with a name, value, and data type.
 In effect, it is **the internal representation of a row, including its user data and metadata**.
+## Write-Ahead Log
+WAL means "write-ahead log". It's essentially the list of things the server has to process, noted down so the clients don't have to wait for all of their operations to complete.  
+Periodically, postgres flushes WAL pages where operations are stored out of memory. This allows the server to recover should it crash, picking up from the files on disk.
+Every so-called "checkpoint", WAL gets flushed to disk. That's what makes it collectable in crashes.
+In the configuration, `max_wal_size` sets the trigger point for checkpoints, when the logs are written to disk. As this is an expensive operation (writing to disk is slow), you don't want it to happen every few megabytes.  
+`max_slot_wal_keep_size`, on the other hand, is the entire WAL's total. Regardless of checkpoints, it sets the max size the log can take on disk. It's a hard limit though! Hit it, and the entire replica needs to get re-initialized from scratch, since the WAL that the server needed is now gone. Better than filling out the disk though, which is why this limit exists.
 # Architecture
 PostgreSQL uses a **client/server model**, both of which could be on different hosts.
 If this is the case, they communicate over a TCP/IP connection.
