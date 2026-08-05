@@ -54,9 +54,47 @@
               "icon": "lucide-file",
               "title": "WebSockets"
             }
+          },
+          {
+            "id": "2684c777fbc66a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/OAuth 2.0.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OAuth 2.0"
+            }
+          },
+          {
+            "id": "60c93d0639352975",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/harper/main.js",
+                "bFile": ".obsidian/plugins/harper/main.js",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: main.js  (Working Tree)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -235,8 +274,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19abd76a06e1d099",
+  "active": "60c93d0639352975",
   "lastOpenFiles": [
+    "Computer Science/Passport.md",
+    "Computer Science/OAuth 2.0.md",
+    "Computer Science/WebSockets.md",
     "Computer Science/CyberSecurity Framework.md",
     "Computer Science/React Router.md",
     "Computer Science/Vulnerability Management.md",
@@ -261,9 +303,6 @@
     "Law/General Data Protection Regulation.md",
     "Law",
     "Law.md",
-    "Computer Science/Access Control Model.md",
-    "Computer Science/Hash.md",
-    "Computer Science/WebSockets.md",
     "Computer Science/Projects/transcendence.canvas",
     "themes/everforest/theme.css",
     "themes/everforest/manifest.json",
