@@ -19,12 +19,21 @@ Most of the concepts mentioned here are **documented in the context of the Frame
 ## Route Modules
 **Files referenced in `routes.ts` are called Route Modules**. These are the foundation of everything React Router.
 ### Default Export
-The default export of a route module **defines the component that will render when the route matches**.
-### `loader`
+The default export of a route module **defines the React component that will render when the route matches**.
+When that component is rendered, a few things will be passed to it through a `Route.ComponentProps` object:
+- `loaderData`: data returned from the loader function in this route module
+- `actionData`: data returned from the action function in this route module
+- `params`: an object containing the route parameters, if applicable
+- `matches`: an array of all the matches in the current route tree
+### Loaders
 Route loaders **provide data to route components before they are rendered**.
-They are only called on the server with server rendering, or during the build with pre-rendering.
+There are client and server loaders, and both can be used together.
+In SPA mode, only the client loaders are used.
+### Actions
+Route actions allow for **server-side data mutation, with an automatic revalidation of all the loader data on the page**. The latter only works with `<Form>`, `useFetcher` and `useSubmit`.
+There are also client actions for when you need to call one in the browser.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/start/framework/route-module)
+- [React Router Documentation - Route Module](https://reactrouter.com/start/framework/route-module)
 ## Rendering Strategies
 There are three rendering strategies in React Router.
 ### Client Side Rendering
@@ -37,14 +46,14 @@ While it is technically a global setting, you can enable static pre-rendering fo
 Pre-rendering **generates static [[HTML]] and client navigation data for a list of [[Uniform Resource Locator]]s**.
 This is useful for [[Search Engine Optimization]] and performance, especially for deployments **without server side rendering**.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/start/framework/rendering)
+- [React Router Documentation - Rendering](https://reactrouter.com/start/framework/rendering)
 ## Actions
 Route actions are used for **data mutations**. When they complete, all loader data on the page is revalidated to update the UI with the new data the action just modified.
 `action` is called on the server, while `clientAction` runs in the browser.
 Client actions **take priority when both server and client actions are defined**.
 Actions are called **declaratively from a `<Form>` element**, or imperatively through `useSubmit`.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/start/framework/actions)
+- [React Router Documentation - Actions](https://reactrouter.com/start/framework/actions)
 ## Outlets
 Outlets allow **components to render their child routes' components directly**.
 Here is an example to make it clearer: imagine you have a nested route with a dashboard, and two potential child routes, `/dashboard/lobby` and `/dashboard/game/:id`.
@@ -52,17 +61,17 @@ Depending on which one you're in, the `<Outlet />` will display that route's com
 So if you're on the lobby view, the outlet will reflect that component, and same with the game view.
 The key part is that **the main component (the dashboard) stays the same. Only the child component changes**.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/api/components/Outlet)
+- [React Router Documentation - Outlet](https://reactrouter.com/api/components/Outlet)
 ## Dynamic Segments
 **If a path segment of a route begins with `:`**, then it becomes a dynamic segment.
 Dynamic segments are **parsed from the URL and given as `params` to router APIs**, allowing your app to display different things based on the dynamic segments.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/start/framework/routing#dynamic-segments)
+- [React Router Documentation - Dynamic Segments](https://reactrouter.com/start/framework/routing#dynamic-segments)
 ## Middleware
 Middleware **allows you to run code before and after the response generation** for the matched path.
 This is particularly useful for logging, authentication, data preprocessing, and error handling.
 There are **client and server middleware**, whose sole different is that client middleware don't return response objects, since they're not wrapping an actual [[HyperText Transfer Protocol]] request.
 ### Resources
-- [React Router Documentation](https://reactrouter.com/how-to/middleware)
+- [React Router Documentation - Middleware](https://reactrouter.com/how-to/middleware)
 # Resources
 - [React Router Documentation](https://reactrouter.com/home)
