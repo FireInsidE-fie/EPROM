@@ -30,8 +30,81 @@
               "icon": "lucide-file",
               "title": "Virtual LAN"
             }
+          },
+          {
+            "id": "96579ca030b84402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Remote Procedure Call.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Remote Procedure Call"
+            }
+          },
+          {
+            "id": "1595283244880edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Extensible Markup Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Extensible Markup Language"
+            }
+          },
+          {
+            "id": "59ec5658722b10f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Odoo/Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Model"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -213,32 +285,32 @@
   },
   "active": "f0c5ccacd320b0fb",
   "lastOpenFiles": [
-    "Computer Science/NestJS.md",
-    "Computer Science/WebSockets.md",
-    "Computer Science/OAuth 2.0.md",
-    "Computer Science/JavaScript.md",
-    "Computer Science/Passport.md",
-    "Computer Science/Switch.md",
-    "Computer Science/React Router.md",
-    "Computer Science/Router.md",
-    "Computer Science/Virtual LAN.md",
-    "Computer Science/Secure Network Architecture.md",
+    "Odoo/Action.md",
     "Computer Science/Remote Procedure Call.md",
-    "Computer Science/HyperText.md",
-    "Computer Science/Risk Management.md",
-    "Computer Science/CyberSecurity Framework.md",
-    "Computer Science/Vulnerability Management.md",
-    "Computer Science/pgAdmin.md",
-    "Computer Science/pgloader.md",
-    "Computer Science/Common Vulnerabilities and Exposures.md",
-    "Computer Science/TimescaleDB.md",
-    "Computer Science/Governance Risk and Compliance.md",
-    "Computer Science/DREAD Framework.md",
-    "Computer Science/STRIDE Framework.md",
-    "Computer Science/PASTA Framework.md",
-    "Computer Science/Sender Policy Framework.md",
-    "Computer Science/DomainKeys Identified Mail.md",
-    "Computer Science/MITRE ATT&CK.md",
+    "Computer Science/Extensible Markup Language.md",
+    "Computer Science/JSON Web Tokens.md",
+    "Computer Science/XML Path Language.md",
+    "Computer Science/Untitled.md",
+    "LaTeX.md",
+    "Odoo/Website.md",
+    "Odoo/View.md",
+    "Odoo/Stage.md",
+    "Odoo/Rental.md",
+    "Odoo/Property Field.md",
+    "Odoo/Odoo Database.md",
+    "Odoo/Model.md",
+    "Odoo/Inventory.md",
+    "Odoo/Field Type.md",
+    "Odoo/eCommerce Rental with Stock Management.md",
+    "Odoo/eCommerce Rental with Planning.md",
+    "Odoo/eCommerce Rental.md",
+    "Odoo/eCommerce.md",
+    "Odoo/Contacts.md",
+    "Odoo/Company.md",
+    "Odoo/Activity.md",
+    "Music/Chord Progression.md",
+    "Music/Chord.md",
+    "Computer Science/InterProcess Communication.md",
     "Law",
     "Computer Science/Projects/transcendence.canvas",
     "themes/everforest/theme.css",

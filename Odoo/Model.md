@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - odoo
 ---
 An Odoo model is **a python class that wraps a database schema** and adds a few things:
 - The schema definition, as in **what fields exists and their types**

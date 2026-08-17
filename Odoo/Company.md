@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - odoo
 ---
 In Odoo, a company is **an individual business entity that operates independently**.
 It has its own legal identity, financial records, and specific operational settings.

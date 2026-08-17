@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - odoo
 ---
 Activities are **follow-up tasks tied to a [[Record]] in an [[Odoo Database]]**.
 They are usually represented by icons, which depend on the activity type.

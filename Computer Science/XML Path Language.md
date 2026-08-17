@@ -3,7 +3,7 @@ tags:
   - language
 abbreviation: XPATH
 ---
-XML Path Language or XPATH is a **language for querying and/or modifying [[eXtensible Markup Language]] documents**.
+XML Path Language or XPATH is a **language for querying and/or modifying [[Extensible Markup Language]] documents**.
 It does this by representing XML documents as a tree that you can then walk through with specific expressions.
 # Cheat Sheet
 XPath expressions are **relative by default**, which means they start from the node the expression is being evaluated from.

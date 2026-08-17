@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - music
 ---
 A Chord Progression is **a sequence of [[Chord]]s.**
 # Diatonic Chord Progression

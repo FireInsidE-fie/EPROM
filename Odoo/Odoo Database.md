@@ -1,7 +1,6 @@
 ---
 tags:
   - concept
-  - odoo
 ---
 An Odoo Database is a [[PostgreSQL]] database that stores all information necessary for using Odoo.
 All records, [[Model]]s, [[View]]s, everything is contained within.

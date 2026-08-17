@@ -2,7 +2,6 @@
 tags:
   - tool
 ---
-
 $L^AT_EX$ is a **tool for typesetting professional-looking documents**.
 It is great for documents that contain **complex mathematics or general technical content**.
 # How It Works
