@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odoo/Model.md",
+                "file": "Computer Science/Remote Procedure Call.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Model"
+              "title": "Remote Procedure Call"
+            }
+          },
+          {
+            "id": "9dd0178ff9ce2dd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Secure Network Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Secure Network Architecture"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -179,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "94bfcc952b51a9a3",
@@ -283,10 +308,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0c5ccacd320b0fb",
+  "active": "9dd0178ff9ce2dd3",
   "lastOpenFiles": [
-    "Odoo/Action.md",
+    "Computer Science/Proxmox.md",
+    "Computer Science/Traefik Manager.md",
+    "Computer Science/Traefik.md",
+    "Computer Science/Firewall.md",
+    "Computer Science/Virtual LAN.md",
+    "Computer Science/Secure Network Architecture.md",
     "Computer Science/Remote Procedure Call.md",
+    "Odoo/Odoo Database.md",
+    "Odoo/Model.md",
+    "Odoo/Action.md",
     "Computer Science/Extensible Markup Language.md",
     "Computer Science/JSON Web Tokens.md",
     "Computer Science/XML Path Language.md",
@@ -297,20 +330,12 @@
     "Odoo/Stage.md",
     "Odoo/Rental.md",
     "Odoo/Property Field.md",
-    "Odoo/Odoo Database.md",
-    "Odoo/Model.md",
     "Odoo/Inventory.md",
     "Odoo/Field Type.md",
     "Odoo/eCommerce Rental with Stock Management.md",
     "Odoo/eCommerce Rental with Planning.md",
     "Odoo/eCommerce Rental.md",
     "Odoo/eCommerce.md",
-    "Odoo/Contacts.md",
-    "Odoo/Company.md",
-    "Odoo/Activity.md",
-    "Music/Chord Progression.md",
-    "Music/Chord.md",
-    "Computer Science/InterProcess Communication.md",
     "Law",
     "Computer Science/Projects/transcendence.canvas",
     "themes/everforest/theme.css",

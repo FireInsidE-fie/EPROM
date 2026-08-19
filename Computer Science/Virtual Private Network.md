@@ -24,7 +24,7 @@ This is used by PPTP to allow for authentication and provide encryption of data.
 VPNs work by using a private key and public certificate, a bit like [[Secure SHell]] (see [[Asymmetric Encryption]]).
 This technology is not capable of leaving a network by itself (non-routable).
 ## PPTP
-The **Point-to-Point Tunneling Protocol or PPTP** is the technology that allows the data from PPP to **travel and leave a network**.
+The *int-to-Point Tunneling Protocol or PPTP** is the technology that allows the data from PPP to **travel and leave a network**.
  It is very easy to setup and supported by most devices, but is weakly encrypted compared to alternatives.
 > [!ERROR] Warning
 > **Older protocol; should be avoided for real-world usage.**

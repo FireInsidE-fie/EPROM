@@ -13,3 +13,12 @@ This means **the protection that the proxy provides is given to the servers**, n
 - **General protection from attacks**, as web servers don't have to expose their real [[IP Address]] that way
 - **Caching**
 - **SSL/TLS Encryption**, something that is expensive for an origin server
+# Forwarding Vs Proxying
+I've had some trouble determining the fine line between *routing* a request, and *routing* it. Here is the difference:
+Routing is **the decision of knowing where to send the request next**.
+Proxying is **the act of actually sending that request there**.
+In effect, **routing is the decision, while proxying is the mechanism**.
+## Proxying Isn't Forwarding
+It's also worth noting that **proxying a request doesn't mean sending it as-is to the next node, or even modifying it before sending it**.
+Proxying means **stopping the client's connection at the proxy, and creating a new connection between the proxy and the backend we're going to send the request to**.
+The proxy replays the request faithfully, but it's not the same packet. It's reconstructed from scratch on a brand new connection to the server.
