@@ -3,11 +3,11 @@ tags:
   - tool/network
 ---
 Traefik is a [[Reverse Proxy]] and [[Load Balancer]]. It can serve many purposes, including service discovery.
-It is the core of the *Traefik Hub Runtime Platform*, the ecosystem of other Traefik products.
+It is the core of the *Traefik Hub Runtime Platform*, the ecosystem of other Traefik products.T
 # Core Concepts
 Traefik has a few main concepts that help understand how it works.
-- [ ] ## Entrypoints
-- [ ] Entrypoints are **the network entry points into Traefik.** They define the ports that receive the requests, and whether it's on [[Transmission Control Protocol]] or [[User Datagram Protocol]].
+## Entrypoints
+Entrypoints are **the network entry points into Traefik.** They define the ports that receive the requests, and whether it's on [[Transmission Control Protocol]] or [[User Datagram Protocol]].
 ## Routers
 Routers are **tasked with proxying requests to the services that handle them.**
 While doing so, routers may use **pieces of middleware to update the request or do stuff before it arrives to the final service**.
@@ -45,8 +45,17 @@ providers:
 ### Resources
 - [Official Traefik Documentation](https://doc.traefik.io/traefik/reference/routing-configuration/dynamic-configuration-methods/)
   Here are listed the other dynamic configuration methods.
+## TLS Certificates
+Treafik, by its job and nature, **terminates [[Transport Layer Security]] connections**. It's the endpoint of the encrypted connection, so the latter ends here.
+As such, **it needs a private key and certificate for every hostname it serves over [[HTTPS]]** when sending data back.
+For this, Treafik can manage [[Certificates]].
+### ACME
+Traefik uses an `acme.json` file to manage **certificates issued and renewed automatically by Traefik's [[ACME]] resolver.** That could be [[Let's Encrypt]], [[ZeroSSL]], or others.
+### File-Based
+You can also **provide your own certificates through files**.
 # Deployment
 Traefik can be **deployed using [[Docker]] or [[Kubernetes]]**.
+If you use [[Traefik Manager]], install the `tm` utility to manage the whole stack.
 # Configuration
 Configuration in Traefik is two-fold:
 - The *install configuration* (otherwise known as the *static configuration*): Set up connections to providers, and define the entrypoints. These don't change often.

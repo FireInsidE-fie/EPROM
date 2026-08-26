@@ -2,9 +2,10 @@
 tags:
   - concept
 ---
-Views define **how to see and interact with Odoo [[Model]]s**.
+Views define **how to see and interact with Odoo [[Model]]s**. They define the way that models get displayed to the users.
+As such, they **can be edited completely independently from models, since they are only the displaying layer**.
 They are the other half of the important pair of Models and Views. Models define what exists, and views define how to interact with that data.
-Views are written in [[Extensible Markup Language]]. They live in data files that are then loaded on the database.
+Views are written in [[Extensible Markup Language]]. They live in data files that get loaded on the database.
 # View Types
 There are different kinds of views, depending on how the data is to be interacted with.
 A few examples include form views for editing one record, list/tree views for browsing many, KanBan for card-based workflows, search views for filtering.
@@ -16,15 +17,16 @@ For example, `<field name="start_date"/>` in a view directly maps to the `start_
 `<record>` defines a record in the `ir.ui.view` model, where **all view definitions are stored**.
 
 ```xml
-<record id="view_rental_order_list" model="ir.ui.view">
-    <field name="name">rental.order.list</field>
-    <field name="model">rental.order</field>
+<record id="ADDON.MODEL_view_TYPE" model="ir.ui.view">
+    <field name="name">NAME_OF_THE_VIEW</field>
+    <field name="model">MODEL_OF_THE_VIEW</field>
     <field name="arch" type="xml">
-        <list>
-            <field name="customer_id"/>
-            <field name="start_date"/>
-            <field name="state"/>
-        </list>
+        <VIEW_TYPE>
+			<!-- views, otherwise known as fields -->
+        </VIEW_TYPE>
     </field>
 </record>
 ```
+# Resources
+- [Odoo Docs - View Records](https://www.odoo.com/documentation/19.0/developer/reference/user_interface/view_records.html)
+- [Odoo Docs - View Architectures](https://www.odoo.com/documentation/19.0/developer/reference/user_interface/view_architectures.html)

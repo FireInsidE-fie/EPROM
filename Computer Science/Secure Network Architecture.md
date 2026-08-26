@@ -38,4 +38,20 @@ SSL inspection is **the act of using an SSL proxy to intercept traffic and decry
 The proxy will then send the decrypted data to a Unified Threat Management system, or UTM, which will verify that the traffic isn't one from a threat actor having compromised an internal machine.
 This is mainly useful to be able to **check the traffic that we've already authorized through zone-pairs and other means**. Rules are fine to define what services go through where, but that doesn't check the actual contents of those connections, which is what SSL inspection is for.
 This approach has drawbacks, however. **You have to intercept everything a la [[Man in The Middle Attack]] through a proxy** to check what's inside the packets.
-# Common Attacks
+# Mitigations to Common Attacks
+## DHCP Snooping
+[[Dynamic Host Configuration Protocol]] snooping is a **feature that acts like a [[Firewall]] between untrusted hosts and trusted DHCP servers**.
+It was created to fight against rogue DHCP server; **its job is to validate and rate-limit DHCP traffic**, especially for untrusted hosts.
+DHCP snooping operates at layer two, on the [[Switch]], despite DHCP being layer 3.
+The switch will **store info about the active hosts in a *DHCP Binding Database*, setting untrusted hosts as it needs**.
+There are multiple conditions the protocol will inspect to check whether a DHCP packet should be dropped:
+- It arrived from outside the network
+- The [[MAC Address]] and DHCP client hardware address don't match
+- A new interface is used for `DHCPRELEASE` or `DHCPDECLINE`
+- The packet includes a relay agent that is not `0.0.0.0`
+## Dynamic ARP Inspection
+[[Address Resolution Protocol]] inspection's goal is to **validate ARP packets in a network**.
+It will **validate and rate-limit ARP packets as necessary, for example if its MAC and [[IP Address]] don't match**.
+It can intercept, log and discard packets as needed.
+ARP inspection **uses the DHCP binding database of a switch, filled by DHCP snooping**.
+In short, **DHCP snooping sets the untrusted IPs and MACs, and ARP will check the pair for mismatches in the ARP packets, and drop them if that's the case**.
