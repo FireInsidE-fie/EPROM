@@ -2,5 +2,4 @@
 tags:
   - tool
 ---
-> [!NOTE] Research to be done
-> A pretty cool-looking in-terminal [[git]] utility, I wanna look into it.
+Lazygit is a useful TUI for displaying and interacting with a git repository.

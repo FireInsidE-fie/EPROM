@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Linux Unified Key Setup.md",
+                "file": "Odoo/Learning Notes/Getting Started.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linux Unified Key Setup"
+              "title": "Getting Started"
             }
           }
         ]
@@ -213,18 +213,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0c5ccacd320b0fb",
+  "active": "32eec4738997bfb1",
   "lastOpenFiles": [
-    "Computer Science/Untitled.md",
+    "Computer Science/React Router.md",
+    "Odoo/Learning Notes/Getting Started.md",
+    "Computer Science/gcc.md",
+    "Computer Science/ACME.md",
+    "Computer Science/High Availability.md",
     "Computer Science/Linux Unified Key Setup.md",
+    "Computer Science/Untitled.md",
     "Computer Science/Linux System Hardening.md",
     "Computer Science/OpenSSL.md",
-    "Odoo/Learning Notes/Getting Started.md",
     "Odoo/View.md",
     "Odoo/QWeb.md",
     "Odoo/Learning Notes",
     "Odoo/Untitled.md",
-    "Computer Science/React Router.md",
     "Computer Science/Secure Network Architecture.md",
     "Computer Science/Proxmox.md",
     "Computer Science/Traefik Manager.md",
@@ -239,9 +242,6 @@
     "Computer Science/JSON Web Tokens.md",
     "Computer Science/XML Path Language.md",
     "LaTeX.md",
-    "Odoo/Website.md",
-    "Odoo/Stage.md",
-    "Odoo/Rental.md",
     "Law",
     "Computer Science/Projects/transcendence.canvas",
     "themes/everforest/theme.css",

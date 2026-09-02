@@ -2,7 +2,6 @@
 tags:
   - tool
 ---
-
 etcd is a **key-value store for sharing data between hosts**.
 It allows you to **read and write values using [[HyperText Transfer Protocol]]**.
 It can also **send out notifications when watched values change**, making it perfect for sharing key-value pairs between hosts.

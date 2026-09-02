@@ -6,7 +6,7 @@ tags:
 ---
 Fail2Ban is an **intrusion prevention software framework**, designed to **prevent brute-force attacks**.
 It can run on any [[POSIX]] system that has a packet-control system or [[Firewall]] installed, like [[iptables]].
-# How it works
+# How It Works
 It operates by monitoring log files for specific entries that were configured.
 Most often, Fail2Ban is configured to block (ban) specific [[IP Address]]es that might be trying to breach system security.
 For example, it can ban any host IP that makes too many login attempts, or does some other unwanted action.
